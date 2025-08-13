@@ -1,0 +1,304 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isbn": "978-0446310789",
+      "genre": "Fiction",
+      "publication_year": 1960,
+      "publisher": "J.B. Lippincott & Co.",
+      "available": true
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "isbn": "978-0451524935",
+      "genre": "Dystopian Fiction",
+      "publication_year": 1949,
+      "publisher": "Secker & Warburg",
+      "available": true
+    },
+    {
+      "id": 3,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "isbn": "978-0141439518",
+      "genre": "Romance",
+      "publication_year": 1813,
+      "publisher": "T. Egerton",
+      "available": false
+    },
+    {
+      "id": 4,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "isbn": "978-0743273565",
+      "genre": "Fiction",
+      "publication_year": 1925,
+      "publisher": "Scribner",
+      "available": true
+    },
+    {
+      "id": 5,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "isbn": "978-0316769488",
+      "genre": "Fiction",
+      "publication_year": 1951,
+      "publisher": "Little, Brown and Company",
+      "available": true
+    },
+    {
+      "id": 6,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "isbn": "978-0547928227",
+      "genre": "Fantasy",
+      "publication_year": 1937,
+      "publisher": "George Allen & Unwin",
+      "available": false
+    },
+    {
+      "id": 7,
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "isbn": "978-1451673319",
+      "genre": "Dystopian Fiction",
+      "publication_year": 1953,
+      "publisher": "Ballantine Books",
+      "available": true
+    },
+    {
+      "id": 8,
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "isbn": "978-0141441146",
+      "genre": "Romance",
+      "publication_year": 1847,
+      "publisher": "Smith, Elder & Co.",
+      "available": true
+    },
+    {
+      "id": 9,
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "isbn": "978-0544003415",
+      "genre": "Fantasy",
+      "publication_year": 1954,
+      "publisher": "George Allen & Unwin",
+      "available": false
+    },
+    {
+      "id": 10,
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "isbn": "978-0451526342",
+      "genre": "Satire",
+      "publication_year": 1945,
+      "publisher": "Secker & Warburg",
+      "available": true
+    },
+    {
+      "id": 11,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "isbn": "978-0062315007",
+      "genre": "Fiction",
+      "publication_year": 1988,
+      "publisher": "HarperCollins",
+      "available": true
+    },
+    {
+      "id": 12,
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "isbn": "978-0441172719",
+      "genre": "Science Fiction",
+      "publication_year": 1965,
+      "publisher": "Chilton Books",
+      "available": false
+    },
+    {
+      "id": 13,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "isbn": "978-0307474278",
+      "genre": "Thriller",
+      "publication_year": 2003,
+      "publisher": "Doubleday",
+      "available": true
+    },
+    {
+      "id": 14,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "isbn": "978-0060850524",
+      "genre": "Dystopian Fiction",
+      "publication_year": 1932,
+      "publisher": "Chatto & Windus",
+      "available": true
+    },
+    {
+      "id": 15,
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "isbn": "978-0141439556",
+      "genre": "Romance",
+      "publication_year": 1847,
+      "publisher": "Thomas Cautley Newby",
+      "available": false
+    },
+    {
+      "id": 16,
+      "title": "The Chronicles of Narnia",
+      "author": "C.S. Lewis",
+      "isbn": "978-0066238500",
+      "genre": "Fantasy",
+      "publication_year": 1950,
+      "publisher": "Geoffrey Bles",
+      "available": true
+    },
+    {
+      "id": 17,
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "isbn": "978-0307387899",
+      "genre": "Post-Apocalyptic",
+      "publication_year": 2006,
+      "publisher": "Knopf",
+      "available": true
+    },
+    {
+      "id": 18,
+      "title": "Catch-22",
+      "author": "Joseph Heller",
+      "isbn": "978-0684833392",
+      "genre": "Satire",
+      "publication_year": 1961,
+      "publisher": "Simon & Schuster",
+      "available": false
+    },
+    {
+      "id": 19,
+      "title": "The Shining",
+      "author": "Stephen King",
+      "isbn": "978-0307743657",
+      "genre": "Horror",
+      "publication_year": 1977,
+      "publisher": "Doubleday",
+      "available": true
+    },
+    {
+      "id": 20,
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "isbn": "978-0345391803",
+      "genre": "Science Fiction",
+      "publication_year": 1979,
+      "publisher": "Pan Books",
+      "available": true
+    },
+    {
+      "id": 21,
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "isbn": "978-0142437247",
+      "genre": "Adventure",
+      "publication_year": 1851,
+      "publisher": "Harper & Brothers",
+      "available": false
+    },
+    {
+      "id": 22,
+      "title": "The Grapes of Wrath",
+      "author": "John Steinbeck",
+      "isbn": "978-0143039433",
+      "genre": "Fiction",
+      "publication_year": 1939,
+      "publisher": "The Viking Press",
+      "available": true
+    },
+    {
+      "id": 23,
+      "title": "The Handmaid's Tale",
+      "author": "Margaret Atwood",
+      "isbn": "978-0385490818",
+      "genre": "Dystopian Fiction",
+      "publication_year": 1985,
+      "publisher": "McClelland & Stewart",
+      "available": true
+    },
+    {
+      "id": 24,
+      "title": "A Game of Thrones",
+      "author": "George R.R. Martin",
+      "isbn": "978-0553573404",
+      "genre": "Fantasy",
+      "publication_year": 1996,
+      "publisher": "Bantam Books",
+      "available": false
+    },
+    {
+      "id": 25,
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "isbn": "978-0141439570",
+      "genre": "Gothic Fiction",
+      "publication_year": 1890,
+      "publisher": "Ward, Lock and Company",
+      "available": true
+    },
+    {
+      "id": 26,
+      "title": "The Old Man and the Sea",
+      "author": "Ernest Hemingway",
+      "isbn": "978-0684801223",
+      "genre": "Fiction",
+      "publication_year": 1952,
+      "publisher": "Scribner",
+      "available": true
+    },
+    {
+      "id": 27,
+      "title": "Ender's Game",
+      "author": "Orson Scott Card",
+      "isbn": "978-0812550702",
+      "genre": "Science Fiction",
+      "publication_year": 1985,
+      "publisher": "Tor Books",
+      "available": false
+    },
+    {
+      "id": 28,
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "isbn": "978-0756404079",
+      "genre": "Fantasy",
+      "publication_year": 2007,
+      "publisher": "DAW Books",
+      "available": true
+    },
+    {
+      "id": 29,
+      "title": "Beloved",
+      "author": "Toni Morrison",
+      "isbn": "978-1400033416",
+      "genre": "Fiction",
+      "publication_year": 1987,
+      "publisher": "Knopf",
+      "available": true
+    },
+    {
+      "id": 30,
+      "title": "Neuromancer",
+      "author": "William Gibson",
+      "isbn": "978-0441569595",
+      "genre": "Science Fiction",
+      "publication_year": 1984,
+      "publisher": "Ace Books",
+      "available": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "book-server",
+  "version": "1.0.0",
+  "description": "Mock server for library management system using json-server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "json-server --watch db.json --port 3001",
+    "build": "echo \"No build required\" && exit 0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mock-server",
+    "library-management",
+    "json-server"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "0.17.4"
+  },
+  "engines": {
+    "node": ">=14.x <=18.x",
+    "npm": ">=6.x"
+  }
+}
