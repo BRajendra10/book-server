@@ -650,5 +650,122 @@
       "image": "https://covers.openlibrary.org/b/isbn/9781476738024-L.jpg",
       "pages": 337
     }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@example.com",
+      "phone": "9876543210",
+      "address": "Bhubaneswar, Odisha, India",
+      "membershipType": "Student",
+      "membershipStart": "2025-01-10",
+      "membershipExpiry": "2026-01-10",
+      "isActive": true,
+      "borrowLimit": 3,
+      "borrowedBooks": ["9780141036144", "9780671027032"],
+      "fines": 50,
+      "history": [
+        {
+          "isbn": "9780385490818",
+          "borrowedOn": "2025-02-01",
+          "returnedOn": "2025-02-15"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Priya Das",
+      "email": "priya.das@example.com",
+      "phone": "9865321470",
+      "address": "Cuttack, Odisha, India",
+      "membershipType": "Premium",
+      "membershipStart": "2024-12-01",
+      "membershipExpiry": "2025-12-01",
+      "isActive": true,
+      "borrowLimit": 5,
+      "borrowedBooks": ["9780743273565"],
+      "fines": 0,
+      "history": [
+        {
+          "isbn": "9780307476463",
+          "borrowedOn": "2025-03-05",
+          "returnedOn": "2025-03-20"
+        },
+        {
+          "isbn": "9780061120084",
+          "borrowedOn": "2025-04-01",
+          "returnedOn": "2025-04-18"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Rahul Patnaik",
+      "email": "rahul.patnaik@example.com",
+      "phone": "9856743210",
+      "address": "Puri, Odisha, India",
+      "membershipType": "Teacher",
+      "membershipStart": "2025-02-15",
+      "membershipExpiry": "2026-02-15",
+      "isActive": true,
+      "borrowLimit": 4,
+      "borrowedBooks": ["9780451524935", "9780316769488"],
+      "fines": 20,
+      "history": [
+        {
+          "isbn": "9780747532743",
+          "borrowedOn": "2025-02-20",
+          "returnedOn": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Sneha Mohanty",
+      "email": "sneha.mohanty@example.com",
+      "phone": "9845012369",
+      "address": "Sambalpur, Odisha, India",
+      "membershipType": "Regular",
+      "membershipStart": "2025-03-01",
+      "membershipExpiry": "2026-03-01",
+      "isActive": true,
+      "borrowLimit": 2,
+      "borrowedBooks": [],
+      "fines": 0,
+      "history": [
+        {
+          "isbn": "9781501124020",
+          "borrowedOn": "2025-03-10",
+          "returnedOn": "2025-03-25"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Vikram Reddy",
+      "email": "vikram.reddy@example.com",
+      "phone": "9823014785",
+      "address": "Hyderabad, Telangana, India",
+      "membershipType": "Premium",
+      "membershipStart": "2024-11-20",
+      "membershipExpiry": "2025-11-20",
+      "isActive": true,
+      "borrowLimit": 5,
+      "borrowedBooks": ["9780062316110"],
+      "fines": 100,
+      "history": [
+        {
+          "isbn": "9780143127741",
+          "borrowedOn": "2025-01-15",
+          "returnedOn": "2025-02-01"
+        },
+        {
+          "isbn": "9780307387899",
+          "borrowedOn": "2025-03-02",
+          "returnedOn": "2025-03-15"
+        }
+      ]
+    }
   ]
 }
