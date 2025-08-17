@@ -766,6 +766,506 @@
           "returnedOn": "2025-03-15"
         }
       ]
+    },
+
+    {
+      "id": 6,
+      "name": "Ananya Mishra",
+      "email": "ananya.mishra@example.com",
+      "phone": "9812345678",
+      "address": "Bhubaneswar, Odisha, India",
+      "membershipType": "Student",
+      "membershipStart": "2025-02-01",
+      "membershipExpiry": "2026-02-01",
+      "isActive": true,
+      "borrowLimit": 3,
+      "borrowedBooks": ["9780141182636"],
+      "fines": 0,
+      "history": [
+        {
+          "isbn": "9780141036144",
+          "borrowedOn": "2025-03-01",
+          "returnedOn": "2025-03-18"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Kunal Sethi",
+      "email": "kunal.sethi@example.com",
+      "phone": "9832145670",
+      "address": "Delhi, India",
+      "membershipType": "Premium",
+      "membershipStart": "2024-08-10",
+      "membershipExpiry": "2025-08-10",
+      "isActive": true,
+      "borrowLimit": 5,
+      "borrowedBooks": ["9780679783268", "9780307387899"],
+      "fines": 30,
+      "history": [
+        {
+          "isbn": "9780679734529",
+          "borrowedOn": "2025-01-15",
+          "returnedOn": "2025-01-30"
+        },
+        {
+          "isbn": "9780743273565",
+          "borrowedOn": "2025-02-20",
+          "returnedOn": "2025-03-10"
+        },
+        {
+          "isbn": "9781501124020",
+          "borrowedOn": "2025-03-15",
+          "returnedOn": "2025-04-01"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Ritika Pradhan",
+      "email": "ritika.pradhan@example.com",
+      "phone": "9876547890",
+      "address": "Cuttack, Odisha, India",
+      "membershipType": "Regular",
+      "membershipStart": "2025-03-05",
+      "membershipExpiry": "2026-03-05",
+      "isActive": true,
+      "borrowLimit": 2,
+      "borrowedBooks": [],
+      "fines": 0,
+      "history": []
+    },
+    {
+      "id": 9,
+      "name": "Aditya Ranjan",
+      "email": "aditya.ranjan@example.com",
+      "phone": "9823561470",
+      "address": "Rourkela, Odisha, India",
+      "membershipType": "Teacher",
+      "membershipStart": "2024-09-12",
+      "membershipExpiry": "2025-09-12",
+      "isActive": true,
+      "borrowLimit": 4,
+      "borrowedBooks": ["9780316769488"],
+      "fines": 0,
+      "history": [
+        {
+          "isbn": "9780747532743",
+          "borrowedOn": "2025-01-01",
+          "returnedOn": "2025-01-25"
+        },
+        {
+          "isbn": "9780451524935",
+          "borrowedOn": "2025-02-15",
+          "returnedOn": "2025-03-02"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Meera Sen",
+      "email": "meera.sen@example.com",
+      "phone": "9854321987",
+      "address": "Kolkata, West Bengal, India",
+      "membershipType": "Premium",
+      "membershipStart": "2025-01-15",
+      "membershipExpiry": "2026-01-15",
+      "isActive": true,
+      "borrowLimit": 5,
+      "borrowedBooks": ["9780385490818", "9780062316110"],
+      "fines": 75,
+      "history": [
+        {
+          "isbn": "9780141182636",
+          "borrowedOn": "2025-01-20",
+          "returnedOn": "2025-02-05"
+        },
+        {
+          "isbn": "9780141036144",
+          "borrowedOn": "2025-02-10",
+          "returnedOn": "2025-02-25"
+        },
+        {
+          "isbn": "9780307476463",
+          "borrowedOn": "2025-03-01",
+          "returnedOn": "2025-03-15"
+        },
+        {
+          "isbn": "9780061120084",
+          "borrowedOn": "2025-03-20",
+          "returnedOn": "2025-04-01"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Siddharth Rao",
+      "email": "siddharth.rao@example.com",
+      "phone": "9811122233",
+      "address": "Mumbai, Maharashtra, India",
+      "membershipType": "Regular",
+      "membershipStart": "2025-02-20",
+      "membershipExpiry": "2026-02-20",
+      "isActive": true,
+      "borrowLimit": 2,
+      "borrowedBooks": ["9780451524935"],
+      "fines": 0,
+      "history": []
+    },
+    {
+      "id": 12,
+      "name": "Tanvi Kapoor",
+      "email": "tanvi.kapoor@example.com",
+      "phone": "9822233344",
+      "address": "Jaipur, Rajasthan, India",
+      "membershipType": "Premium",
+      "membershipStart": "2024-10-01",
+      "membershipExpiry": "2025-10-01",
+      "isActive": true,
+      "borrowLimit": 5,
+      "borrowedBooks": ["9780671027032"],
+      "fines": 120,
+      "history": [
+        {
+          "isbn": "9780307387899",
+          "borrowedOn": "2025-01-10",
+          "returnedOn": "2025-01-28"
+        },
+        {
+          "isbn": "9780143127741",
+          "borrowedOn": "2025-02-15",
+          "returnedOn": "2025-03-02"
+        },
+        {
+          "isbn": "9780679734529",
+          "borrowedOn": "2025-03-05",
+          "returnedOn": "2025-03-22"
+        },
+        {
+          "isbn": "9781501124020",
+          "borrowedOn": "2025-03-25",
+          "returnedOn": "2025-04-10"
+        },
+        {
+          "isbn": "9780316769488",
+          "borrowedOn": "2025-04-12",
+          "returnedOn": null
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Arjun Verma",
+      "email": "arjun.verma@example.com",
+      "phone": "9833344455",
+      "address": "Lucknow, Uttar Pradesh, India",
+      "membershipType": "Teacher",
+      "membershipStart": "2024-12-05",
+      "membershipExpiry": "2025-12-05",
+      "isActive": true,
+      "borrowLimit": 4,
+      "borrowedBooks": [],
+      "fines": 0,
+      "history": [
+        {
+          "isbn": "9780679783268",
+          "borrowedOn": "2025-01-05",
+          "returnedOn": "2025-01-25"
+        },
+        {
+          "isbn": "9780062316110",
+          "borrowedOn": "2025-02-15",
+          "returnedOn": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Nisha Iyer",
+      "email": "nisha.iyer@example.com",
+      "phone": "9844455566",
+      "address": "Chennai, Tamil Nadu, India",
+      "membershipType": "Student",
+      "membershipStart": "2025-02-25",
+      "membershipExpiry": "2026-02-25",
+      "isActive": true,
+      "borrowLimit": 3,
+      "borrowedBooks": ["9780141036144"],
+      "fines": 0,
+      "history": []
+    },
+    {
+      "id": 15,
+      "name": "Rohit Malhotra",
+      "email": "rohit.malhotra@example.com",
+      "phone": "9855566677",
+      "address": "Delhi, India",
+      "membershipType": "Premium",
+      "membershipStart": "2024-11-10",
+      "membershipExpiry": "2025-11-10",
+      "isActive": true,
+      "borrowLimit": 5,
+      "borrowedBooks": ["9780743273565"],
+      "fines": 40,
+      "history": [
+        {
+          "isbn": "9780451524935",
+          "borrowedOn": "2025-01-12",
+          "returnedOn": "2025-01-30"
+        },
+        {
+          "isbn": "9780671027032",
+          "borrowedOn": "2025-02-05",
+          "returnedOn": "2025-02-20"
+        },
+        {
+          "isbn": "9780316769488",
+          "borrowedOn": "2025-03-01",
+          "returnedOn": "2025-03-18"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Shreya Nanda",
+      "email": "shreya.nanda@example.com",
+      "phone": "9866677788",
+      "address": "Bhubaneswar, Odisha, India",
+      "membershipType": "Student",
+      "membershipStart": "2025-01-20",
+      "membershipExpiry": "2026-01-20",
+      "isActive": true,
+      "borrowLimit": 3,
+      "borrowedBooks": [],
+      "fines": 0,
+      "history": [
+        {
+          "isbn": "9780747532743",
+          "borrowedOn": "2025-02-10",
+          "returnedOn": "2025-02-28"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Deepak Kumar",
+      "email": "deepak.kumar@example.com",
+      "phone": "9877788899",
+      "address": "Patna, Bihar, India",
+      "membershipType": "Regular",
+      "membershipStart": "2025-03-10",
+      "membershipExpiry": "2026-03-10",
+      "isActive": true,
+      "borrowLimit": 2,
+      "borrowedBooks": ["9780307387899"],
+      "fines": 10,
+      "history": []
+    },
+    {
+      "id": 18,
+      "name": "Isha Agarwal",
+      "email": "isha.agarwal@example.com",
+      "phone": "9888899900",
+      "address": "Ahmedabad, Gujarat, India",
+      "membershipType": "Premium",
+      "membershipStart": "2024-07-15",
+      "membershipExpiry": "2025-07-15",
+      "isActive": true,
+      "borrowLimit": 5,
+      "borrowedBooks": ["9780679734529", "9780679783268"],
+      "fines": 0,
+      "history": [
+        {
+          "isbn": "9780062316110",
+          "borrowedOn": "2025-01-05",
+          "returnedOn": "2025-01-20"
+        },
+        {
+          "isbn": "9780141182636",
+          "borrowedOn": "2025-02-01",
+          "returnedOn": "2025-02-18"
+        },
+        {
+          "isbn": "9781501124020",
+          "borrowedOn": "2025-03-01",
+          "returnedOn": "2025-03-15"
+        },
+        {
+          "isbn": "9780743273565",
+          "borrowedOn": "2025-03-20",
+          "returnedOn": "2025-04-05"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Harshit Singh",
+      "email": "harshit.singh@example.com",
+      "phone": "9899900011",
+      "address": "Varanasi, Uttar Pradesh, India",
+      "membershipType": "Teacher",
+      "membershipStart": "2024-09-25",
+      "membershipExpiry": "2025-09-25",
+      "isActive": true,
+      "borrowLimit": 4,
+      "borrowedBooks": [],
+      "fines": 0,
+      "history": [
+        {
+          "isbn": "9780316769488",
+          "borrowedOn": "2025-02-01",
+          "returnedOn": "2025-02-25"
+        },
+        {
+          "isbn": "9780671027032",
+          "borrowedOn": "2025-03-05",
+          "returnedOn": "2025-03-20"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Pooja Jain",
+      "email": "pooja.jain@example.com",
+      "phone": "9812233445",
+      "address": "Nagpur, Maharashtra, India",
+      "membershipType": "Regular",
+      "membershipStart": "2025-02-15",
+      "membershipExpiry": "2026-02-15",
+      "isActive": true,
+      "borrowLimit": 2,
+      "borrowedBooks": [],
+      "fines": 0,
+      "history": []
+    },
+    {
+      "id": 21,
+      "name": "Manish Choudhary",
+      "email": "manish.choudhary@example.com",
+      "phone": "9823344556",
+      "address": "Indore, Madhya Pradesh, India",
+      "membershipType": "Premium",
+      "membershipStart": "2025-01-12",
+      "membershipExpiry": "2026-01-12",
+      "isActive": true,
+      "borrowLimit": 5,
+      "borrowedBooks": ["9780143127741"],
+      "fines": 0,
+      "history": [
+        {
+          "isbn": "9780307476463",
+          "borrowedOn": "2025-02-01",
+          "returnedOn": "2025-02-18"
+        },
+        {
+          "isbn": "9780679783268",
+          "borrowedOn": "2025-03-01",
+          "returnedOn": "2025-03-15"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Kavya Nair",
+      "email": "kavya.nair@example.com",
+      "phone": "9834455667",
+      "address": "Kochi, Kerala, India",
+      "membershipType": "Student",
+      "membershipStart": "2025-03-12",
+      "membershipExpiry": "2026-03-12",
+      "isActive": true,
+      "borrowLimit": 3,
+      "borrowedBooks": [],
+      "fines": 0,
+      "history": []
+    },
+    {
+      "id": 23,
+      "name": "Rajesh Yadav",
+      "email": "rajesh.yadav@example.com",
+      "phone": "9845566778",
+      "address": "Noida, Uttar Pradesh, India",
+      "membershipType": "Teacher",
+      "membershipStart": "2024-08-20",
+      "membershipExpiry": "2025-08-20",
+      "isActive": true,
+      "borrowLimit": 4,
+      "borrowedBooks": ["9780671027032"],
+      "fines": 50,
+      "history": [
+        {
+          "isbn": "9780743273565",
+          "borrowedOn": "2025-01-10",
+          "returnedOn": "2025-01-25"
+        },
+        {
+          "isbn": "9780141036144",
+          "borrowedOn": "2025-02-10",
+          "returnedOn": "2025-02-28"
+        },
+        {
+          "isbn": "9780062316110",
+          "borrowedOn": "2025-03-05",
+          "returnedOn": "2025-03-20"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Swati Kulkarni",
+      "email": "swati.kulkarni@example.com",
+      "phone": "9856677889",
+      "address": "Pune, Maharashtra, India",
+      "membershipType": "Premium",
+      "membershipStart": "2024-11-25",
+      "membershipExpiry": "2025-11-25",
+      "isActive": true,
+      "borrowLimit": 5,
+      "borrowedBooks": ["9780679734529", "9780747532743"],
+      "fines": 0,
+      "history": [
+        {
+          "isbn": "9780316769488",
+          "borrowedOn": "2025-01-15",
+          "returnedOn": "2025-02-01"
+        },
+        {
+          "isbn": "9780141182636",
+          "borrowedOn": "2025-02-20",
+          "returnedOn": "2025-03-05"
+        },
+        {
+          "isbn": "9780679783268",
+          "borrowedOn": "2025-03-10",
+          "returnedOn": "2025-03-25"
+        },
+        {
+          "isbn": "9781501124020",
+          "borrowedOn": "2025-04-01",
+          "returnedOn": null
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Aditi Mehra",
+      "email": "aditi.mehra@example.com",
+      "phone": "9867788990",
+      "address": "Delhi, India",
+      "membershipType": "Student",
+      "membershipStart": "2025-02-28",
+      "membershipExpiry": "2026-02-28",
+      "isActive": true,
+      "borrowLimit": 3,
+      "borrowedBooks": ["9780307476463"],
+      "fines": 0,
+      "history": [
+        {
+          "isbn": "9780061120084",
+          "borrowedOn": "2025-03-10",
+          "returnedOn": "2025-03-25"
+        }
+      ]
     }
   ]
 }
