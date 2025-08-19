@@ -654,423 +654,459 @@
   "members": [
     {
       "id": 1,
-      "name": "Alice Johnson",
-      "email": "alice.johnson@example.com",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
       "phone": "9876543210",
       "membershipType": "student",
-      "borrowLimit": 3,
-      "image": "https://randomuser.me/api/portraits/women/1.jpg",
+      "userImage": "https://randomuser.me/api/portraits/men/1.jpg",
       "isActive": true,
       "fines": 0,
       "borrowedBooks": [
         {
-          "isbn": "9780141036144",
-          "borrowedOn": "2025-03-01",
-          "dueDate": "2025-03-15",
-          "returnedOn": null
+          "isbn": "9780451524935",
+          "borrowDate": "2025-07-25",
+          "returnDate": "2025-08-10"
+        }
+      ],
+      "requestedBooks": [
+        {
+          "isbn": "9780140449136",
+          "requestedOn": "2025-08-12",
+          "status": "waiting"
         }
       ]
     },
     {
       "id": 2,
-      "name": "Bob Smith",
-      "email": "bob.smith@example.com",
-      "phone": "9876543211",
+      "name": "Emma Johnson",
+      "email": "emma.johnson@example.com",
+      "phone": "9123456789",
       "membershipType": "faculty",
-      "borrowLimit": 5,
-      "image": "https://randomuser.me/api/portraits/men/2.jpg",
+      "userImage": "https://randomuser.me/api/portraits/women/2.jpg",
       "isActive": false,
-      "fines": 50,
-      "borrowedBooks": [
-        {
-          "isbn": "9780671027032",
-          "borrowedOn": "2025-02-10",
-          "dueDate": "2025-02-25",
-          "returnedOn": "2025-02-20"
-        },
-        {
-          "isbn": "9780307474278",
-          "borrowedOn": "2025-03-02",
-          "dueDate": "2025-03-16",
-          "returnedOn": null
-        }
-      ]
+      "fines": 25,
+      "borrowedBooks": [],
+      "requestedBooks": []
     },
     {
       "id": 3,
-      "name": "Catherine Lee",
-      "email": "catherine.lee@example.com",
-      "phone": "9876543212",
-      "membershipType": "admin",
-      "borrowLimit": 7,
-      "image": "https://randomuser.me/api/portraits/women/3.jpg",
+      "name": "Michael Smith",
+      "email": "michael.smith@example.com",
+      "phone": "9988776655",
+      "membershipType": "student",
+      "userImage": "https://randomuser.me/api/portraits/men/3.jpg",
       "isActive": true,
-      "fines": 100,
+      "fines": 10,
       "borrowedBooks": [
         {
-          "isbn": "9780141187761",
-          "borrowedOn": "2025-02-25",
-          "dueDate": "2025-03-10",
-          "returnedOn": null
+          "isbn": "9780143128540",
+          "borrowDate": "2025-07-15",
+          "returnDate": "2025-08-01"
+        },
+        {
+          "isbn": "9780679783268",
+          "borrowDate": "2025-07-20",
+          "returnDate": "2025-08-05"
+        }
+      ],
+      "requestedBooks": [
+        {
+          "isbn": "9780307277671",
+          "requestedOn": "2025-08-14",
+          "status": "waiting"
         }
       ]
     },
     {
       "id": 4,
-      "name": "David Kim",
-      "email": "david.kim@example.com",
-      "phone": "9876543213",
-      "membershipType": "student",
-      "borrowLimit": 3,
-      "image": "https://randomuser.me/api/portraits/men/4.jpg",
+      "name": "Sophia Davis",
+      "email": "sophia.davis@example.com",
+      "phone": "9765432109",
+      "membershipType": "admin",
+      "userImage": "https://randomuser.me/api/portraits/women/4.jpg",
       "isActive": true,
       "fines": 0,
-      "borrowedBooks": []
+      "borrowedBooks": [],
+      "requestedBooks": [
+        {
+          "isbn": "9780743273565",
+          "requestedOn": "2025-08-16",
+          "status": "waiting"
+        },
+        {
+          "isbn": "9780142437230",
+          "requestedOn": "2025-08-10",
+          "status": "waiting"
+        }
+      ]
     },
     {
       "id": 5,
-      "name": "Emma Davis",
-      "email": "emma.davis@example.com",
-      "phone": "9876543214",
-      "membershipType": "faculty",
-      "borrowLimit": 5,
-      "image": "https://randomuser.me/api/portraits/women/5.jpg",
+      "name": "Liam Brown",
+      "email": "liam.brown@example.com",
+      "phone": "9345678901",
+      "membershipType": "student",
+      "userImage": "https://randomuser.me/api/portraits/men/5.jpg",
       "isActive": false,
-      "fines": 30,
+      "fines": 0,
       "borrowedBooks": [
         {
-          "isbn": "9780061120084",
-          "borrowedOn": "2025-03-01",
-          "dueDate": "2025-03-15",
-          "returnedOn": null
+          "isbn": "9781501128035",
+          "borrowDate": "2025-07-05",
+          "returnDate": "2025-07-20"
         }
-      ]
+      ],
+      "requestedBooks": []
     },
     {
       "id": 6,
-      "name": "Frank Miller",
-      "email": "frank.miller@example.com",
-      "phone": "9876543215",
-      "membershipType": "student",
-      "borrowLimit": 3,
-      "image": "https://randomuser.me/api/portraits/men/6.jpg",
+      "name": "Olivia Wilson",
+      "email": "olivia.wilson@example.com",
+      "phone": "9456123789",
+      "membershipType": "faculty",
+      "userImage": "https://randomuser.me/api/portraits/women/6.jpg",
       "isActive": true,
-      "fines": 0,
-      "borrowedBooks": []
-    },
-    {
-      "id": 7,
-      "name": "Grace Wilson",
-      "email": "grace.wilson@example.com",
-      "phone": "9876543216",
-      "membershipType": "admin",
-      "borrowLimit": 7,
-      "image": "https://randomuser.me/api/portraits/women/7.jpg",
-      "isActive": true,
-      "fines": 200,
+      "fines": 50,
       "borrowedBooks": [
         {
-          "isbn": "9780743273565",
-          "borrowedOn": "2025-02-28",
-          "dueDate": "2025-03-14",
-          "returnedOn": null
+          "isbn": "9780140283297",
+          "borrowDate": "2025-07-18",
+          "returnDate": "2025-08-02"
         },
         {
-          "isbn": "9780385472579",
-          "borrowedOn": "2025-02-20",
-          "dueDate": "2025-03-05",
-          "returnedOn": "2025-02-28"
+          "isbn": "9780061120084",
+          "borrowDate": "2025-07-22",
+          "returnDate": "2025-08-07"
+        }
+      ],
+      "requestedBooks": [
+        {
+          "isbn": "9780451524935",
+          "requestedOn": "2025-08-11",
+          "status": "waiting"
         }
       ]
     },
     {
-      "id": 8,
-      "name": "Henry Brown",
-      "email": "henry.brown@example.com",
-      "phone": "9876543217",
+      "id": 7,
+      "name": "Noah Martinez",
+      "email": "noah.martinez@example.com",
+      "phone": "9654321789",
       "membershipType": "student",
-      "borrowLimit": 3,
-      "image": "https://randomuser.me/api/portraits/men/8.jpg",
-      "isActive": false,
+      "userImage": "https://randomuser.me/api/portraits/men/7.jpg",
+      "isActive": true,
       "fines": 0,
-      "borrowedBooks": []
+      "borrowedBooks": [],
+      "requestedBooks": []
+    },
+    {
+      "id": 8,
+      "name": "Ava Taylor",
+      "email": "ava.taylor@example.com",
+      "phone": "9234567890",
+      "membershipType": "student",
+      "userImage": "https://randomuser.me/api/portraits/women/8.jpg",
+      "isActive": true,
+      "fines": 15,
+      "borrowedBooks": [
+        {
+          "isbn": "9780141439600",
+          "borrowDate": "2025-07-28",
+          "returnDate": "2025-08-12"
+        }
+      ],
+      "requestedBooks": [
+        {
+          "isbn": "9780679783268",
+          "requestedOn": "2025-08-15",
+          "status": "waiting"
+        }
+      ]
     },
     {
       "id": 9,
-      "name": "Isabella Taylor",
-      "email": "isabella.taylor@example.com",
-      "phone": "9876543218",
+      "name": "James Anderson",
+      "email": "james.anderson@example.com",
+      "phone": "9123987654",
       "membershipType": "faculty",
-      "borrowLimit": 5,
-      "image": "https://randomuser.me/api/portraits/women/9.jpg",
-      "isActive": true,
-      "fines": 60,
-      "borrowedBooks": [
+      "userImage": "https://randomuser.me/api/portraits/men/9.jpg",
+      "isActive": false,
+      "fines": 5,
+      "borrowedBooks": [],
+      "requestedBooks": [
         {
-          "isbn": "9780451524935",
-          "borrowedOn": "2025-02-22",
-          "dueDate": "2025-03-08",
-          "returnedOn": null
+          "isbn": "9780307277671",
+          "requestedOn": "2025-08-09",
+          "status": "waiting"
         }
       ]
     },
     {
       "id": 10,
-      "name": "Jack Anderson",
-      "email": "jack.anderson@example.com",
-      "phone": "9876543219",
-      "membershipType": "student",
-      "borrowLimit": 3,
-      "image": "https://randomuser.me/api/portraits/men/10.jpg",
-      "isActive": false,
+      "name": "Isabella Thomas",
+      "email": "isabella.thomas@example.com",
+      "phone": "9012345678",
+      "membershipType": "admin",
+      "userImage": "https://randomuser.me/api/portraits/women/10.jpg",
+      "isActive": true,
       "fines": 0,
-      "borrowedBooks": []
+      "borrowedBooks": [],
+      "requestedBooks": []
     },
     {
       "id": 11,
-      "name": "Karen White",
-      "email": "karen.white@example.com",
-      "phone": "9876543220",
+      "name": "Ethan White",
+      "email": "ethan.white@example.com",
+      "phone": "9765432123",
+      "membershipType": "student",
+      "userImage": "https://randomuser.me/api/portraits/men/11.jpg",
+      "isActive": true,
+      "fines": 0,
+      "borrowedBooks": [
+        {
+          "isbn": "9780143128540",
+          "borrowDate": "2025-07-10",
+          "returnDate": "2025-07-25"
+        }
+      ],
+      "requestedBooks": []
+    },
+    {
+      "id": 12,
+      "name": "Mia Harris",
+      "email": "mia.harris@example.com",
+      "phone": "9678543210",
+      "membershipType": "student",
+      "userImage": "https://randomuser.me/api/portraits/women/12.jpg",
+      "isActive": false,
+      "fines": 0,
+      "borrowedBooks": [],
+      "requestedBooks": [
+        {
+          "isbn": "9780743273565",
+          "requestedOn": "2025-08-08",
+          "status": "waiting"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Alexander Clark",
+      "email": "alex.clark@example.com",
+      "phone": "9543210987",
       "membershipType": "faculty",
-      "borrowLimit": 5,
-      "image": "https://randomuser.me/api/portraits/women/11.jpg",
+      "userImage": "https://randomuser.me/api/portraits/men/13.jpg",
+      "isActive": true,
+      "fines": 40,
+      "borrowedBooks": [
+        {
+          "isbn": "9780142437230",
+          "borrowDate": "2025-07-12",
+          "returnDate": "2025-07-27"
+        },
+        {
+          "isbn": "9781501128035",
+          "borrowDate": "2025-07-15",
+          "returnDate": "2025-07-30"
+        }
+      ],
+      "requestedBooks": []
+    },
+    {
+      "id": 14,
+      "name": "Charlotte Lewis",
+      "email": "charlotte.lewis@example.com",
+      "phone": "9456781230",
+      "membershipType": "student",
+      "userImage": "https://randomuser.me/api/portraits/women/14.jpg",
+      "isActive": true,
+      "fines": 0,
+      "borrowedBooks": [],
+      "requestedBooks": []
+    },
+    {
+      "id": 15,
+      "name": "Benjamin Walker",
+      "email": "benjamin.walker@example.com",
+      "phone": "9345678120",
+      "membershipType": "faculty",
+      "userImage": "https://randomuser.me/api/portraits/men/15.jpg",
       "isActive": true,
       "fines": 20,
       "borrowedBooks": [
         {
-          "isbn": "9780142437230",
-          "borrowedOn": "2025-03-03",
-          "dueDate": "2025-03-17",
-          "returnedOn": null
+          "isbn": "9780140283297",
+          "borrowDate": "2025-07-08",
+          "returnDate": "2025-07-23"
         }
-      ]
-    },
-    {
-      "id": 12,
-      "name": "Liam Martinez",
-      "email": "liam.martinez@example.com",
-      "phone": "9876543221",
-      "membershipType": "student",
-      "borrowLimit": 3,
-      "image": "https://randomuser.me/api/portraits/men/12.jpg",
-      "isActive": true,
-      "fines": 10,
-      "borrowedBooks": []
-    },
-    {
-      "id": 13,
-      "name": "Mia Thompson",
-      "email": "mia.thompson@example.com",
-      "phone": "9876543222",
-      "membershipType": "faculty",
-      "borrowLimit": 5,
-      "image": "https://randomuser.me/api/portraits/women/13.jpg",
-      "isActive": true,
-      "fines": 80,
-      "borrowedBooks": [
+      ],
+      "requestedBooks": [
         {
-          "isbn": "9780307949486",
-          "borrowedOn": "2025-02-18",
-          "dueDate": "2025-03-04",
-          "returnedOn": "2025-02-28"
-        },
-        {
-          "isbn": "9780060850524",
-          "borrowedOn": "2025-03-05",
-          "dueDate": "2025-03-19",
-          "returnedOn": null
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "name": "Noah Garcia",
-      "email": "noah.garcia@example.com",
-      "phone": "9876543223",
-      "membershipType": "student",
-      "borrowLimit": 3,
-      "image": "https://randomuser.me/api/portraits/men/14.jpg",
-      "isActive": false,
-      "fines": 0,
-      "borrowedBooks": []
-    },
-    {
-      "id": 15,
-      "name": "Olivia Martinez",
-      "email": "olivia.martinez@example.com",
-      "phone": "9876543224",
-      "membershipType": "admin",
-      "borrowLimit": 7,
-      "image": "https://randomuser.me/api/portraits/women/15.jpg",
-      "isActive": true,
-      "fines": 120,
-      "borrowedBooks": [
-        {
-          "isbn": "9780140449136",
-          "borrowedOn": "2025-02-27",
-          "dueDate": "2025-03-13",
-          "returnedOn": null
+          "isbn": "9780679783268",
+          "requestedOn": "2025-08-11",
+          "status": "waiting"
         }
       ]
     },
     {
       "id": 16,
-      "name": "Paul Rodriguez",
-      "email": "paul.rodriguez@example.com",
-      "phone": "9876543225",
+      "name": "Amelia Hall",
+      "email": "amelia.hall@example.com",
+      "phone": "9234567810",
       "membershipType": "student",
-      "borrowLimit": 3,
-      "image": "https://randomuser.me/api/portraits/men/16.jpg",
-      "isActive": false,
+      "userImage": "https://randomuser.me/api/portraits/women/16.jpg",
+      "isActive": true,
       "fines": 0,
-      "borrowedBooks": []
+      "borrowedBooks": [],
+      "requestedBooks": []
     },
     {
       "id": 17,
-      "name": "Quinn Evans",
-      "email": "quinn.evans@example.com",
-      "phone": "9876543226",
-      "membershipType": "faculty",
-      "borrowLimit": 5,
-      "image": "https://randomuser.me/api/portraits/men/17.jpg",
-      "isActive": true,
-      "fines": 40,
+      "name": "Daniel Allen",
+      "email": "daniel.allen@example.com",
+      "phone": "9123456780",
+      "membershipType": "admin",
+      "userImage": "https://randomuser.me/api/portraits/men/17.jpg",
+      "isActive": false,
+      "fines": 60,
       "borrowedBooks": [
         {
-          "isbn": "9780062316097",
-          "borrowedOn": "2025-02-12",
-          "dueDate": "2025-02-26",
-          "returnedOn": "2025-02-20"
+          "isbn": "9780140449136",
+          "borrowDate": "2025-07-05",
+          "returnDate": "2025-07-20"
         }
-      ]
+      ],
+      "requestedBooks": []
     },
     {
       "id": 18,
-      "name": "Rachel Scott",
-      "email": "rachel.scott@example.com",
-      "phone": "9876543227",
-      "membershipType": "student",
-      "borrowLimit": 3,
-      "image": "https://randomuser.me/api/portraits/women/18.jpg",
+      "name": "Harper Young",
+      "email": "harper.young@example.com",
+      "phone": "9876501234",
+      "membershipType": "faculty",
+      "userImage": "https://randomuser.me/api/portraits/women/18.jpg",
       "isActive": true,
       "fines": 0,
-      "borrowedBooks": []
+      "borrowedBooks": [],
+      "requestedBooks": []
     },
     {
       "id": 19,
-      "name": "Samuel Perez",
-      "email": "samuel.perez@example.com",
-      "phone": "9876543228",
-      "membershipType": "faculty",
-      "borrowLimit": 5,
-      "image": "https://randomuser.me/api/portraits/men/19.jpg",
-      "isActive": false,
-      "fines": 70,
-      "borrowedBooks": []
+      "name": "Matthew King",
+      "email": "matthew.king@example.com",
+      "phone": "9345612780",
+      "membershipType": "student",
+      "userImage": "https://randomuser.me/api/portraits/men/19.jpg",
+      "isActive": true,
+      "fines": 0,
+      "borrowedBooks": [
+        {
+          "isbn": "9780451524935",
+          "borrowDate": "2025-07-18",
+          "returnDate": "2025-08-02"
+        }
+      ],
+      "requestedBooks": [
+        {
+          "isbn": "9780307277671",
+          "requestedOn": "2025-08-13",
+          "status": "waiting"
+        }
+      ]
     },
     {
       "id": 20,
-      "name": "Tina Young",
-      "email": "tina.young@example.com",
-      "phone": "9876543229",
-      "membershipType": "admin",
-      "borrowLimit": 7,
-      "image": "https://randomuser.me/api/portraits/women/20.jpg",
-      "isActive": true,
-      "fines": 200,
-      "borrowedBooks": [
-        {
-          "isbn": "9780141439600",
-          "borrowedOn": "2025-02-15",
-          "dueDate": "2025-03-01",
-          "returnedOn": null
-        },
-        {
-          "isbn": "9780141439518",
-          "borrowedOn": "2025-03-01",
-          "dueDate": "2025-03-15",
-          "returnedOn": null
-        }
-      ]
+      "name": "Evelyn Scott",
+      "email": "evelyn.scott@example.com",
+      "phone": "9765432180",
+      "membershipType": "faculty",
+      "userImage": "https://randomuser.me/api/portraits/women/20.jpg",
+      "isActive": false,
+      "fines": 30,
+      "borrowedBooks": [],
+      "requestedBooks": []
     },
     {
       "id": 21,
-      "name": "Uma Harris",
-      "email": "uma.harris@example.com",
-      "phone": "9876543230",
-      "membershipType": "faculty",
-      "borrowLimit": 5,
-      "image": "https://randomuser.me/api/portraits/women/21.jpg",
+      "name": "Henry Green",
+      "email": "henry.green@example.com",
+      "phone": "9654321809",
+      "membershipType": "student",
+      "userImage": "https://randomuser.me/api/portraits/men/21.jpg",
       "isActive": true,
-      "fines": 15,
+      "fines": 5,
       "borrowedBooks": [
         {
-          "isbn": "9780316769488",
-          "borrowedOn": "2025-02-28",
-          "dueDate": "2025-03-14",
-          "returnedOn": null
+          "isbn": "9780141439600",
+          "borrowDate": "2025-07-27",
+          "returnDate": "2025-08-11"
         }
-      ]
+      ],
+      "requestedBooks": []
     },
     {
       "id": 22,
-      "name": "Victor Adams",
-      "email": "victor.adams@example.com",
-      "phone": "9876543231",
-      "membershipType": "student",
-      "borrowLimit": 3,
-      "image": "https://randomuser.me/api/portraits/men/22.jpg",
-      "isActive": false,
-      "fines": 0,
-      "borrowedBooks": []
-    },
-    {
-      "id": 23,
-      "name": "Wendy Clark",
-      "email": "wendy.clark@example.com",
-      "phone": "9876543232",
+      "name": "Abigail Baker",
+      "email": "abigail.baker@example.com",
+      "phone": "9543217809",
       "membershipType": "faculty",
-      "borrowLimit": 5,
-      "image": "https://randomuser.me/api/portraits/women/23.jpg",
+      "userImage": "https://randomuser.me/api/portraits/women/22.jpg",
       "isActive": true,
-      "fines": 90,
-      "borrowedBooks": [
+      "fines": 0,
+      "borrowedBooks": [],
+      "requestedBooks": [
         {
-          "isbn": "9780307277671",
-          "borrowedOn": "2025-02-10",
-          "dueDate": "2025-02-24",
-          "returnedOn": "2025-02-18"
+          "isbn": "9781501128035",
+          "requestedOn": "2025-08-10",
+          "status": "waiting"
         }
       ]
     },
     {
-      "id": 24,
-      "name": "Xavier Lewis",
-      "email": "xavier.lewis@example.com",
-      "phone": "9876543233",
-      "membershipType": "admin",
-      "borrowLimit": 7,
-      "image": "https://randomuser.me/api/portraits/men/24.jpg",
-      "isActive": true,
+      "id": 23,
+      "name": "David Adams",
+      "email": "david.adams@example.com",
+      "phone": "9432167890",
+      "membershipType": "student",
+      "userImage": "https://randomuser.me/api/portraits/men/23.jpg",
+      "isActive": false,
       "fines": 0,
-      "borrowedBooks": []
+      "borrowedBooks": [],
+      "requestedBooks": []
+    },
+    {
+      "id": 24,
+      "name": "Scarlett Nelson",
+      "email": "scarlett.nelson@example.com",
+      "phone": "9321456780",
+      "membershipType": "faculty",
+      "userImage": "https://randomuser.me/api/portraits/women/24.jpg",
+      "isActive": true,
+      "fines": 10,
+      "borrowedBooks": [
+        {
+          "isbn": "9780140283297",
+          "borrowDate": "2025-07-08",
+          "returnDate": "2025-07-23"
+        }
+      ],
+      "requestedBooks": []
     },
     {
       "id": 25,
-      "name": "Yara King",
-      "email": "yara.king@example.com",
-      "phone": "9876543234",
-      "membershipType": "student",
-      "borrowLimit": 3,
-      "image": "https://randomuser.me/api/portraits/women/25.jpg",
+      "name": "Jack Carter",
+      "email": "jack.carter@example.com",
+      "phone": "9213456708",
+      "membershipType": "admin",
+      "userImage": "https://randomuser.me/api/portraits/men/25.jpg",
       "isActive": true,
-      "fines": 25,
-      "borrowedBooks": [
+      "fines": 0,
+      "borrowedBooks": [],
+      "requestedBooks": [
         {
-          "isbn": "9780747532743",
-          "borrowedOn": "2025-03-04",
-          "dueDate": "2025-03-18",
-          "returnedOn": null
+          "isbn": "9780140449136",
+          "requestedOn": "2025-08-12",
+          "status": "waiting"
         }
       ]
     }
