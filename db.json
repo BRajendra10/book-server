@@ -660,20 +660,49 @@
       "phone": "9876543210",
       "membershipType": "student",
       "userImage": "https://randomuser.me/api/portraits/men/1.jpg",
-      "isActive": "True",
-      "fines": 20,
-      "borrowedBooks": [
+      "isActive": true,
+      "fines": 20.5,
+      "finesDetails": [
         {
-          "isbn": "9780451524935",
-          "borrowDate": "2025-07-25",
-          "returnDate": "2025-08-10"
+          "bookId": 1,
+          "isbn": "9780451205360",
+          "returnDate": "2025-07-16",
+          "fineAmount": 18.0,
+          "daysOverdue": 36
+        },
+        {
+          "bookId": 2,
+          "isbn": "9780141439518",
+          "returnDate": "2025-07-18",
+          "fineAmount": 17.5,
+          "daysOverdue": 35
         }
       ],
+      "borrowedBooks": [],
       "requestedBooks": [
         {
-          "isbn": "9780140449136",
-          "requestedOn": "2025-08-12",
-          "status": "waiting"
+          "bookId": 3,
+          "isbn": "9780553296983",
+          "borrowDate": "2025-07-05",
+          "returnDate": "2025-07-20"
+        },
+        {
+          "bookId": 4,
+          "isbn": "9780316548182",
+          "borrowDate": "2025-07-07",
+          "returnDate": "2025-07-22"
+        },
+        {
+          "bookId": 1,
+          "isbn": "9780451205360",
+          "borrowDate": "2025-07-01",
+          "returnDate": "2025-07-16"
+        },
+        {
+          "bookId": 2,
+          "isbn": "9780141439518",
+          "borrowDate": "2025-07-03",
+          "returnDate": "2025-07-18"
         }
       ]
     },
@@ -685,10 +714,51 @@
       "phone": "9123456789",
       "membershipType": "faculty",
       "userImage": "https://randomuser.me/api/portraits/women/2.jpg",
-      "isActive": "False",
-      "fines": 0,
+      "isActive": false,
+      "fines": 19.0,
+      "finesDetails": [
+        {
+          "bookId": 5,
+          "isbn": "9780062316097",
+          "returnDate": "2025-07-24",
+          "fineAmount": 14.0,
+          "daysOverdue": 28
+        },
+        {
+          "bookId": 6,
+          "isbn": "9780679424031",
+          "returnDate": "2025-07-26",
+          "fineAmount": 13.5,
+          "daysOverdue": 27
+        }
+      ],
       "borrowedBooks": [],
-      "requestedBooks": []
+      "requestedBooks": [
+        {
+          "bookId": 7,
+          "isbn": "9781524763138",
+          "borrowDate": "2025-07-13",
+          "returnDate": "2025-07-28"
+        },
+        {
+          "bookId": 8,
+          "isbn": "9780061122415",
+          "borrowDate": "2025-07-15",
+          "returnDate": "2025-07-30"
+        },
+        {
+          "bookId": 5,
+          "isbn": "9780062316097",
+          "borrowDate": "2025-07-09",
+          "returnDate": "2025-07-24"
+        },
+        {
+          "bookId": 6,
+          "isbn": "9780679424031",
+          "borrowDate": "2025-07-11",
+          "returnDate": "2025-07-26"
+        }
+      ]
     },
     {
       "id": 3,
@@ -698,25 +768,43 @@
       "phone": "9988776655",
       "membershipType": "student",
       "userImage": "https://randomuser.me/api/portraits/men/3.jpg",
-      "isActive": "True",
-      "fines": 30,
+      "isActive": true,
+      "fines": 10.5,
+      "finesDetails": [
+        {
+          "bookId": 9,
+          "isbn": "9780374533557",
+          "returnDate": "2025-08-01",
+          "fineAmount": 10.5,
+          "daysOverdue": 21
+        }
+      ],
       "borrowedBooks": [
         {
-          "isbn": "9780143128540",
-          "borrowDate": "2025-07-15",
-          "returnDate": "2025-08-01"
-        },
-        {
-          "isbn": "9780679783268",
-          "borrowDate": "2025-07-20",
-          "returnDate": "2025-08-05"
+          "bookId": 10,
+          "isbn": "9780399590504",
+          "borrowDate": "2025-07-19",
+          "returnDate": "2025-08-03"
         }
       ],
       "requestedBooks": [
         {
-          "isbn": "9780307277671",
-          "requestedOn": "2025-08-14",
-          "status": "waiting"
+          "bookId": 11,
+          "isbn": "9780061120084",
+          "borrowDate": "2025-07-21",
+          "returnDate": "2025-08-05"
+        },
+        {
+          "bookId": 12,
+          "isbn": "9780743273565",
+          "borrowDate": "2025-07-23",
+          "returnDate": "2025-08-07"
+        },
+        {
+          "bookId": 9,
+          "isbn": "9780374533557",
+          "borrowDate": "2025-07-17",
+          "returnDate": "2025-08-01"
         }
       ]
     },
@@ -728,10 +816,45 @@
       "phone": "9765432109",
       "membershipType": "admin",
       "userImage": "https://randomuser.me/api/portraits/women/4.jpg",
-      "isActive": "True",
-      "fines": 0,
-      "borrowedBooks": [],
-      "requestedBooks": []
+      "isActive": true,
+      "fines": 6.0,
+      "finesDetails": [
+        {
+          "bookId": 13,
+          "isbn": "9780553380163",
+          "returnDate": "2025-08-09",
+          "fineAmount": 6.0,
+          "daysOverdue": 12
+        }
+      ],
+      "borrowedBooks": [
+        {
+          "bookId": 14,
+          "isbn": "9780316017923",
+          "borrowDate": "2025-07-27",
+          "returnDate": "2025-08-11"
+        }
+      ],
+      "requestedBooks": [
+        {
+          "bookId": 15,
+          "isbn": "9780812981605",
+          "borrowDate": "2025-07-29",
+          "returnDate": "2025-08-13"
+        },
+        {
+          "bookId": 16,
+          "isbn": "9780307887894",
+          "borrowDate": "2025-07-31",
+          "returnDate": "2025-08-15"
+        },
+        {
+          "bookId": 13,
+          "isbn": "9780553380163",
+          "borrowDate": "2025-07-25",
+          "returnDate": "2025-08-09"
+        }
+      ]
     },
     {
       "id": 5,
@@ -741,10 +864,45 @@
       "phone": "9345678901",
       "membershipType": "student",
       "userImage": "https://randomuser.me/api/portraits/men/5.jpg",
-      "isActive": "False",
-      "fines": 0,
-      "borrowedBooks": [],
-      "requestedBooks": []
+      "isActive": false,
+      "fines": 1.5,
+      "finesDetails": [
+        {
+          "bookId": 17,
+          "isbn": "9780735211292",
+          "returnDate": "2025-08-17",
+          "fineAmount": 1.5,
+          "daysOverdue": 3
+        }
+      ],
+      "borrowedBooks": [
+        {
+          "bookId": 18,
+          "isbn": "9780393317558",
+          "borrowDate": "2025-08-04",
+          "returnDate": "2025-08-19"
+        }
+      ],
+      "requestedBooks": [
+        {
+          "bookId": 19,
+          "isbn": "9780807014271",
+          "borrowDate": "2025-08-06",
+          "returnDate": "2025-08-21"
+        },
+        {
+          "bookId": 20,
+          "isbn": "9780374500016",
+          "borrowDate": "2025-08-08",
+          "returnDate": "2025-08-23"
+        },
+        {
+          "bookId": 17,
+          "isbn": "9780735211292",
+          "borrowDate": "2025-08-02",
+          "returnDate": "2025-08-17"
+        }
+      ]
     },
     {
       "id": 6,
@@ -754,25 +912,35 @@
       "phone": "9456123789",
       "membershipType": "faculty",
       "userImage": "https://randomuser.me/api/portraits/women/6.jpg",
-      "isActive": "True",
-      "fines": 40,
+      "isActive": true,
+      "fines": 0,
+      "finesDetails": [],
       "borrowedBooks": [
         {
-          "isbn": "9780140283297",
-          "borrowDate": "2025-07-18",
-          "returnDate": "2025-08-02"
+          "bookId": 21,
+          "isbn": "9780307465351",
+          "borrowDate": "2025-08-10",
+          "returnDate": "2025-08-25"
         },
         {
-          "isbn": "9780061120084",
-          "borrowDate": "2025-07-22",
-          "returnDate": "2025-08-07"
+          "bookId": 22,
+          "isbn": "9780804139298",
+          "borrowDate": "2025-08-12",
+          "returnDate": "2025-08-27"
         }
       ],
       "requestedBooks": [
         {
-          "isbn": "9780451524935",
-          "requestedOn": "2025-08-11",
-          "status": "waiting"
+          "bookId": 23,
+          "isbn": "9781633691780",
+          "borrowDate": "2025-08-14",
+          "returnDate": "2025-08-29"
+        },
+        {
+          "bookId": 24,
+          "isbn": "9780060555665",
+          "borrowDate": "2025-08-16",
+          "returnDate": "2025-08-31"
         }
       ]
     },
@@ -784,10 +952,37 @@
       "phone": "9654321789",
       "membershipType": "student",
       "userImage": "https://randomuser.me/api/portraits/men/7.jpg",
-      "isActive": "True",
+      "isActive": true,
       "fines": 0,
-      "borrowedBooks": [],
-      "requestedBooks": []
+      "finesDetails": [],
+      "borrowedBooks": [
+        {
+          "bookId": 25,
+          "isbn": "9781612680194",
+          "borrowDate": "2025-08-18",
+          "returnDate": "2025-09-02"
+        },
+        {
+          "bookId": 26,
+          "isbn": "9780857197689",
+          "borrowDate": "2025-08-20",
+          "returnDate": "2025-09-04"
+        }
+      ],
+      "requestedBooks": [
+        {
+          "bookId": 27,
+          "isbn": "9780143130727",
+          "borrowDate": "2025-08-22",
+          "returnDate": "2025-09-06"
+        },
+        {
+          "bookId": 28,
+          "isbn": "9781455586691",
+          "borrowDate": "2025-08-24",
+          "returnDate": "2025-09-08"
+        }
+      ]
     },
     {
       "id": 8,
@@ -797,20 +992,35 @@
       "phone": "9234567890",
       "membershipType": "student",
       "userImage": "https://randomuser.me/api/portraits/women/8.jpg",
-      "isActive": "True",
-      "fines": 15,
+      "isActive": true,
+      "fines": 0,
+      "finesDetails": [],
       "borrowedBooks": [
         {
-          "isbn": "9780141439600",
-          "borrowDate": "2025-07-28",
-          "returnDate": "2025-08-12"
+          "bookId": 29,
+          "isbn": "9781250067050",
+          "borrowDate": "2025-08-26",
+          "returnDate": "2025-09-10"
+        },
+        {
+          "bookId": 30,
+          "isbn": "9780307352157",
+          "borrowDate": "2025-08-28",
+          "returnDate": "2025-09-12"
         }
       ],
       "requestedBooks": [
         {
-          "isbn": "9780679783268",
-          "requestedOn": "2025-08-15",
-          "status": "waiting"
+          "bookId": 31,
+          "isbn": "9781599869773",
+          "borrowDate": "2025-08-30",
+          "returnDate": "2025-09-14"
+        },
+        {
+          "bookId": 32,
+          "isbn": "9780140449150",
+          "borrowDate": "2025-09-01",
+          "returnDate": "2025-09-16"
         }
       ]
     },
@@ -822,10 +1032,37 @@
       "phone": "9123987654",
       "membershipType": "faculty",
       "userImage": "https://randomuser.me/api/portraits/men/9.jpg",
-      "isActive": "False",
+      "isActive": false,
       "fines": 0,
-      "borrowedBooks": [],
-      "requestedBooks": []
+      "finesDetails": [],
+      "borrowedBooks": [
+        {
+          "bookId": 33,
+          "isbn": "9780140441314",
+          "borrowDate": "2025-09-03",
+          "returnDate": "2025-09-18"
+        },
+        {
+          "bookId": 34,
+          "isbn": "9780140455113",
+          "borrowDate": "2025-09-05",
+          "returnDate": "2025-09-20"
+        }
+      ],
+      "requestedBooks": [
+        {
+          "bookId": 35,
+          "isbn": "9780140449235",
+          "borrowDate": "2025-09-07",
+          "returnDate": "2025-09-22"
+        },
+        {
+          "bookId": 36,
+          "isbn": "9780140442106",
+          "borrowDate": "2025-09-09",
+          "returnDate": "2025-09-24"
+        }
+      ]
     },
     {
       "id": 10,
@@ -835,10 +1072,37 @@
       "phone": "9012345678",
       "membershipType": "admin",
       "userImage": "https://randomuser.me/api/portraits/women/10.jpg",
-      "isActive": "True",
+      "isActive": true,
       "fines": 0,
-      "borrowedBooks": [],
-      "requestedBooks": []
+      "finesDetails": [],
+      "borrowedBooks": [
+        {
+          "bookId": 37,
+          "isbn": "9780679733737",
+          "borrowDate": "2025-09-11",
+          "returnDate": "2025-09-26"
+        },
+        {
+          "bookId": 38,
+          "isbn": "9780547928227",
+          "borrowDate": "2025-09-13",
+          "returnDate": "2025-09-28"
+        }
+      ],
+      "requestedBooks": [
+        {
+          "bookId": 39,
+          "isbn": "9780441172719",
+          "borrowDate": "2025-09-15",
+          "returnDate": "2025-09-30"
+        },
+        {
+          "bookId": 40,
+          "isbn": "9780553293357",
+          "borrowDate": "2025-09-17",
+          "returnDate": "2025-10-02"
+        }
+      ]
     },
     {
       "id": 11,
@@ -848,16 +1112,37 @@
       "phone": "9765432123",
       "membershipType": "student",
       "userImage": "https://randomuser.me/api/portraits/men/11.jpg",
-      "isActive": "True",
-      "fines": 10,
+      "isActive": true,
+      "fines": 0,
+      "finesDetails": [],
       "borrowedBooks": [
         {
-          "isbn": "9780143128540",
-          "borrowDate": "2025-07-10",
-          "returnDate": "2025-07-25"
+          "bookId": 41,
+          "isbn": "9780451524935",
+          "borrowDate": "2025-09-19",
+          "returnDate": "2025-10-04"
+        },
+        {
+          "bookId": 42,
+          "isbn": "9780060850524",
+          "borrowDate": "2025-09-21",
+          "returnDate": "2025-10-06"
         }
       ],
-      "requestedBooks": []
+      "requestedBooks": [
+        {
+          "bookId": 43,
+          "isbn": "9780141439570",
+          "borrowDate": "2025-09-23",
+          "returnDate": "2025-10-08"
+        },
+        {
+          "bookId": 44,
+          "isbn": "9780143035008",
+          "borrowDate": "2025-09-25",
+          "returnDate": "2025-10-10"
+        }
+      ]
     },
     {
       "id": 12,
@@ -867,10 +1152,37 @@
       "phone": "9678543210",
       "membershipType": "student",
       "userImage": "https://randomuser.me/api/portraits/women/12.jpg",
-      "isActive": "False",
+      "isActive": false,
       "fines": 0,
-      "borrowedBooks": [],
-      "requestedBooks": []
+      "finesDetails": [],
+      "borrowedBooks": [
+        {
+          "bookId": 45,
+          "isbn": "9780140449136",
+          "borrowDate": "2025-09-27",
+          "returnDate": "2025-10-12"
+        },
+        {
+          "bookId": 46,
+          "isbn": "9780684801223",
+          "borrowDate": "2025-09-29",
+          "returnDate": "2025-10-14"
+        }
+      ],
+      "requestedBooks": [
+        {
+          "bookId": 47,
+          "isbn": "9780679720201",
+          "borrowDate": "2025-10-01",
+          "returnDate": "2025-10-16"
+        },
+        {
+          "bookId": 48,
+          "isbn": "9780156012195",
+          "borrowDate": "2025-10-03",
+          "returnDate": "2025-10-18"
+        }
+      ]
     },
     {
       "id": 13,
@@ -880,21 +1192,37 @@
       "phone": "9543210987",
       "membershipType": "faculty",
       "userImage": "https://randomuser.me/api/portraits/men/13.jpg",
-      "isActive": "True",
-      "fines": 40,
+      "isActive": true,
+      "fines": 0,
+      "finesDetails": [],
       "borrowedBooks": [
         {
-          "isbn": "9780142437230",
-          "borrowDate": "2025-07-12",
-          "returnDate": "2025-07-27"
+          "bookId": 49,
+          "isbn": "9781594480003",
+          "borrowDate": "2025-10-05",
+          "returnDate": "2025-10-20"
         },
         {
-          "isbn": "9781501128035",
-          "borrowDate": "2025-07-15",
-          "returnDate": "2025-07-30"
+          "bookId": 50,
+          "isbn": "9781476738024",
+          "borrowDate": "2025-10-07",
+          "returnDate": "2025-10-22"
         }
       ],
-      "requestedBooks": []
+      "requestedBooks": [
+        {
+          "bookId": 1,
+          "isbn": "9780451205360",
+          "borrowDate": "2025-10-09",
+          "returnDate": "2025-10-24"
+        },
+        {
+          "bookId": 2,
+          "isbn": "9780141439518",
+          "borrowDate": "2025-10-11",
+          "returnDate": "2025-10-26"
+        }
+      ]
     },
     {
       "id": 14,
@@ -904,10 +1232,37 @@
       "phone": "9456781230",
       "membershipType": "student",
       "userImage": "https://randomuser.me/api/portraits/women/14.jpg",
-      "isActive": "True",
+      "isActive": true,
       "fines": 0,
-      "borrowedBooks": [],
-      "requestedBooks": []
+      "finesDetails": [],
+      "borrowedBooks": [
+        {
+          "bookId": 3,
+          "isbn": "9780553296983",
+          "borrowDate": "2025-10-13",
+          "returnDate": "2025-10-28"
+        },
+        {
+          "bookId": 4,
+          "isbn": "9780316548182",
+          "borrowDate": "2025-10-15",
+          "returnDate": "2025-10-30"
+        }
+      ],
+      "requestedBooks": [
+        {
+          "bookId": 5,
+          "isbn": "9780062316097",
+          "borrowDate": "2025-10-17",
+          "returnDate": "2025-11-01"
+        },
+        {
+          "bookId": 6,
+          "isbn": "9780679424031",
+          "borrowDate": "2025-10-19",
+          "returnDate": "2025-11-03"
+        }
+      ]
     },
     {
       "id": 15,
@@ -917,20 +1272,35 @@
       "phone": "9345678120",
       "membershipType": "faculty",
       "userImage": "https://randomuser.me/api/portraits/men/15.jpg",
-      "isActive": "True",
-      "fines": 20,
+      "isActive": true,
+      "fines": 0,
+      "finesDetails": [],
       "borrowedBooks": [
         {
-          "isbn": "9780140283297",
-          "borrowDate": "2025-07-08",
-          "returnDate": "2025-07-23"
+          "bookId": 7,
+          "isbn": "9781524763138",
+          "borrowDate": "2025-10-21",
+          "returnDate": "2025-11-05"
+        },
+        {
+          "bookId": 8,
+          "isbn": "9780061122415",
+          "borrowDate": "2025-10-23",
+          "returnDate": "2025-11-07"
         }
       ],
       "requestedBooks": [
         {
-          "isbn": "9780679783268",
-          "requestedOn": "2025-08-11",
-          "status": "waiting"
+          "bookId": 9,
+          "isbn": "9780374533557",
+          "borrowDate": "2025-10-25",
+          "returnDate": "2025-11-09"
+        },
+        {
+          "bookId": 10,
+          "isbn": "9780399590504",
+          "borrowDate": "2025-10-27",
+          "returnDate": "2025-11-11"
         }
       ]
     },
@@ -942,10 +1312,37 @@
       "phone": "9234567810",
       "membershipType": "student",
       "userImage": "https://randomuser.me/api/portraits/women/16.jpg",
-      "isActive": "True",
+      "isActive": true,
       "fines": 0,
-      "borrowedBooks": [],
-      "requestedBooks": []
+      "finesDetails": [],
+      "borrowedBooks": [
+        {
+          "bookId": 11,
+          "isbn": "9780061120084",
+          "borrowDate": "2025-10-29",
+          "returnDate": "2025-11-13"
+        },
+        {
+          "bookId": 12,
+          "isbn": "9780743273565",
+          "borrowDate": "2025-10-31",
+          "returnDate": "2025-11-15"
+        }
+      ],
+      "requestedBooks": [
+        {
+          "bookId": 13,
+          "isbn": "9780553380163",
+          "borrowDate": "2025-11-02",
+          "returnDate": "2025-11-17"
+        },
+        {
+          "bookId": 14,
+          "isbn": "9780316017923",
+          "borrowDate": "2025-11-04",
+          "returnDate": "2025-11-19"
+        }
+      ]
     },
     {
       "id": 17,
@@ -955,10 +1352,37 @@
       "phone": "9123456780",
       "membershipType": "admin",
       "userImage": "https://randomuser.me/api/portraits/men/17.jpg",
-      "isActive": "False",
+      "isActive": false,
       "fines": 0,
-      "borrowedBooks": [],
-      "requestedBooks": []
+      "finesDetails": [],
+      "borrowedBooks": [
+        {
+          "bookId": 15,
+          "isbn": "9780812981605",
+          "borrowDate": "2025-11-06",
+          "returnDate": "2025-11-21"
+        },
+        {
+          "bookId": 16,
+          "isbn": "9780307887894",
+          "borrowDate": "2025-11-08",
+          "returnDate": "2025-11-23"
+        }
+      ],
+      "requestedBooks": [
+        {
+          "bookId": 17,
+          "isbn": "9780735211292",
+          "borrowDate": "2025-11-10",
+          "returnDate": "2025-11-25"
+        },
+        {
+          "bookId": 18,
+          "isbn": "9780393317558",
+          "borrowDate": "2025-11-12",
+          "returnDate": "2025-11-27"
+        }
+      ]
     },
     {
       "id": 18,
@@ -968,10 +1392,37 @@
       "phone": "9876501234",
       "membershipType": "faculty",
       "userImage": "https://randomuser.me/api/portraits/women/18.jpg",
-      "isActive": "True",
+      "isActive": true,
       "fines": 0,
-      "borrowedBooks": [],
-      "requestedBooks": []
+      "finesDetails": [],
+      "borrowedBooks": [
+        {
+          "bookId": 19,
+          "isbn": "9780807014271",
+          "borrowDate": "2025-11-14",
+          "returnDate": "2025-11-29"
+        },
+        {
+          "bookId": 20,
+          "isbn": "9780374500016",
+          "borrowDate": "2025-11-16",
+          "returnDate": "2025-12-01"
+        }
+      ],
+      "requestedBooks": [
+        {
+          "bookId": 21,
+          "isbn": "9780307465351",
+          "borrowDate": "2025-11-18",
+          "returnDate": "2025-12-03"
+        },
+        {
+          "bookId": 22,
+          "isbn": "9780804139298",
+          "borrowDate": "2025-11-20",
+          "returnDate": "2025-12-05"
+        }
+      ]
     },
     {
       "id": 19,
@@ -981,20 +1432,35 @@
       "phone": "9345612780",
       "membershipType": "student",
       "userImage": "https://randomuser.me/api/portraits/men/19.jpg",
-      "isActive": "True",
-      "fines": 15,
+      "isActive": true,
+      "fines": 0,
+      "finesDetails": [],
       "borrowedBooks": [
         {
-          "isbn": "9780451524935",
-          "borrowDate": "2025-07-18",
-          "returnDate": "2025-08-02"
+          "bookId": 23,
+          "isbn": "9781633691780",
+          "borrowDate": "2025-11-22",
+          "returnDate": "2025-12-07"
+        },
+        {
+          "bookId": 24,
+          "isbn": "9780060555665",
+          "borrowDate": "2025-11-24",
+          "returnDate": "2025-12-09"
         }
       ],
       "requestedBooks": [
         {
-          "isbn": "9780307277671",
-          "requestedOn": "2025-08-13",
-          "status": "waiting"
+          "bookId": 25,
+          "isbn": "9781612680194",
+          "borrowDate": "2025-11-26",
+          "returnDate": "2025-12-11"
+        },
+        {
+          "bookId": 26,
+          "isbn": "9780857197689",
+          "borrowDate": "2025-11-28",
+          "returnDate": "2025-12-13"
         }
       ]
     },
@@ -1006,10 +1472,37 @@
       "phone": "9765432180",
       "membershipType": "faculty",
       "userImage": "https://randomuser.me/api/portraits/women/20.jpg",
-      "isActive": "False",
+      "isActive": false,
       "fines": 0,
-      "borrowedBooks": [],
-      "requestedBooks": []
+      "finesDetails": [],
+      "borrowedBooks": [
+        {
+          "bookId": 27,
+          "isbn": "9780143130727",
+          "borrowDate": "2025-11-30",
+          "returnDate": "2025-12-15"
+        },
+        {
+          "bookId": 28,
+          "isbn": "9781455586691",
+          "borrowDate": "2025-12-02",
+          "returnDate": "2025-12-17"
+        }
+      ],
+      "requestedBooks": [
+        {
+          "bookId": 29,
+          "isbn": "9781250067050",
+          "borrowDate": "2025-12-04",
+          "returnDate": "2025-12-19"
+        },
+        {
+          "bookId": 30,
+          "isbn": "9780307352157",
+          "borrowDate": "2025-12-06",
+          "returnDate": "2025-12-21"
+        }
+      ]
     },
     {
       "id": 21,
@@ -1019,16 +1512,37 @@
       "phone": "9654321809",
       "membershipType": "student",
       "userImage": "https://randomuser.me/api/portraits/men/21.jpg",
-      "isActive": "True",
-      "fines": 10,
+      "isActive": true,
+      "fines": 0,
+      "finesDetails": [],
       "borrowedBooks": [
         {
-          "isbn": "9780141439600",
-          "borrowDate": "2025-07-27",
-          "returnDate": "2025-08-11"
+          "bookId": 31,
+          "isbn": "9781599869773",
+          "borrowDate": "2025-12-08",
+          "returnDate": "2025-12-23"
+        },
+        {
+          "bookId": 32,
+          "isbn": "9780140449150",
+          "borrowDate": "2025-12-10",
+          "returnDate": "2025-12-25"
         }
       ],
-      "requestedBooks": []
+      "requestedBooks": [
+        {
+          "bookId": 33,
+          "isbn": "9780140441314",
+          "borrowDate": "2025-12-12",
+          "returnDate": "2025-12-27"
+        },
+        {
+          "bookId": 34,
+          "isbn": "9780140455113",
+          "borrowDate": "2025-12-14",
+          "returnDate": "2025-12-29"
+        }
+      ]
     },
     {
       "id": 22,
@@ -1038,14 +1552,35 @@
       "phone": "9543217809",
       "membershipType": "faculty",
       "userImage": "https://randomuser.me/api/portraits/women/22.jpg",
-      "isActive": "True",
+      "isActive": true,
       "fines": 0,
-      "borrowedBooks": [],
+      "finesDetails": [],
+      "borrowedBooks": [
+        {
+          "bookId": 35,
+          "isbn": "9780140449235",
+          "borrowDate": "2025-12-16",
+          "returnDate": "2025-12-31"
+        },
+        {
+          "bookId": 36,
+          "isbn": "9780140442106",
+          "borrowDate": "2025-12-18",
+          "returnDate": "2026-01-02"
+        }
+      ],
       "requestedBooks": [
         {
-          "isbn": "9781501128035",
-          "requestedOn": "2025-08-10",
-          "status": "waiting"
+          "bookId": 37,
+          "isbn": "9780679733737",
+          "borrowDate": "2025-12-20",
+          "returnDate": "2026-01-04"
+        },
+        {
+          "bookId": 38,
+          "isbn": "9780547928227",
+          "borrowDate": "2025-12-22",
+          "returnDate": "2026-01-06"
         }
       ]
     },
@@ -1057,10 +1592,37 @@
       "phone": "9432167890",
       "membershipType": "student",
       "userImage": "https://randomuser.me/api/portraits/men/23.jpg",
-      "isActive": "False",
+      "isActive": false,
       "fines": 0,
-      "borrowedBooks": [],
-      "requestedBooks": []
+      "finesDetails": [],
+      "borrowedBooks": [
+        {
+          "bookId": 39,
+          "isbn": "9780441172719",
+          "borrowDate": "2025-12-24",
+          "returnDate": "2026-01-08"
+        },
+        {
+          "bookId": 40,
+          "isbn": "9780553293357",
+          "borrowDate": "2025-12-26",
+          "returnDate": "2026-01-10"
+        }
+      ],
+      "requestedBooks": [
+        {
+          "bookId": 41,
+          "isbn": "9780451524935",
+          "borrowDate": "2025-12-28",
+          "returnDate": "2026-01-12"
+        },
+        {
+          "bookId": 42,
+          "isbn": "9780060850524",
+          "borrowDate": "2025-12-30",
+          "returnDate": "2026-01-14"
+        }
+      ]
     },
     {
       "id": 24,
@@ -1070,16 +1632,37 @@
       "phone": "9321456780",
       "membershipType": "faculty",
       "userImage": "https://randomuser.me/api/portraits/women/24.jpg",
-      "isActive": "True",
-      "fines": 20,
+      "isActive": true,
+      "fines": 0,
+      "finesDetails": [],
       "borrowedBooks": [
         {
-          "isbn": "9780140283297",
-          "borrowDate": "2025-07-08",
-          "returnDate": "2025-07-23"
+          "bookId": 43,
+          "isbn": "9780141439570",
+          "borrowDate": "2026-01-01",
+          "returnDate": "2026-01-16"
+        },
+        {
+          "bookId": 44,
+          "isbn": "9780143035008",
+          "borrowDate": "2026-01-03",
+          "returnDate": "2026-01-18"
         }
       ],
-      "requestedBooks": []
+      "requestedBooks": [
+        {
+          "bookId": 45,
+          "isbn": "9780140449136",
+          "borrowDate": "2026-01-05",
+          "returnDate": "2026-01-20"
+        },
+        {
+          "bookId": 46,
+          "isbn": "9780684801223",
+          "borrowDate": "2026-01-07",
+          "returnDate": "2026-01-22"
+        }
+      ]
     },
     {
       "id": 25,
@@ -1089,10 +1672,37 @@
       "phone": "9213456708",
       "membershipType": "admin",
       "userImage": "https://randomuser.me/api/portraits/men/25.jpg",
-      "isActive": "True",
+      "isActive": true,
       "fines": 0,
-      "borrowedBooks": [],
-      "requestedBooks": []
+      "finesDetails": [],
+      "borrowedBooks": [
+        {
+          "bookId": 47,
+          "isbn": "9780679720201",
+          "borrowDate": "2026-01-09",
+          "returnDate": "2026-01-24"
+        },
+        {
+          "bookId": 48,
+          "isbn": "9780156012195",
+          "borrowDate": "2026-01-11",
+          "returnDate": "2026-01-26"
+        }
+      ],
+      "requestedBooks": [
+        {
+          "bookId": 49,
+          "isbn": "9781594480003",
+          "borrowDate": "2026-01-13",
+          "returnDate": "2026-01-28"
+        },
+        {
+          "bookId": 50,
+          "isbn": "9781476738024",
+          "borrowDate": "2026-01-15",
+          "returnDate": "2026-01-30"
+        }
+      ]
     }
   ],
   "login": []
