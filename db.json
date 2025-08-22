@@ -5,9 +5,9 @@
       "title": "Introduction to Algorithms",
       "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
       "publisher": "MIT Press",
-      "isbn": "9780262046305",
+      "isbn": ["0262046305", "0262046306"],
       "status": "Borrowed",
-      "requests": 3,
+      "requests": 1,
       "description": "A comprehensive update of the leading algorithms text, with new material on matchings in bipartite graphs, online algorithms, machine learning, and other topics.",
       "keywords": [
         "algorithms",
@@ -25,18 +25,45 @@
       "department": "Computer Science",
       "subject": "Algorithms",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
-      "location": "Shelf A12, Row 3",
       "addedDate": "2023-01-15",
-      "lastBorrowed": "2023-08-10"
+      "borrowDetails": [
+        {
+          "isbn": "0262046305",
+          "userId": 1,
+          "borrowDate": "2025-08-01",
+          "dueDate": "2025-08-15",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 3.5
+        },
+        {
+          "isbn": "0262046306",
+          "userId": 2,
+          "borrowDate": "2025-08-02",
+          "dueDate": "2025-08-16",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 3.0
+        }
+      ],
+      "requestDetails": [
+        {
+          "isbn": null,
+          "userId": 3,
+          "requestId": 1,
+          "requestDate": "2025-08-16",
+          "status": "PENDING"
+        }
+      ]
     },
     {
       "id": 2,
       "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
       "author": "Robert C. Martin",
       "publisher": "Prentice Hall",
-      "isbn": "9780132350884",
-      "status": "On Hold",
-      "requests": 5,
+      "isbn": ["0132350882", "0132350883"],
+      "status": "Available",
+      "requests": 0,
       "description": "Even bad code can function. But if code isn't clean, it can bring a development organization to its knees.",
       "keywords": [
         "software engineering",
@@ -54,18 +81,28 @@
       "department": "Software Engineering",
       "subject": "Software Development",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg",
-      "location": "Shelf B7, Row 2",
       "addedDate": "2022-11-20",
-      "lastBorrowed": "2023-08-15"
+      "borrowDetails": [
+        {
+          "isbn": "0132350882",
+          "userId": 4,
+          "borrowDate": "2025-08-03",
+          "dueDate": "2025-08-17",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 2.5
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 3,
       "title": "The Design of Everyday Things",
       "author": "Don Norman",
       "publisher": "Basic Books",
-      "isbn": "9780465050659",
+      "isbn": ["0465050654", "0465050655"],
       "status": "Available",
-      "requests": 2,
+      "requests": 0,
       "description": "A fully updated and expanded edition of Don Norman's classic and influential work, which pioneered the application of cognitive science to design.",
       "keywords": [
         "design",
@@ -83,18 +120,28 @@
       "department": "Design",
       "subject": "Product Design",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780465050659-L.jpg",
-      "location": "Shelf C3, Row 1",
       "addedDate": "2023-03-10",
-      "lastBorrowed": "2023-07-28"
+      "borrowDetails": [
+        {
+          "isbn": "0465050654",
+          "userId": 5,
+          "borrowDate": "2025-07-25",
+          "dueDate": "2025-08-08",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 7.0
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 4,
       "title": "Artificial Intelligence: A Modern Approach",
       "author": "Stuart Russell, Peter Norvig",
       "publisher": "Pearson",
-      "isbn": "9781292401133",
+      "isbn": ["1292401133", "1292401134"],
       "status": "Borrowed",
-      "requests": 7,
+      "requests": 3,
       "description": "The most comprehensive, up-to-date introduction to the theory and practice of artificial intelligence.",
       "keywords": [
         "artificial intelligence",
@@ -112,18 +159,59 @@
       "department": "Computer Science",
       "subject": "Artificial Intelligence",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781292401133-L.jpg",
-      "location": "Shelf A15, Row 4",
       "addedDate": "2023-02-05",
-      "lastBorrowed": "2023-08-12"
+      "borrowDetails": [
+        {
+          "isbn": "1292401133",
+          "userId": 6,
+          "borrowDate": "2025-08-04",
+          "dueDate": "2025-08-18",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 2.0
+        },
+        {
+          "isbn": "1292401134",
+          "userId": 7,
+          "borrowDate": "2025-08-05",
+          "dueDate": "2025-08-19",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 1.5
+        }
+      ],
+      "requestDetails": [
+        {
+          "isbn": null,
+          "userId": 8,
+          "requestId": 2,
+          "requestDate": "2025-08-19",
+          "status": "PENDING"
+        },
+        {
+          "isbn": null,
+          "userId": 9,
+          "requestId": 3,
+          "requestDate": "2025-08-19",
+          "status": "PENDING"
+        },
+        {
+          "isbn": null,
+          "userId": 10,
+          "requestId": 4,
+          "requestDate": "2025-08-19",
+          "status": "PENDING"
+        }
+      ]
     },
     {
       "id": 5,
       "title": "Deep Learning",
       "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
       "publisher": "MIT Press",
-      "isbn": "9780262035613",
-      "status": "Reserved",
-      "requests": 9,
+      "isbn": ["0262035618", "0262035619"],
+      "status": "Available",
+      "requests": 0,
       "description": "An introduction to a broad range of topics in deep learning, covering mathematical and conceptual background, deep learning techniques used in industry, and research perspectives.",
       "keywords": [
         "deep learning",
@@ -141,18 +229,28 @@
       "department": "Computer Science",
       "subject": "Deep Learning",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780262035613-L.jpg",
-      "location": "Shelf A18, Row 2",
       "addedDate": "2022-09-12",
-      "lastBorrowed": "2023-08-05"
+      "borrowDetails": [
+        {
+          "isbn": "0262035618",
+          "userId": 11,
+          "borrowDate": "2025-08-06",
+          "dueDate": "2025-08-20",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 1.0
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 6,
       "title": "Computer Networks",
       "author": "Andrew S. Tanenbaum, Nick Feamster, David J. Wetherall",
       "publisher": "Pearson",
-      "isbn": "9780135408001",
+      "isbn": ["0135408008", "0135408009"],
       "status": "Available",
-      "requests": 1,
+      "requests": 0,
       "description": "For courses in Networking/Communications. Motivates students with a top-down, layered approach to computer networking. Unique among computer networking texts, the Seventh Edition of the popular Computer Networking: A Top Down Approach builds on the authors long tradition of teaching this complex subject through a layered approach in a top-down manner.",
       "keywords": [
         "computer networks",
@@ -170,18 +268,28 @@
       "department": "Computer Science",
       "subject": "Networking",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780135408001-L.jpg",
-      "location": "Shelf B2, Row 3",
       "addedDate": "2023-04-18",
-      "lastBorrowed": "2023-07-20"
+      "borrowDetails": [
+        {
+          "isbn": "0135408008",
+          "userId": 12,
+          "borrowDate": "2025-07-26",
+          "dueDate": "2025-08-09",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 6.5
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 7,
       "title": "Database System Concepts",
       "author": "Abraham Silberschatz, Henry F. Korth, S. Sudarshan",
       "publisher": "McGraw-Hill Education",
-      "isbn": "9780078022159",
+      "isbn": ["0078022150", "0078022151"],
       "status": "Borrowed",
-      "requests": 4,
+      "requests": 2,
       "description": "Database System Concepts presents the fundamental concepts of database management in an intuitive manner geared toward allowing students to begin working with databases as quickly as possible.",
       "keywords": [
         "databases",
@@ -199,18 +307,52 @@
       "department": "Computer Science",
       "subject": "Database Systems",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780078022159-L.jpg",
-      "location": "Shelf B10, Row 1",
       "addedDate": "2022-12-08",
-      "lastBorrowed": "2023-08-14"
+      "borrowDetails": [
+        {
+          "isbn": "0078022150",
+          "userId": 13,
+          "borrowDate": "2025-08-07",
+          "dueDate": "2025-08-21",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 0.5
+        },
+        {
+          "isbn": "0078022151",
+          "userId": 14,
+          "borrowDate": "2025-08-08",
+          "dueDate": "2025-08-22",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 0.0
+        }
+      ],
+      "requestDetails": [
+        {
+          "isbn": null,
+          "userId": 15,
+          "requestId": 5,
+          "requestDate": "2025-08-22",
+          "status": "PENDING"
+        },
+        {
+          "isbn": null,
+          "userId": 16,
+          "requestId": 6,
+          "requestDate": "2025-08-22",
+          "status": "PENDING"
+        }
+      ]
     },
     {
       "id": 8,
       "title": "Operating System Concepts",
       "author": "Abraham Silberschatz, Peter B. Galvin, Greg Gagne",
       "publisher": "Wiley",
-      "isbn": "9781119456339",
+      "isbn": ["1119456339", "1119456340"],
       "status": "Available",
-      "requests": 2,
+      "requests": 0,
       "description": "The tenth edition of Operating System Concepts has been revised to keep it fresh and up-to-date with contemporary examples of how operating systems function, as well as enhanced interactive elements to improve learning and the student’s experience with the material.",
       "keywords": [
         "operating systems",
@@ -228,18 +370,28 @@
       "department": "Computer Science",
       "subject": "Operating Systems",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781119456339-L.jpg",
-      "location": "Shelf B5, Row 4",
       "addedDate": "2023-01-22",
-      "lastBorrowed": "2023-08-03"
+      "borrowDetails": [
+        {
+          "isbn": "1119456339",
+          "userId": 17,
+          "borrowDate": "2025-07-27",
+          "dueDate": "2025-08-10",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 6.0
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 9,
       "title": "Computer Organization and Design",
       "author": "David A. Patterson, John L. Hennessy",
       "publisher": "Morgan Kaufmann",
-      "isbn": "9780128122754",
+      "isbn": ["0128122757", "0128122758"],
       "status": "Available",
-      "requests": 3,
+      "requests": 0,
       "description": "Computer Organization and Design RISC-V Edition: The Hardware Software Interface, Second Edition, the award-winning textbook from Patterson and Hennessy that is used by more than 40,000 students per year, continues to present the most comprehensive and readable introduction to this core computer science topic.",
       "keywords": [
         "computer architecture",
@@ -257,18 +409,28 @@
       "department": "Computer Science",
       "subject": "Computer Architecture",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780128122754-L.jpg",
-      "location": "Shelf C8, Row 2",
       "addedDate": "2023-02-18",
-      "lastBorrowed": "2023-07-25"
+      "borrowDetails": [
+        {
+          "isbn": "0128122757",
+          "userId": 18,
+          "borrowDate": "2025-07-28",
+          "dueDate": "2025-08-11",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 5.5
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 10,
       "title": "The C Programming Language",
       "author": "Brian W. Kernighan, Dennis M. Ritchie",
       "publisher": "Prentice Hall",
-      "isbn": "9780131103627",
+      "isbn": ["0131103624", "0131103625"],
       "status": "Borrowed",
-      "requests": 6,
+      "requests": 2,
       "description": "Known as the bible of C, this classic bestseller introduces the C programming language and illustrates algorithms, data structures, and programming techniques.",
       "keywords": [
         "C programming",
@@ -286,18 +448,52 @@
       "department": "Computer Science",
       "subject": "Programming Languages",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780131103627-L.jpg",
-      "location": "Shelf D4, Row 1",
       "addedDate": "2022-10-05",
-      "lastBorrowed": "2023-08-16"
+      "borrowDetails": [
+        {
+          "isbn": "0131103624",
+          "userId": 19,
+          "borrowDate": "2025-08-09",
+          "dueDate": "2025-08-23",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 0.0
+        },
+        {
+          "isbn": "0131103625",
+          "userId": 20,
+          "borrowDate": "2025-08-10",
+          "dueDate": "2025-08-24",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 0.0
+        }
+      ],
+      "requestDetails": [
+        {
+          "isbn": null,
+          "userId": 21,
+          "requestId": 7,
+          "requestDate": "2025-08-24",
+          "status": "PENDING"
+        },
+        {
+          "isbn": null,
+          "userId": 1,
+          "requestId": 8,
+          "requestDate": "2025-08-24",
+          "status": "PENDING"
+        }
+      ]
     },
     {
       "id": 11,
       "title": "Structure and Interpretation of Computer Programs",
-      "author": " Harold Abelson, Gerald Jay Sussman, Julie Sussman",
+      "author": "Harold Abelson, Gerald Jay Sussman, Julie Sussman",
       "publisher": "MIT Press",
-      "isbn": "9780262510875",
+      "isbn": ["0262510871", "0262510872"],
       "status": "Available",
-      "requests": 4,
+      "requests": 0,
       "description": "A classic textbook that teaches fundamental principles of computer programming, including abstraction, recursion, and modularity.",
       "keywords": [
         "computer programming",
@@ -315,18 +511,28 @@
       "department": "Computer Science",
       "subject": "Programming Principles",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780262510875-L.jpg",
-      "location": "Shelf E2, Row 3",
       "addedDate": "2023-03-15",
-      "lastBorrowed": "2023-08-01"
+      "borrowDetails": [
+        {
+          "isbn": "0262510871",
+          "userId": 2,
+          "borrowDate": "2025-07-29",
+          "dueDate": "2025-08-12",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 5.0
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 12,
       "title": "Compilers: Principles, Techniques, and Tools",
       "author": "Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman",
       "publisher": "Pearson",
-      "isbn": "9780321486813",
+      "isbn": ["0321486811", "0321486812"],
       "status": "Available",
-      "requests": 2,
+      "requests": 0,
       "description": "The classic Dragon Book on compiler design, covering lexical analysis, parsing, syntax-directed translation, and code optimization.",
       "keywords": [
         "compilers",
@@ -344,18 +550,28 @@
       "department": "Computer Science",
       "subject": "Compiler Design",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780321486813-L.jpg",
-      "location": "Shelf F7, Row 2",
       "addedDate": "2022-11-30",
-      "lastBorrowed": "2023-07-18"
+      "borrowDetails": [
+        {
+          "isbn": "0321486811",
+          "userId": 3,
+          "borrowDate": "2025-07-30",
+          "dueDate": "2025-08-13",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 4.5
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 13,
       "title": "Computer Graphics: Principles and Practice",
       "author": "John F. Hughes, Andries van Dam, Morgan McGuire, David F. Sklar",
       "publisher": "Addison-Wesley Professional",
-      "isbn": "9780321399526",
+      "isbn": ["0321399528", "0321399529"],
       "status": "Borrowed",
-      "requests": 3,
+      "requests": 1,
       "description": "A comprehensive introduction to computer graphics that explores the core concepts, mathematical foundations, and modern techniques.",
       "keywords": [
         "computer graphics",
@@ -373,21 +589,48 @@
       "department": "Computer Science",
       "subject": "Computer Graphics",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780321399526-L.jpg",
-      "location": "Shelf G3, Row 4",
       "addedDate": "2023-04-10",
-      "lastBorrowed": "2023-08-13"
+      "borrowDetails": [
+        {
+          "isbn": "0321399528",
+          "userId": 4,
+          "borrowDate": "2025-08-11",
+          "dueDate": "2025-08-25",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 0.0
+        },
+        {
+          "isbn": "0321399529",
+          "userId": 5,
+          "borrowDate": "2025-08-12",
+          "dueDate": "2025-08-26",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 0.0
+        }
+      ],
+      "requestDetails": [
+        {
+          "isbn": null,
+          "userId": 6,
+          "requestId": 9,
+          "requestDate": "2025-08-26",
+          "status": "PENDING"
+        }
+      ]
     },
     {
       "id": 14,
       "title": "Introduction to the Theory of Computation",
       "author": "Michael Sipser",
       "publisher": "Cengage Learning",
-      "isbn": "9781133187790",
-      "status": "On Hold",
-      "requests": 5,
+      "isbn": ["113318779X", "1133187790"],
+      "status": "Available",
+      "requests": 0,
       "description": "Gain a clear understanding of even the most complex, highly theoretical computational theory topics in the approachable presentation found only in the market-leading INTRODUCTION TO THE THEORY OF COMPUTATION, 3E.",
       "keywords": [
-        " theory of computation",
+        "theory of computation",
         "automata",
         "complexity theory",
         "Turing machines",
@@ -402,18 +645,28 @@
       "department": "Computer Science",
       "subject": "Theory of Computation",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781133187790-L.jpg",
-      "location": "Shelf H1, Row 2",
       "addedDate": "2023-01-08",
-      "lastBorrowed": "2023-07-30"
+      "borrowDetails": [
+        {
+          "isbn": "113318779X",
+          "userId": 7,
+          "borrowDate": "2025-07-31",
+          "dueDate": "2025-08-14",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 4.0
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 15,
       "title": "Computer Security: Principles and Practice",
       "author": "William Stallings, Lawrie Brown",
       "publisher": "Pearson",
-      "isbn": "9780134794105",
-      "status": "Reserved",
-      "requests": 8,
+      "isbn": ["0134794109", "0134794110"],
+      "status": "Available",
+      "requests": 0,
       "description": "Computer Security: Principles and Practice, Fourth Edition, is ideal for courses in Computer/Network Security.",
       "keywords": [
         "computer security",
@@ -431,18 +684,28 @@
       "department": "Computer Science",
       "subject": "Computer Security",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780134794105-L.jpg",
-      "location": "Shelf I5, Row 3",
       "addedDate": "2023-05-12",
-      "lastBorrowed": "2023-08-14"
+      "borrowDetails": [
+        {
+          "isbn": "0134794109",
+          "userId": 8,
+          "borrowDate": "2025-08-01",
+          "dueDate": "2025-08-15",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 3.5
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 16,
       "title": "Data Mining: Concepts and Techniques",
       "author": "Jiawei Han, Micheline Kamber, Jian Pei",
       "publisher": "Morgan Kaufmann",
-      "isbn": "9780128117606",
+      "isbn": ["0128117605", "0128117606"],
       "status": "Available",
-      "requests": 4,
+      "requests": 0,
       "description": "Data Mining: Concepts and Techniques, Fourth Edition introduces concepts, principles, and methods for mining patterns, knowledge, and models from various kinds of data for diverse applications.",
       "keywords": [
         "data mining",
@@ -460,18 +723,28 @@
       "department": "Computer Science",
       "subject": "Data Mining",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780128117606-L.jpg",
-      "location": "Shelf J2, Row 1",
       "addedDate": "2023-02-22",
-      "lastBorrowed": "2023-08-02"
+      "borrowDetails": [
+        {
+          "isbn": "0128117605",
+          "userId": 9,
+          "borrowDate": "2025-08-02",
+          "dueDate": "2025-08-16",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 3.0
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 17,
       "title": "Distributed Systems: Concepts and Design",
       "author": "George Coulouris, Jean Dollimore, Tim Kindberg, Gordon Blair",
       "publisher": "Pearson",
-      "isbn": "9780132143011",
+      "isbn": ["0132143011", "0132143012"],
       "status": "Available",
-      "requests": 3,
+      "requests": 0,
       "description": "Distributed Systems provides students of computer science and engineering with the skills they will need to design and maintain software for distributed applications.",
       "keywords": [
         "distributed systems",
@@ -489,18 +762,28 @@
       "department": "Computer Science",
       "subject": "Distributed Systems",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780132143011-L.jpg",
-      "location": "Shelf K4, Row 2",
       "addedDate": "2023-03-28",
-      "lastBorrowed": "2023-07-22"
+      "borrowDetails": [
+        {
+          "isbn": "0132143011",
+          "userId": 10,
+          "borrowDate": "2025-07-25",
+          "dueDate": "2025-08-08",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 7.0
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 18,
       "title": "Computer Vision: Algorithms and Applications",
       "author": "Richard Szeliski",
       "publisher": "Springer",
-      "isbn": "9783030343712",
+      "isbn": ["3030343715", "3030343716"],
       "status": "Borrowed",
-      "requests": 7,
+      "requests": 3,
       "description": "Computer Vision: Algorithms and Applications explores the variety of techniques used to analyze and interpret images.",
       "keywords": [
         "computer vision",
@@ -518,18 +801,59 @@
       "department": "Computer Science",
       "subject": "Computer Vision",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9783030343712-L.jpg",
-      "location": "Shelf L6, Row 3",
       "addedDate": "2023-04-05",
-      "lastBorrowed": "2023-08-11"
+      "borrowDetails": [
+        {
+          "isbn": "3030343715",
+          "userId": 11,
+          "borrowDate": "2025-08-03",
+          "dueDate": "2025-08-17",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 2.5
+        },
+        {
+          "isbn": "3030343716",
+          "userId": 12,
+          "borrowDate": "2025-08-04",
+          "dueDate": "2025-08-18",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 2.0
+        }
+      ],
+      "requestDetails": [
+        {
+          "isbn": null,
+          "userId": 13,
+          "requestId": 10,
+          "requestDate": "2025-08-18",
+          "status": "PENDING"
+        },
+        {
+          "isbn": null,
+          "userId": 14,
+          "requestId": 11,
+          "requestDate": "2025-08-18",
+          "status": "PENDING"
+        },
+        {
+          "isbn": null,
+          "userId": 15,
+          "requestId": 12,
+          "requestDate": "2025-08-18",
+          "status": "PENDING"
+        }
+      ]
     },
     {
       "id": 19,
       "title": "Software Engineering: A Practitioner's Approach",
       "author": "Roger S. Pressman, Bruce R. Maxim",
       "publisher": "McGraw-Hill Education",
-      "isbn": "9781260548006",
-      "status": "On Hold",
-      "requests": 6,
+      "isbn": ["1260548007", "1260548008"],
+      "status": "Available",
+      "requests": 0,
       "description": "For almost four decades, Software Engineering: A Practitioner's Approach (SEPA) has been the world's leading textbook in software engineering.",
       "keywords": [
         "software engineering",
@@ -547,18 +871,28 @@
       "department": "Software Engineering",
       "subject": "Software Engineering",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781260548006-L.jpg",
-      "location": "Shelf M8, Row 1",
       "addedDate": "2023-01-30",
-      "lastBorrowed": "2023-07-29"
+      "borrowDetails": [
+        {
+          "isbn": "1260548007",
+          "userId": 16,
+          "borrowDate": "2025-07-26",
+          "dueDate": "2025-08-09",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 6.5
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 20,
       "title": "The Mythical Man-Month: Essays on Software Engineering",
       "author": "Frederick P. Brooks Jr.",
       "publisher": "Addison-Wesley",
-      "isbn": "9780201835953",
+      "isbn": ["0201835959", "0201835960"],
       "status": "Available",
-      "requests": 4,
+      "requests": 0,
       "description": "A classic collection of essays on software engineering and project management, including the famous 'No Silver Bullet' essay.",
       "keywords": [
         "software engineering",
@@ -576,18 +910,28 @@
       "department": "Software Engineering",
       "subject": "Software Project Management",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780201835953-L.jpg",
-      "location": "Shelf N3, Row 2",
       "addedDate": "2022-12-15",
-      "lastBorrowed": "2023-07-15"
+      "borrowDetails": [
+        {
+          "isbn": "0201835959",
+          "userId": 17,
+          "borrowDate": "2025-07-27",
+          "dueDate": "2025-08-10",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 6.0
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 21,
       "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
       "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
       "publisher": "Addison-Wesley Professional",
-      "isbn": "9780201633610",
-      "status": "Reserved",
-      "requests": 9,
+      "isbn": ["0201633612", "0201633613"],
+      "status": "Available",
+      "requests": 0,
       "description": "Capturing a wealth of experience about the design of object-oriented software, four top-notch designers present a catalog of simple and succinct solutions to commonly occurring design problems.",
       "keywords": [
         "design patterns",
@@ -605,18 +949,28 @@
       "department": "Software Engineering",
       "subject": "Design Patterns",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780201633610-L.jpg",
-      "location": "Shelf O7, Row 4",
       "addedDate": "2023-03-05",
-      "lastBorrowed": "2023-08-09"
+      "borrowDetails": [
+        {
+          "isbn": "0201633612",
+          "userId": 18,
+          "borrowDate": "2025-08-05",
+          "dueDate": "2025-08-19",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 1.5
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 22,
       "title": "Refactoring: Improving the Design of Existing Code",
       "author": "Martin Fowler, Kent Beck, John Brant, William Opdyke, Don Roberts",
       "publisher": "Addison-Wesley Professional",
-      "isbn": "9780201485677",
-      "status": "On Hold",
-      "requests": 5,
+      "isbn": ["0201485672", "0201485673"],
+      "status": "Available",
+      "requests": 0,
       "description": "As the application of object technology--particularly the Java programming language--has become commonplace, a new problem has emerged to confront the software development community. Significant numbers of poorly designed programs have been created by less-experienced developers, resulting in applications that are inefficient and hard to maintain and extend.",
       "keywords": [
         "refactoring",
@@ -634,18 +988,28 @@
       "department": "Software Engineering",
       "subject": "Code Refactoring",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780201485677-L.jpg",
-      "location": "Shelf P2, Row 3",
       "addedDate": "2023-04-22",
-      "lastBorrowed": "2023-08-04"
+      "borrowDetails": [
+        {
+          "isbn": "0201485672",
+          "userId": 19,
+          "borrowDate": "2025-08-06",
+          "dueDate": "2025-08-20",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 1.0
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 23,
       "title": "The Pragmatic Programmer: Your Journey to Mastery",
       "author": "Andrew Hunt, David Thomas",
       "publisher": "Addison-Wesley Professional",
-      "isbn": "9780135957059",
-      "status": "On Hold",
-      "requests": 7,
+      "isbn": ["0135957052", "0135957053"],
+      "status": "Available",
+      "requests": 0,
       "description": "The Pragmatic Programmer is one of those rare tech books you’ll read, re-read, and read again over the years.",
       "keywords": [
         "programming",
@@ -663,18 +1027,28 @@
       "department": "Software Engineering",
       "subject": "Programming Practices",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780135957059-L.jpg",
-      "location": "Shelf Q5, Row 1",
       "addedDate": "2023-02-10",
-      "lastBorrowed": "2023-07-27"
+      "borrowDetails": [
+        {
+          "isbn": "0135957052",
+          "userId": 20,
+          "borrowDate": "2025-07-28",
+          "dueDate": "2025-08-11",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 5.5
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 24,
       "title": "Code Complete: A Practical Handbook of Software Construction",
       "author": "Steve McConnell",
       "publisher": "Microsoft Press",
-      "isbn": "9780735619678",
-      "status": "Reserved",
-      "requests": 8,
+      "isbn": ["0735619670", "0735619671"],
+      "status": "Available",
+      "requests": 0,
       "description": "Widely considered one of the best practical guides to programming, Steve McConnell’s original CODE COMPLETE has been helping developers write better software for more than a decade.",
       "keywords": [
         "software construction",
@@ -692,18 +1066,28 @@
       "department": "Software Engineering",
       "subject": "Software Construction",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780735619678-L.jpg",
-      "location": "Shelf R9, Row 2",
       "addedDate": "2023-01-05",
-      "lastBorrowed": "2023-08-08"
+      "borrowDetails": [
+        {
+          "isbn": "0735619670",
+          "userId": 21,
+          "borrowDate": "2025-08-07",
+          "dueDate": "2025-08-21",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 0.5
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 25,
       "title": "Working Effectively with Legacy Code",
       "author": "Michael C. Feathers",
       "publisher": "Prentice Hall",
-      "isbn": "9780131177055",
+      "isbn": ["0131177052", "0131177053"],
       "status": "Available",
-      "requests": 4,
+      "requests": 0,
       "description": "This book provides programmers with the ability to cost-effectively handlecommon legacy code problems without having to go through the hugelyexpensive task of rewriting all existing code.",
       "keywords": [
         "legacy code",
@@ -721,18 +1105,28 @@
       "department": "Software Engineering",
       "subject": "Legacy Code",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780131177055-L.jpg",
-      "location": "Shelf S4, Row 3",
       "addedDate": "2023-03-20",
-      "lastBorrowed": "2023-07-21"
+      "borrowDetails": [
+        {
+          "isbn": "0131177052",
+          "userId": 1,
+          "borrowDate": "2025-07-29",
+          "dueDate": "2025-08-12",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 5.0
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 26,
       "title": "The Art of Computer Programming",
       "author": "Donald E. Knuth",
       "publisher": "Addison-Wesley",
-      "isbn": "9780201896831",
-      "status": "On Hold",
-      "requests": 6,
+      "isbn": ["0201896834", "0201896835"],
+      "status": "Available",
+      "requests": 0,
       "description": "The bible of all fundamental algorithms and the work that taught many of today’s software developers most of what they know about computer programming.",
       "keywords": [
         "algorithms",
@@ -750,18 +1144,28 @@
       "department": "Computer Science",
       "subject": "Programming Algorithms",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780201896831-L.jpg",
-      "location": "Shelf T1, Row 4",
       "addedDate": "2022-10-20",
-      "lastBorrowed": "2023-07-14"
+      "borrowDetails": [
+        {
+          "isbn": "0201896834",
+          "userId": 2,
+          "borrowDate": "2025-07-30",
+          "dueDate": "2025-08-13",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 4.5
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 27,
       "title": "Introduction to Linear Algebra",
       "author": "Gilbert Strang",
       "publisher": "Wellesley-Cambridge Press",
-      "isbn": "9781733146654",
-      "status": "Reserved",
-      "requests": 10,
+      "isbn": ["1733146652", "1733146653"],
+      "status": "Available",
+      "requests": 0,
       "description": "Linear algebra is something all mathematics undergraduates and many other students, in subjects ranging from engineering to economics, have to learn. The fifth edition of this hugely successful textbook retains all the qualities of earlier editions, while at the same time seeing numerous minor improvements and major additions and revisions.",
       "keywords": [
         "linear algebra",
@@ -779,18 +1183,28 @@
       "department": "Mathematics",
       "subject": "Linear Algebra",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781733146654-L.jpg",
-      "location": "Shelf U6, Row 2",
       "addedDate": "2023-05-08",
-      "lastBorrowed": "2023-08-15"
+      "borrowDetails": [
+        {
+          "isbn": "1733146652",
+          "userId": 3,
+          "borrowDate": "2025-08-08",
+          "dueDate": "2025-08-22",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 0.0
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 28,
       "title": "Calculus: Early Transcendentals",
       "author": "James Stewart",
       "publisher": "Cengage Learning",
-      "isbn": "9781337613927",
-      "status": "On Hold",
-      "requests": 5,
+      "isbn": ["1337613924", "1337613925"],
+      "status": "Available",
+      "requests": 0,
       "description": "James Stewart’s CALCULUS: EARLY TRANSCENDENTALS texts are world-wide best-sellers for a reason: they are clear, accurate, and filled with relevant, real-world examples.",
       "keywords": [
         "calculus",
@@ -808,18 +1222,28 @@
       "department": "Mathematics",
       "subject": "Calculus",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781337613927-L.jpg",
-      "location": "Shelf V3, Row 1",
       "addedDate": "2023-04-14",
-      "lastBorrowed": "2023-08-03"
+      "borrowDetails": [
+        {
+          "isbn": "1337613924",
+          "userId": 4,
+          "borrowDate": "2025-07-31",
+          "dueDate": "2025-08-14",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 4.0
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 29,
       "title": "Probability and Statistics for Engineering and the Sciences",
       "author": "Jay L. Devore",
       "publisher": "Cengage Learning",
-      "isbn": "9781305251809",
+      "isbn": ["1305251806", "1305251807"],
       "status": "Available",
-      "requests": 3,
+      "requests": 0,
       "description": "Put statistical theories into practice with PROBABILITY AND STATISTICS FOR ENGINEERING AND THE SCIENCES, 9th Edition.",
       "keywords": [
         "probability",
@@ -837,18 +1261,28 @@
       "department": "Mathematics",
       "subject": "Probability and Statistics",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781305251809-L.jpg",
-      "location": "Shelf W8, Row 3",
       "addedDate": "2023-03-12",
-      "lastBorrowed": "2023-07-26"
+      "borrowDetails": [
+        {
+          "isbn": "1305251806",
+          "userId": 5,
+          "borrowDate": "2025-07-25",
+          "dueDate": "2025-08-08",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 7.0
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 30,
       "title": "Discrete Mathematics and Its Applications",
       "author": "Kenneth H. Rosen",
       "publisher": "McGraw-Hill Education",
-      "isbn": "9780073383095",
+      "isbn": ["0073383090", "0073383091"],
       "status": "Borrowed",
-      "requests": 7,
+      "requests": 3,
       "description": "Rosen's Discrete Mathematics and its Applications presents a precise, relevant, comprehensive approach to mathematical concepts.",
       "keywords": [
         "discrete mathematics",
@@ -866,18 +1300,59 @@
       "department": "Mathematics",
       "subject": "Discrete Mathematics",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780073383095-L.jpg",
-      "location": "Shelf X5, Row 2",
       "addedDate": "2023-02-28",
-      "lastBorrowed": "2023-08-12"
+      "borrowDetails": [
+        {
+          "isbn": "0073383090",
+          "userId": 6,
+          "borrowDate": "2025-08-09",
+          "dueDate": "2025-08-23",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 0.0
+        },
+        {
+          "isbn": "0073383091",
+          "userId": 7,
+          "borrowDate": "2025-08-10",
+          "dueDate": "2025-08-24",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 0.0
+        }
+      ],
+      "requestDetails": [
+        {
+          "isbn": null,
+          "userId": 8,
+          "requestId": 13,
+          "requestDate": "2025-08-24",
+          "status": "PENDING"
+        },
+        {
+          "isbn": null,
+          "userId": 9,
+          "requestId": 14,
+          "requestDate": "2025-08-24",
+          "status": "PENDING"
+        },
+        {
+          "isbn": null,
+          "userId": 10,
+          "requestId": 15,
+          "requestDate": "2025-08-24",
+          "status": "PENDING"
+        }
+      ]
     },
     {
       "id": 31,
       "title": "Numerical Analysis",
       "author": "Richard L. Burden, J. Douglas Faires, Annette M. Burden",
       "publisher": "Cengage Learning",
-      "isbn": "9781305253667",
+      "isbn": ["1305253663", "1305253664"],
       "status": "Available",
-      "requests": 2,
+      "requests": 0,
       "description": "This well-respected text introduces the theory and application of modern numerical approximation techniques to students taking a one- or two-semester course in numerical analysis.",
       "keywords": [
         "numerical analysis",
@@ -895,18 +1370,28 @@
       "department": "Mathematics",
       "subject": "Numerical Analysis",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781305253667-L.jpg",
-      "location": "Shelf Y7, Row 4",
       "addedDate": "2023-01-25",
-      "lastBorrowed": "2023-07-19"
+      "borrowDetails": [
+        {
+          "isbn": "1305253663",
+          "userId": 11,
+          "borrowDate": "2025-07-26",
+          "dueDate": "2025-08-09",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 6.5
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 32,
       "title": "Differential Equations and Linear Algebra",
       "author": "Stephen W. Goode, Scott A. Annin",
       "publisher": "Pearson",
-      "isbn": "9780134497181",
+      "isbn": ["013449718X", "0134497181"],
       "status": "Available",
-      "requests": 4,
+      "requests": 0,
       "description": "Differential Equations and Linear Algebra is designed for use in combined differential equations and linear algebra courses.",
       "keywords": [
         "differential equations",
@@ -924,18 +1409,28 @@
       "department": "Mathematics",
       "subject": "Differential Equations",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780134497181-L.jpg",
-      "location": "Shelf Z2, Row 1",
       "addedDate": "2023-04-30",
-      "lastBorrowed": "2023-08-01"
+      "borrowDetails": [
+        {
+          "isbn": "013449718X",
+          "userId": 12,
+          "borrowDate": "2025-07-27",
+          "dueDate": "2025-08-10",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 6.0
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 33,
       "title": "Abstract Algebra",
       "author": "David S. Dummit, Richard M. Foote",
       "publisher": "John Wiley & Sons",
-      "isbn": "9780471433347",
+      "isbn": ["0471433349", "0471433350"],
       "status": "Borrowed",
-      "requests": 3,
+      "requests": 1,
       "description": "Widely acclaimed algebra text. This book is designed to give the reader insight into the power and beauty that accrues from a rich interplay between different areas of mathematics.",
       "keywords": [
         "abstract algebra",
@@ -953,18 +1448,45 @@
       "department": "Mathematics",
       "subject": "Abstract Algebra",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780471433347-L.jpg",
-      "location": "Shelf AA4, Row 3",
       "addedDate": "2023-03-08",
-      "lastBorrowed": "2023-08-10"
+      "borrowDetails": [
+        {
+          "isbn": "0471433349",
+          "userId": 13,
+          "borrowDate": "2025-08-11",
+          "dueDate": "2025-08-25",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 0.0
+        },
+        {
+          "isbn": "0471433350",
+          "userId": 14,
+          "borrowDate": "2025-08-12",
+          "dueDate": "2025-08-26",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 0.0
+        }
+      ],
+      "requestDetails": [
+        {
+          "isbn": null,
+          "userId": 15,
+          "requestId": 16,
+          "requestDate": "2025-08-26",
+          "status": "PENDING"
+        }
+      ]
     },
     {
       "id": 34,
       "title": "Complex Analysis",
       "author": "Theodore W. Gamelin",
       "publisher": "Springer",
-      "isbn": "9780387950693",
+      "isbn": ["0387950699", "0387950700"],
       "status": "Available",
-      "requests": 2,
+      "requests": 0,
       "description": "The book provides an introduction to complex analysis for students with some familiarity with complex numbers from high school.",
       "keywords": [
         "complex analysis",
@@ -982,18 +1504,28 @@
       "department": "Mathematics",
       "subject": "Complex Analysis",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780387950693-L.jpg",
-      "location": "Shelf BB6, Row 2",
       "addedDate": "2023-02-15",
-      "lastBorrowed": "2023-07-24"
+      "borrowDetails": [
+        {
+          "isbn": "0387950699",
+          "userId": 16,
+          "borrowDate": "2025-07-28",
+          "dueDate": "2025-08-11",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 5.5
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 35,
       "title": "Real Analysis: Modern Techniques and Their Applications",
       "author": "Gerald B. Folland",
       "publisher": "John Wiley & Sons",
-      "isbn": "9780471317166",
+      "isbn": ["0471317160", "0471317161"],
       "status": "Available",
-      "requests": 3,
+      "requests": 0,
       "description": "An in-depth look at real analysis and its applications-now expanded and revised.",
       "keywords": [
         "real analysis",
@@ -1011,18 +1543,28 @@
       "department": "Mathematics",
       "subject": "Real Analysis",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780471317166-L.jpg",
-      "location": "Shelf CC8, Row 1",
       "addedDate": "2023-05-05",
-      "lastBorrowed": "2023-07-17"
+      "borrowDetails": [
+        {
+          "isbn": "0471317160",
+          "userId": 17,
+          "borrowDate": "2025-07-29",
+          "dueDate": "2025-08-12",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 5.0
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 36,
       "title": "Topology",
       "author": "James R. Munkres",
       "publisher": "Prentice Hall",
-      "isbn": "9780131816299",
+      "isbn": ["0131816292", "0131816293"],
       "status": "Borrowed",
-      "requests": 4,
+      "requests": 2,
       "description": "Topology, Second Edition provides a convenient single text resource for bridging between general and algebraic topology courses.",
       "keywords": [
         "topology",
@@ -1040,18 +1582,52 @@
       "department": "Mathematics",
       "subject": "Topology",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780131816299-L.jpg",
-      "location": "Shelf DD3, Row 4",
       "addedDate": "2023-04-08",
-      "lastBorrowed": "2023-08-09"
+      "borrowDetails": [
+        {
+          "isbn": "0131816292",
+          "userId": 18,
+          "borrowDate": "2025-08-13",
+          "dueDate": "2025-08-27",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 0.0
+        },
+        {
+          "isbn": "0131816293",
+          "userId": 19,
+          "borrowDate": "2025-08-14",
+          "dueDate": "2025-08-28",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 0.0
+        }
+      ],
+      "requestDetails": [
+        {
+          "isbn": null,
+          "userId": 20,
+          "requestId": 17,
+          "requestDate": "2025-08-28",
+          "status": "PENDING"
+        },
+        {
+          "isbn": null,
+          "userId": 21,
+          "requestId": 18,
+          "requestDate": "2025-08-28",
+          "status": "PENDING"
+        }
+      ]
     },
     {
       "id": 37,
       "title": "Partial Differential Equations: An Introduction",
       "author": "Walter A. Strauss",
       "publisher": "John Wiley & Sons",
-      "isbn": "9780470054567",
+      "isbn": ["0470054565", "0470054566"],
       "status": "Available",
-      "requests": 3,
+      "requests": 0,
       "description": "Our understanding of the fundamental processes of the natural world is based to a large extent on partial differential equations (PDEs).",
       "keywords": [
         "partial differential equations",
@@ -1069,18 +1645,28 @@
       "department": "Mathematics",
       "subject": "Partial Differential Equations",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780470054567-L.jpg",
-      "location": "Shelf EE5, Row 2",
       "addedDate": "2023-03-25",
-      "lastBorrowed": "2023-07-23"
+      "borrowDetails": [
+        {
+          "isbn": "0470054565",
+          "userId": 1,
+          "borrowDate": "2025-07-30",
+          "dueDate": "2025-08-13",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 4.5
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 38,
       "title": "Number Theory: A Lively Introduction with Proofs, Applications, and Stories",
       "author": "James Pommersheim, Tim Marks, Erica Flapan",
       "publisher": "John Wiley & Sons",
-      "isbn": "9780470424131",
+      "isbn": ["0470424133", "0470424134"],
       "status": "Available",
-      "requests": 2,
+      "requests": 0,
       "description": "Number Theory: A Lively Introduction with Proofs, Applications, and Stories, is a new book that provides a rigorous yet accessible introduction to elementary number theory along with relevant applications.",
       "keywords": [
         "number theory",
@@ -1098,18 +1684,28 @@
       "department": "Mathematics",
       "subject": "Number Theory",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780470424131-L.jpg",
-      "location": "Shelf FF7, Row 3",
       "addedDate": "2023-02-05",
-      "lastBorrowed": "2023-07-16"
+      "borrowDetails": [
+        {
+          "isbn": "0470424133",
+          "userId": 2,
+          "borrowDate": "2025-07-31",
+          "dueDate": "2025-08-14",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 4.0
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 39,
       "title": "Graph Theory",
       "author": "Reinhard Diestel",
       "publisher": "Springer",
-      "isbn": "9783662536216",
+      "isbn": ["3662536218", "3662536219"],
       "status": "Borrowed",
-      "requests": 5,
+      "requests": 3,
       "description": "This standard textbook of modern graph theory, now in its fifth edition, combines the authority of a classic with the engaging freshness of style that is the hallmark of active mathematics.",
       "keywords": [
         "graph theory",
@@ -1127,18 +1723,59 @@
       "department": "Mathematics",
       "subject": "Graph Theory",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9783662536216-L.jpg",
-      "location": "Shelf GG9, Row 1",
       "addedDate": "2023-05-15",
-      "lastBorrowed": "2023-08-11"
+      "borrowDetails": [
+        {
+          "isbn": "3662536218",
+          "userId": 3,
+          "borrowDate": "2025-08-15",
+          "dueDate": "2025-08-29",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 0.0
+        },
+        {
+          "isbn": "3662536219",
+          "userId": 4,
+          "borrowDate": "2025-08-16",
+          "dueDate": "2025-08-30",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 0.0
+        }
+      ],
+      "requestDetails": [
+        {
+          "isbn": null,
+          "userId": 5,
+          "requestId": 19,
+          "requestDate": "2025-08-30",
+          "status": "PENDING"
+        },
+        {
+          "isbn": null,
+          "userId": 6,
+          "requestId": 20,
+          "requestDate": "2025-08-30",
+          "status": "PENDING"
+        },
+        {
+          "isbn": null,
+          "userId": 7,
+          "requestId": 21,
+          "requestDate": "2025-08-30",
+          "status": "PENDING"
+        }
+      ]
     },
     {
       "id": 40,
       "title": "Mathematical Statistics with Applications",
       "author": "Dennis D. Wackerly, William Mendenhall, Richard L. Scheaffer",
       "publisher": "Cengage Learning",
-      "isbn": "9780495110811",
+      "isbn": ["0495110817", "0495110818"],
       "status": "Available",
-      "requests": 4,
+      "requests": 0,
       "description": "In their bestselling MATHEMATICAL STATISTICS WITH APPLICATIONS, premiere authors Dennis Wackerly, William Mendenhall, and Richard L. Scheaffer present a solid foundation in statistical theory while conveying the relevance and importance of the theory in solving practical problems in the real world.",
       "keywords": [
         "mathematical statistics",
@@ -1156,299 +1793,481 @@
       "department": "Mathematics",
       "subject": "Mathematical Statistics",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780495110811-L.jpg",
-      "location": "Shelf HH4, Row 2",
       "addedDate": "2023-04-12",
-      "lastBorrowed": "2023-08-02"
+      "borrowDetails": [
+        {
+          "isbn": "0495110817",
+          "userId": 8,
+          "borrowDate": "2025-08-01",
+          "dueDate": "2025-08-15",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 3.5
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 41,
-      "title": "Electric Circuits",
-      "author": "James W. Nilsson, Susan Riedel",
-      "publisher": "Pearson",
-      "isbn": "9780134746968",
+      "title": "Introduction to Probability Models",
+      "author": "Sheldon M. Ross",
+      "publisher": "Academic Press",
+      "isbn": ["0128143460", "0128143461"],
       "status": "Available",
-      "requests": 3,
-      "description": "Electric Circuits, Eleventh Edition, is designed for a one- to -three term course in electric circuits or linear circuit analysis.",
+      "requests": 0,
+      "description": "Introduction to Probability Models, Twelfth Edition, is the latest version of Sheldon Ross's classic bestseller.",
       "keywords": [
-        "electric circuits",
-        "electrical engineering",
-        "circuit analysis",
-        "AC/DC",
-        "Laplace transforms"
+        "probability",
+        "stochastic processes",
+        "Markov chains",
+        "queueing theory",
+        "simulation"
       ],
-      "edition": "11th",
+      "edition": "12th",
       "series": null,
       "language": "English",
-      "pageCount": 816,
-      "publicationDate": "2018-01-15",
-      "callNumber": "TK454 .N55 2018",
-      "department": "Electrical Engineering",
-      "subject": "Electric Circuits",
-      "thumbnail": "https://covers.openlibrary.org/b/isbn/9780134746968-L.jpg",
-      "location": "Shelf II6, Row 3",
+      "pageCount": 842,
+      "publicationDate": "2019-03-09",
+      "callNumber": "QA273 .R67 2019",
+      "department": "Mathematics",
+      "subject": "Probability",
+      "thumbnail": "https://covers.openlibrary.org/b/isbn/9780128143469-L.jpg",
       "addedDate": "2023-03-18",
-      "lastBorrowed": "2023-07-28"
+      "borrowDetails": [
+        {
+          "isbn": "0128143460",
+          "userId": 9,
+          "borrowDate": "2025-08-02",
+          "dueDate": "2025-08-16",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 3.0
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 42,
-      "title": "Fundamentals of Electric Power Engineering",
-      "author": "Isaak D. Mayergoyz, Patrick McAvoy",
-      "publisher": "World Scientific Publishing Company",
-      "isbn": "9789814616591",
-      "status": "Borrowed",
-      "requests": 2,
-      "description": "Electric power engineering has always been an integral part of electrical engineering education. Providing a unique alternative to existing books on the market, this text presents a concise and rigorous exposition of the main fundamentals of electric power engineering.",
-      "keywords": [
-        "electric power",
-        "power systems",
-        "electrical engineering",
-        "power generation",
-        "transmission"
-      ],
-      "edition": "1st",
-      "series": null,
-      "language": "English",
-      "pageCount": 512,
-      "publicationDate": "2014-11-13",
-      "callNumber": "TK1001 .M39 2014",
-      "department": "Electrical Engineering",
-      "subject": "Power Systems",
-      "thumbnail": "https://covers.openlibrary.org/b/isbn/9789814616591-L.jpg",
-      "location": "Shelf JJ8, Row 1",
-      "addedDate": "2023-02-22",
-      "lastBorrowed": "2023-08-13"
-    },
-    {
-      "id": 43,
-      "title": "Digital Design and Computer Architecture",
-      "author": "David Money Harris, Sarah L. Harris",
-      "publisher": "Morgan Kaufmann",
-      "isbn": "9780128200643",
-      "status": "On Hold",
-      "requests": 6,
-      "description": "Digital Design and Computer Architecture, Third Edition, remains the first choice for anyone who needs to know how modern processors work and how to design a processor.",
-      "keywords": [
-        "digital design",
-        "computer architecture",
-        "VHDL",
-        "Verilog",
-        "hardware design"
-      ],
-      "edition": "2nd",
-      "series": null,
-      "language": "English",
-      "pageCount": 722,
-      "publicationDate": "2012-07-24",
-      "callNumber": "TK7888.4 .H37 2012",
-      "department": "Electrical Engineering",
-      "subject": "Digital Design",
-      "thumbnail": "https://covers.openlibrary.org/b/isbn/9780128200643-L.jpg",
-      "location": "Shelf KK2, Row 4",
-      "addedDate": "2023-05-10",
-      "lastBorrowed": "2023-08-05"
-    },
-    {
-      "id": 44,
       "title": "Signals and Systems",
-      "author": "Alan V. Oppenheim, Alan S. Willsky, with S. Hamid Nawab",
-      "publisher": "Prentice Hall",
-      "isbn": "9780138147570",
-      "status": "Available",
-      "requests": 4,
+      "author": "Alan V. Oppenheim, Alan S. Willsky, S. Hamid Nawab",
+      "publisher": "Pearson",
+      "isbn": ["0138147574", "0138147575"],
+      "status": "Borrowed",
+      "requests": 1,
       "description": "This authoritative book, highly regarded for its intellectual quality and contributions provides a solid foundation and life-long reference for anyone studying the most important methods of modern signal and system analysis.",
       "keywords": [
         "signals and systems",
         "signal processing",
-        "Fourier analysis",
-        "filter design",
-        "communication systems"
+        "Fourier transform",
+        "control systems",
+        "electrical engineering"
       ],
       "edition": "2nd",
       "series": null,
       "language": "English",
       "pageCount": 957,
-      "publicationDate": "1996-08-06",
-      "callNumber": "TK5102.5 .O64 1996",
+      "publicationDate": "1996-08-16",
+      "callNumber": "TK5102.9 .O67 1996",
       "department": "Electrical Engineering",
       "subject": "Signals and Systems",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780138147570-L.jpg",
-      "location": "Shelf LL5, Row 2",
-      "addedDate": "2023-04-05",
-      "lastBorrowed": "2023-07-20"
+      "addedDate": "2023-04-25",
+      "borrowDetails": [
+        {
+          "isbn": "0138147574",
+          "userId": 10,
+          "borrowDate": "2025-08-11",
+          "dueDate": "2025-08-25",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 0.0
+        },
+        {
+          "isbn": "0138147575",
+          "userId": 11,
+          "borrowDate": "2025-08-12",
+          "dueDate": "2025-08-26",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 0.0
+        }
+      ],
+      "requestDetails": [
+        {
+          "isbn": null,
+          "userId": 12,
+          "requestId": 22,
+          "requestDate": "2025-08-26",
+          "status": "PENDING"
+        }
+      ]
     },
     {
-      "id": 45,
+      "id": 43,
+      "title": "Digital Signal Processing",
+      "author": "John G. Proakis, Dimitris G. Manolakis",
+      "publisher": "Pearson",
+      "isbn": ["0131873741", "0131873742"],
+      "status": "Available",
+      "requests": 0,
+      "description": "A significant revision of a best-selling text for the introductory digital signal processing course.",
+      "keywords": [
+        "digital signal processing",
+        "DSP",
+        "signal analysis",
+        "filter design",
+        "electrical engineering"
+      ],
+      "edition": "4th",
+      "series": null,
+      "language": "English",
+      "pageCount": 1004,
+      "publicationDate": "2006-03-28",
+      "callNumber": "TK5102.9 .P76 2006",
+      "department": "Electrical Engineering",
+      "subject": "Digital Signal Processing",
+      "thumbnail": "https://covers.openlibrary.org/b/isbn/9780131873742-L.jpg",
+      "addedDate": "2023-03-10",
+      "borrowDetails": [
+        {
+          "isbn": "0131873741",
+          "userId": 13,
+          "borrowDate": "2025-07-25",
+          "dueDate": "2025-08-08",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 7.0
+        }
+      ],
+      "requestDetails": []
+    },
+    {
+      "id": 44,
       "title": "Microelectronic Circuits",
       "author": "Adel S. Sedra, Kenneth C. Smith",
       "publisher": "Oxford University Press",
-      "isbn": "9780190853464",
-      "status": "Borrowed",
-      "requests": 7,
+      "isbn": ["0190853468", "0190853469"],
+      "status": "Available",
+      "requests": 0,
       "description": "Microelectronic Circuits by Sedra and Smith has served generations of electrical and computer engineering students as the best and most widely-used text for this required course.",
       "keywords": [
         "microelectronics",
-        "semiconductor devices",
-        "analog circuits",
-        "digital circuits",
-        "IC design"
+        "circuits",
+        "electronics",
+        "amplifiers",
+        "semiconductors"
       ],
       "edition": "8th",
-      "series": "The Oxford Series in Electrical and Computer Engineering",
+      "series": null,
       "language": "English",
-      "pageCount": 1392,
+      "pageCount": 1296,
       "publicationDate": "2019-11-15",
-      "callNumber": "TK7874 .S39 2019",
+      "callNumber": "TK7867 .S43 2019",
       "department": "Electrical Engineering",
       "subject": "Microelectronics",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780190853464-L.jpg",
-      "location": "Shelf MM7, Row 3",
-      "addedDate": "2023-03-30",
-      "lastBorrowed": "2023-08-14"
+      "addedDate": "2023-05-01",
+      "borrowDetails": [
+        {
+          "isbn": "0190853468",
+          "userId": 14,
+          "borrowDate": "2025-07-26",
+          "dueDate": "2025-08-09",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 6.5
+        }
+      ],
+      "requestDetails": []
+    },
+    {
+      "id": 45,
+      "title": "Electric Circuits",
+      "author": "James W. Nilsson, Susan Riedel",
+      "publisher": "Pearson",
+      "isbn": ["0134746961", "0134746962"],
+      "status": "Borrowed",
+      "requests": 2,
+      "description": "Electric Circuits, Eleventh Edition, is designed for a first course in circuits, typically taken by electrical and computer engineering majors.",
+      "keywords": [
+        "electric circuits",
+        "circuit analysis",
+        "electronics",
+        "electrical engineering",
+        "circuits"
+      ],
+      "edition": "11th",
+      "series": null,
+      "language": "English",
+      "pageCount": 816,
+      "publicationDate": "2018-01-09",
+      "callNumber": "TK454 .N55 2018",
+      "department": "Electrical Engineering",
+      "subject": "Circuit Analysis",
+      "thumbnail": "https://covers.openlibrary.org/b/isbn/9780134746968-L.jpg",
+      "addedDate": "2023-02-20",
+      "borrowDetails": [
+        {
+          "isbn": "0134746961",
+          "userId": 15,
+          "borrowDate": "2025-08-13",
+          "dueDate": "2025-08-27",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 0.0
+        },
+        {
+          "isbn": "0134746962",
+          "userId": 16,
+          "borrowDate": "2025-08-14",
+          "dueDate": "2025-08-28",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 0.0
+        }
+      ],
+      "requestDetails": [
+        {
+          "isbn": null,
+          "userId": 17,
+          "requestId": 23,
+          "requestDate": "2025-08-28",
+          "status": "PENDING"
+        },
+        {
+          "isbn": null,
+          "userId": 18,
+          "requestId": 24,
+          "requestDate": "2025-08-28",
+          "status": "PENDING"
+        }
+      ]
     },
     {
       "id": 46,
-      "title": "Electromagnetic Field Theory Fundamentals",
-      "author": "Bhag Singh Guru, Hüseyin R. Hiziroglu",
-      "publisher": "Cambridge University Press",
-      "isbn": "9780521830164",
+      "title": "Electromagnetic Fields and Waves",
+      "author": "Magdy F. Iskander",
+      "publisher": "Waveland Press",
+      "isbn": ["1577667832", "1577667833"],
       "status": "Available",
-      "requests": 3,
-      "description": "Guru and Hiziroglu have produced an accessible and user-friendly text on electromagnetics that will appeal to both students and professors teaching this course.",
+      "requests": 0,
+      "description": "The latest edition of Electromagnetic Fields and Waves retains an authoritative, balanced approach, in-depth coverage, extensive analysis, and use of computational techniques to provide a complete understanding of electromagnetic fields and waves.",
       "keywords": [
-        "electromagnetic theory",
+        "electromagnetic fields",
+        "electromagnetic waves",
         "Maxwell's equations",
-        "field theory",
-        "wave propagation",
-        "antenna theory"
+        "electrical engineering",
+        "antennas"
       ],
-      "edition": "2nd",
+      "edition": "3rd",
       "series": null,
       "language": "English",
-      "pageCount": 696,
-      "publicationDate": "2004-07-22",
-      "callNumber": "QC670 .G87 2004",
+      "pageCount": 824,
+      "publicationDate": "2013-05-01",
+      "callNumber": "QC665.E4 I85 2013",
       "department": "Electrical Engineering",
-      "subject": "Electromagnetic Theory",
-      "thumbnail": "https://covers.openlibrary.org/b/isbn/9780521830164-L.jpg",
-      "location": "Shelf NN9, Row 1",
-      "addedDate": "2023-02-12",
-      "lastBorrowed": "2023-07-25"
+      "subject": "Electromagnetics",
+      "thumbnail": "https://covers.openlibrary.org/b/isbn/9781577667834-L.jpg",
+      "addedDate": "2023-04-15",
+      "borrowDetails": [
+        {
+          "isbn": "1577667832",
+          "userId": 19,
+          "borrowDate": "2025-07-27",
+          "dueDate": "2025-08-10",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 6.0
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 47,
       "title": "Control Systems Engineering",
       "author": "Norman S. Nise",
       "publisher": "John Wiley & Sons",
-      "isbn": "9781119721406",
-      "status": "On Hold",
-      "requests": 5,
+      "isbn": ["1119474213", "1119474214"],
+      "status": "Available",
+      "requests": 0,
       "description": "Highly regarded for its accessibility and focus on practical applications, Control Systems Engineering offers students a comprehensive introduction to the design and analysis of feedback systems that support modern technology.",
       "keywords": [
         "control systems",
-        "feedback control",
-        "system modeling",
-        "PID control",
-        "stability analysis"
+        "feedback systems",
+        "control theory",
+        "electrical engineering",
+        "automation"
       ],
       "edition": "8th",
       "series": null,
       "language": "English",
-      "pageCount": 992,
-      "publicationDate": "2020-12-14",
-      "callNumber": "TJ213 .N57 2020",
+      "pageCount": 800,
+      "publicationDate": "2019-02-19",
+      "callNumber": "TJ213 .N57 2019",
       "department": "Electrical Engineering",
       "subject": "Control Systems",
-      "thumbnail": "https://covers.openlibrary.org/b/isbn/9781119721406-L.jpg",
-      "location": "Shelf OO4, Row 2",
-      "addedDate": "2023-05-18",
-      "lastBorrowed": "2023-08-04"
+      "thumbnail": "https://covers.openlibrary.org/b/isbn/9781119474210-L.jpg",
+      "addedDate": "2023-03-30",
+      "borrowDetails": [
+        {
+          "isbn": "1119474213",
+          "userId": 20,
+          "borrowDate": "2025-07-28",
+          "dueDate": "2025-08-11",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 5.5
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 48,
-      "title": "Communication Systems",
-      "author": "Simon Haykin, Michael Moher",
-      "publisher": "John Wiley & Sons",
-      "isbn": "9780471697909",
+      "title": "Introduction to Robotics: Mechanics and Control",
+      "author": "John J. Craig",
+      "publisher": "Pearson",
+      "isbn": ["0133489795", "0133489796"],
       "status": "Borrowed",
-      "requests": 4,
-      "description": "This best-selling communication systems text continues to include the most comprehensive and rigorous coverage of digital communications in an undergraduate level text in this Fifth Edition.",
-      "keywords": [
-        "communication systems",
-        "modulation",
-        "information theory",
-        "noise",
-        "wireless communication"
-      ],
-      "edition": "5th",
-      "series": null,
-      "language": "English",
-      "pageCount": 440,
-      "publicationDate": "2009-03-16",
-      "callNumber": "TK5101 .H38 2009",
-      "department": "Electrical Engineering",
-      "subject": "Communication Systems",
-      "thumbnail": "https://covers.openlibrary.org/b/isbn/9780471697909-L.jpg",
-      "location": "Shelf PP6, Row 3",
-      "addedDate": "2023-04-25",
-      "lastBorrowed": "2023-08-12"
-    },
-    {
-      "id": 49,
-      "title": "Power Electronics: Converters, Applications, and Design",
-      "author": "Ned Mohan, Tore M. Undeland, William P. Robbins",
-      "publisher": "John Wiley & Sons",
-      "isbn": "9780471226932",
-      "status": "Available",
       "requests": 3,
-      "description": "Offering step-by-step, in-depth coverage, the new Third Edition of Power Electronics: Converters, Applications, and Design provides a cohesive presentation of power electronics fundamentals for applications and design in the power range of 500 kW or less.",
+      "description": "Now in its fourth edition, Introduction to Robotics by John J. Craig provides readers with real-world practicality with underlying theory presented.",
       "keywords": [
-        "power electronics",
-        "converters",
-        "power semiconductor devices",
-        "motor drives",
-        "power supplies"
-      ],
-      "edition": "3rd",
-      "series": null,
-      "language": "English",
-      "pageCount": 824,
-      "publicationDate": "2002-10-10",
-      "callNumber": "TK7881.15 .M64 2002",
-      "department": "Electrical Engineering",
-      "subject": "Power Electronics",
-      "thumbnail": "https://covers.openlibrary.org/b/isbn/9780471226932-L.jpg",
-      "location": "Shelf QQ8, Row 1",
-      "addedDate": "2023-03-15",
-      "lastBorrowed": "2023-07-19"
-    },
-    {
-      "id": 50,
-      "title": "Antenna Theory: Analysis and Design",
-      "author": "Constantine A. Balanis",
-      "publisher": "John Wiley & Sons",
-      "isbn": "9781118642061",
-      "status": "Available",
-      "requests": 2,
-      "description": "Updated with color and gray scale illustrations, a companion website housing supplementary material, and new sections covering recent developments in antenna analysis and design.",
-      "keywords": [
-        "antenna theory",
-        "electromagnetics",
-        "radiation",
-        "antenna design",
-        "wireless communication"
+        "robotics",
+        "mechanics",
+        "control systems",
+        "kinematics",
+        "automation"
       ],
       "edition": "4th",
       "series": null,
       "language": "English",
-      "pageCount": 1104,
-      "publicationDate": "2016-02-01",
-      "callNumber": "TK7871.6 .B35 2016",
-      "department": "Electrical Engineering",
-      "subject": "Antenna Theory",
-      "thumbnail": "https://covers.openlibrary.org/b/isbn/9781118642061-L.jpg",
-      "location": "Shelf RR2, Row 4",
-      "addedDate": "2023-05-22",
-      "lastBorrowed": "2023-08-01"
+      "pageCount": 448,
+      "publicationDate": "2017-02-23",
+      "callNumber": "TJ211 .C73 2017",
+      "department": "Robotics",
+      "subject": "Robotics",
+      "thumbnail": "https://covers.openlibrary.org/b/isbn/9780133489798-L.jpg",
+      "addedDate": "2023-05-10",
+      "borrowDetails": [
+        {
+          "isbn": "0133489795",
+          "userId": 21,
+          "borrowDate": "2025-08-15",
+          "dueDate": "2025-08-29",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 0.0
+        },
+        {
+          "isbn": "0133489796",
+          "userId": 1,
+          "borrowDate": "2025-08-16",
+          "dueDate": "2025-08-30",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 0.0
+        }
+      ],
+      "requestDetails": [
+        {
+          "isbn": null,
+          "userId": 2,
+          "requestId": 25,
+          "requestDate": "2025-08-30",
+          "status": "PENDING"
+        },
+        {
+          "isbn": null,
+          "userId": 3,
+          "requestId": 26,
+          "requestDate": "2025-08-30",
+          "status": "PENDING"
+        },
+        {
+          "isbn": null,
+          "userId": 4,
+          "requestId": 27,
+          "requestDate": "2025-08-30",
+          "status": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Introduction to Automata Theory, Languages, and Computation",
+      "author": "John E. Hopcroft, Rajeev Motwani, Jeffrey D. Ullman",
+      "publisher": "Pearson",
+      "isbn": ["0321455363", "0321455364"],
+      "status": "Available",
+      "requests": 0,
+      "description": "This classic book on formal languages, automata theory, and computational complexity has been updated to present theoretical concepts in a concise and straightforward manner with the increase of hands-on, practical applications.",
+      "keywords": [
+        "automata theory",
+        "formal languages",
+        "computational complexity",
+        "Turing machines",
+        "computer science"
+      ],
+      "edition": "3rd",
+      "series": null,
+      "language": "English",
+      "pageCount": 560,
+      "publicationDate": "2006-07-05",
+      "callNumber": "QA267 .H56 2006",
+      "department": "Computer Science",
+      "subject": "Automata Theory",
+      "thumbnail": "https://covers.openlibrary.org/b/isbn/9780321455369-L.jpg",
+      "addedDate": "2023-04-18",
+      "borrowDetails": [
+        {
+          "isbn": "0321455363",
+          "userId": 5,
+          "borrowDate": "2025-07-29",
+          "dueDate": "2025-08-12",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 5.0
+        }
+      ],
+      "requestDetails": []
+    },
+    {
+      "id": 50,
+      "title": "Pattern Recognition and Machine Learning",
+      "author": "Christopher M. Bishop",
+      "publisher": "Springer",
+      "isbn": ["0387310738", "0387310739"],
+      "status": "Available",
+      "requests": 0,
+      "description": "This is the first textbook on pattern recognition to present the Bayesian viewpoint. The book presents approximate inference algorithms that permit fast approximate answers in situations where exact answers are not feasible.",
+      "keywords": [
+        "pattern recognition",
+        "machine learning",
+        "Bayesian inference",
+        "neural networks",
+        "data science"
+      ],
+      "edition": "1st",
+      "series": "Information Science and Statistics",
+      "language": "English",
+      "pageCount": 738,
+      "publicationDate": "2006-08-17",
+      "callNumber": "Q327 .B52 2006",
+      "department": "Computer Science",
+      "subject": "Pattern Recognition",
+      "thumbnail": "https://covers.openlibrary.org/b/isbn/9780387310732-L.jpg",
+      "addedDate": "2023-03-15",
+      "borrowDetails": [
+        {
+          "isbn": "0387310738",
+          "userId": 6,
+          "borrowDate": "2025-07-30",
+          "dueDate": "2025-08-13",
+          "returnDate": null,
+          "fineRate": 0.5,
+          "fineDue": 4.5
+        }
+      ],
+      "requestDetails": []
     }
   ],
   "members": [
@@ -1457,10 +2276,10 @@
       "name": "Andrew Kazantzis",
       "email": "Andrew.Kazantzis@example.com",
       "phone": "9876543210",
-      "lastVisited": "2022-12-13",
+      "lastVisited": "2025-08-30",
       "department": "CSE",
       "year": "1st",
-      "fineDue": 3.5,
+      "fineDue": 13.0,
       "status": "ACD MEMBER",
       "faculty": "SEG",
       "subFaculty": "Sportch",
@@ -1472,10 +2291,10 @@
       "name": "Sophie Martinez",
       "email": "Sophie.Martinez@example.com",
       "phone": "9123456789",
-      "lastVisited": "2023-01-15",
+      "lastVisited": "2025-08-30",
       "department": "ECE",
       "year": "2nd",
-      "fineDue": 1.5,
+      "fineDue": 12.5,
       "status": "ACD MEMBER",
       "faculty": "ENG",
       "subFaculty": "TechClub",
@@ -1487,10 +2306,10 @@
       "name": "Liam Thompson",
       "email": "Liam.Thompson@example.com",
       "phone": "9234567890",
-      "lastVisited": "2023-02-20",
+      "lastVisited": "2025-08-30",
       "department": "ME",
       "year": "3rd",
-      "fineDue": 0,
+      "fineDue": 4.5,
       "status": "ACTIVE",
       "faculty": "ENG",
       "subFaculty": "Robotics",
@@ -1502,10 +2321,10 @@
       "name": "Emma Wilson",
       "email": "Emma.Wilson@example.com",
       "phone": "9345678901",
-      "lastVisited": "2023-03-10",
+      "lastVisited": "2025-08-30",
       "department": "IT",
       "year": "4th",
-      "fineDue": 25,
+      "fineDue": 6.5,
       "status": "ACD MEMBER",
       "faculty": "SEG",
       "subFaculty": "Coding",
@@ -1517,10 +2336,10 @@
       "name": "James Lee",
       "email": "James.Lee@example.com",
       "phone": "9456789012",
-      "lastVisited": "2023-04-05",
+      "lastVisited": "2025-08-30",
       "department": "CSE",
       "year": "2nd",
-      "fineDue": 10,
+      "fineDue": 12.0,
       "status": "ACTIVE",
       "faculty": "SEG",
       "subFaculty": "AIClub",
@@ -1532,10 +2351,10 @@
       "name": "Olivia Brown",
       "email": "Olivia.Brown@example.com",
       "phone": "9567890123",
-      "lastVisited": "2023-05-12",
+      "lastVisited": "2025-08-30",
       "department": "ECE",
       "year": "3rd",
-      "fineDue": 30,
+      "fineDue": 2.5,
       "status": "ACD MEMBER",
       "faculty": "ENG",
       "subFaculty": "Electronics",
@@ -1547,10 +2366,10 @@
       "name": "Noah Davis",
       "email": "Noah.Davis@example.com",
       "phone": "9678901234",
-      "lastVisited": "2023-06-18",
+      "lastVisited": "2025-08-30",
       "department": "ME",
       "year": "1st",
-      "fineDue": 5,
+      "fineDue": 1.5,
       "status": "ACTIVE",
       "faculty": "ENG",
       "subFaculty": "Mechanics",
@@ -1562,10 +2381,10 @@
       "name": "Isabella Garcia",
       "email": "Isabella.Garcia@example.com",
       "phone": "9789012345",
-      "lastVisited": "2023-07-22",
+      "lastVisited": "2025-08-24",
       "department": "IT",
       "year": "4th",
-      "fineDue": 20,
+      "fineDue": 3.5,
       "status": "ACD MEMBER",
       "faculty": "SEG",
       "subFaculty": "CyberSec",
@@ -1577,10 +2396,10 @@
       "name": "Mason Rodriguez",
       "email": "Mason.Rodriguez@example.com",
       "phone": "9890123456",
-      "lastVisited": "2023-08-30",
+      "lastVisited": "2025-08-24",
       "department": "CSE",
       "year": "2nd",
-      "fineDue": 0,
+      "fineDue": 3.0,
       "status": "ACTIVE",
       "faculty": "SEG",
       "subFaculty": "DataScience",
@@ -1592,10 +2411,10 @@
       "name": "Ava Martinez",
       "email": "Ava.Martinez@example.com",
       "phone": "9901234567",
-      "lastVisited": "2023-09-15",
+      "lastVisited": "2025-08-24",
       "department": "ECE",
       "year": "3rd",
-      "fineDue": 15,
+      "fineDue": 10.0,
       "status": "ACD MEMBER",
       "faculty": "ENG",
       "subFaculty": "Circuits",
@@ -1607,10 +2426,10 @@
       "name": "William Hernandez",
       "email": "William.Hernandez@example.com",
       "phone": "9012345678",
-      "lastVisited": "2023-10-10",
+      "lastVisited": "2025-08-26",
       "department": "ME",
       "year": "1st",
-      "fineDue": 35,
+      "fineDue": 8.5,
       "status": "ACD MEMBER",
       "faculty": "ENG",
       "subFaculty": "AutoClub",
@@ -1622,10 +2441,10 @@
       "name": "Mia Lopez",
       "email": "Mia.Lopez@example.com",
       "phone": "9123456780",
-      "lastVisited": "2023-11-05",
+      "lastVisited": "2025-08-26",
       "department": "IT",
       "year": "4th",
-      "fineDue": 0,
+      "fineDue": 8.5,
       "status": "ACTIVE",
       "faculty": "SEG",
       "subFaculty": "WebDev",
@@ -1637,10 +2456,10 @@
       "name": "Ethan Walker",
       "email": "Ethan.Walker@example.com",
       "phone": "9234567891",
-      "lastVisited": "2023-12-12",
+      "lastVisited": "2025-08-18",
       "department": "CSE",
       "year": "2nd",
-      "fineDue": 25,
+      "fineDue": 7.5,
       "status": "ACD MEMBER",
       "faculty": "SEG",
       "subFaculty": "MLClub",
@@ -1652,10 +2471,10 @@
       "name": "Charlotte Young",
       "email": "Charlotte.Young@example.com",
       "phone": "9345678902",
-      "lastVisited": "2024-01-20",
+      "lastVisited": "2025-08-18",
       "department": "ECE",
       "year": "3rd",
-      "fineDue": 10,
+      "fineDue": 0.0,
       "status": "ACTIVE",
       "faculty": "ENG",
       "subFaculty": "Signals",
@@ -1667,10 +2486,10 @@
       "name": "Alexander King",
       "email": "Alexander.King@example.com",
       "phone": "9456789013",
-      "lastVisited": "2024-02-25",
+      "lastVisited": "2025-08-18",
       "department": "ME",
       "year": "1st",
-      "fineDue": 5,
+      "fineDue": 0.0,
       "status": "ACD MEMBER",
       "faculty": "ENG",
       "subFaculty": "Design",
@@ -1682,10 +2501,10 @@
       "name": "Amelia Wright",
       "email": "Amelia.Wright@example.com",
       "phone": "9567890124",
-      "lastVisited": "2024-03-15",
+      "lastVisited": "2025-08-28",
       "department": "IT",
       "year": "4th",
-      "fineDue": 20,
+      "fineDue": 6.5,
       "status": "ACTIVE",
       "faculty": "SEG",
       "subFaculty": "AppDev",
@@ -1697,10 +2516,10 @@
       "name": "Benjamin Scott",
       "email": "Benjamin.Scott@example.com",
       "phone": "9678901235",
-      "lastVisited": "2024-04-10",
+      "lastVisited": "2025-08-28",
       "department": "CSE",
       "year": "2nd",
-      "fineDue": 0,
+      "fineDue": 11.0,
       "status": "ACTIVE",
       "faculty": "SEG",
       "subFaculty": "Blockchain",
@@ -1712,10 +2531,10 @@
       "name": "Harper Adams",
       "email": "Harper.Adams@example.com",
       "phone": "9789012346",
-      "lastVisited": "2024-05-20",
+      "lastVisited": "2025-08-28",
       "department": "ECE",
       "year": "3rd",
-      "fineDue": 15,
+      "fineDue": 5.5,
       "status": "ACD MEMBER",
       "faculty": "ENG",
       "subFaculty": "CommSys",
@@ -1727,10 +2546,10 @@
       "name": "Elijah Baker",
       "email": "Elijah.Baker@example.com",
       "phone": "9890123457",
-      "lastVisited": "2024-06-25",
+      "lastVisited": "2025-08-28",
       "department": "ME",
       "year": "1st",
-      "fineDue": 30,
+      "fineDue": 11.0,
       "status": "ACD MEMBER",
       "faculty": "ENG",
       "subFaculty": "Energy",
@@ -1742,10 +2561,10 @@
       "name": "Abigail Clark",
       "email": "Abigail.Clark@example.com",
       "phone": "9901234568",
-      "lastVisited": "2024-07-30",
+      "lastVisited": "2025-08-28",
       "department": "IT",
       "year": "4th",
-      "fineDue": 0,
+      "fineDue": 5.5,
       "status": "ACTIVE",
       "faculty": "SEG",
       "subFaculty": "Cloud",
@@ -1757,133 +2576,15 @@
       "name": "John Smith",
       "email": "John.Smith@example.com",
       "phone": "9012345678",
-      "lastVisited": "2025-08-20",
+      "lastVisited": "2025-08-30",
       "department": "ADMIN",
       "role": "Administrator",
-      "fineDue": 0,
+      "fineDue": 0.5,
       "status": "ACTIVE",
       "faculty": "MANAGEMENT",
       "subFaculty": "Operations",
       "membershipType": "admin",
       "userImage": "https://randomuser.me/api/portraits/men/21.jpg"
-    }
-  ],
-  "overdueBooks": [
-    {
-      "id": 1,
-      "userId": 1,
-      "bookId": 1,
-      "borrowDate": "2025-08-01",
-      "dueDate": "2025-08-15",
-      "returnDate": null,
-      "fine": 3.5
-    },
-    {
-      "id": 2,
-      "userId": 2,
-      "bookId": 3,
-      "borrowDate": "2025-08-05",
-      "dueDate": "2025-08-19",
-      "returnDate": null,
-      "fine": 1.5
-    }
-  ],
-  "requestedBooks": [
-    {
-      "id": 1,
-      "userId": 6,
-      "bookId": 2,
-      "requestDate": "2025-08-15",
-      "status": "PENDING"
-    },
-    {
-      "id": 2,
-      "userId": 7,
-      "bookId": 5,
-      "requestDate": "2025-08-16",
-      "status": "PENDING"
-    },
-    {
-      "id": 3,
-      "userId": 8,
-      "bookId": 14,
-      "requestDate": "2025-08-17",
-      "status": "PENDING"
-    },
-    {
-      "id": 4,
-      "userId": 9,
-      "bookId": 15,
-      "requestDate": "2025-08-18",
-      "status": "PENDING"
-    },
-    {
-      "id": 5,
-      "userId": 10,
-      "bookId": 19,
-      "requestDate": "2025-08-19",
-      "status": "PENDING"
-    },
-    {
-      "id": 6,
-      "userId": 11,
-      "bookId": 21,
-      "requestDate": "2025-08-20",
-      "status": "PENDING"
-    },
-    {
-      "id": 7,
-      "userId": 12,
-      "bookId": 22,
-      "requestDate": "2025-08-21",
-      "status": "PENDING"
-    }
-  ],
-  "borrowedBooks": [
-    {
-      "id": 3,
-      "userId": 3,
-      "bookId": 8,
-      "borrowDate": "2025-08-10",
-      "dueDate": "2025-08-24",
-      "returnDate": null,
-      "fine": 0
-    },
-    {
-      "id": 4,
-      "userId": 4,
-      "bookId": 12,
-      "borrowDate": "2025-08-12",
-      "dueDate": "2025-08-26",
-      "returnDate": null,
-      "fine": 0
-    },
-    {
-      "id": 5,
-      "userId": 5,
-      "bookId": 18,
-      "borrowDate": "2025-08-15",
-      "dueDate": "2025-08-29",
-      "returnDate": null,
-      "fine": 0
-    },
-    {
-      "id": 6,
-      "userId": 6,
-      "bookId": 7,
-      "borrowDate": "2025-08-16",
-      "dueDate": "2025-08-30",
-      "returnDate": null,
-      "fine": 0
-    },
-    {
-      "id": 7,
-      "userId": 7,
-      "bookId": 10,
-      "borrowDate": "2025-08-17",
-      "dueDate": "2025-08-31",
-      "returnDate": null,
-      "fine": 0
     }
   ]
 }
