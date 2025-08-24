@@ -7,7 +7,7 @@
       "publisher": "MIT Press",
       "isbn": ["0262046305", "0262046306"],
       "status": "Borrowed",
-      "requests": 1,
+      "requests": 2,
       "description": "A comprehensive update of the leading algorithms text, with new material on matchings in bipartite graphs, online algorithms, machine learning, and other topics.",
       "keywords": [
         "algorithms",
@@ -30,29 +30,50 @@
         {
           "isbn": "0262046305",
           "userId": 1,
-          "borrowDate": "2025-08-01",
-          "dueDate": "2025-08-15",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 3.5
+          "memberName": "Andrew Kazantzis",
+          "memberImage": "https://randomuser.me/api/portraits/men/1.jpg",
+          "borrowDate": "2025-07-21",
+          "dueDate": "2025-08-04",
+          "totalDelayDays": 20,
+          "fineRate": 2,
+          "totalFine": 40
         },
         {
           "isbn": "0262046306",
           "userId": 2,
-          "borrowDate": "2025-08-02",
-          "dueDate": "2025-08-16",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 3.0
+          "memberName": "Bethany Lim",
+          "memberImage": "https://randomuser.me/api/portraits/women/2.jpg",
+          "borrowDate": "2025-07-22",
+          "dueDate": "2025-08-05",
+          "totalDelayDays": 19,
+          "fineRate": 2,
+          "totalFine": 38
         }
       ],
       "requestDetails": [
         {
-          "isbn": null,
+          "isbn": "0262046305",
           "userId": 3,
-          "requestId": 1,
-          "requestDate": "2025-08-16",
-          "status": "PENDING"
+          "memberName": "Clara Ng",
+          "memberImage": "https://randomuser.me/api/portraits/women/3.jpg",
+          "requestDate": "2025-08-05",
+          "borrowDate": null,
+          "dueDate": null,
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        },
+        {
+          "isbn": "0262046306",
+          "userId": 11,
+          "memberName": "Karen Lee",
+          "memberImage": "https://randomuser.me/api/portraits/women/11.jpg",
+          "requestDate": "2025-08-06",
+          "borrowDate": null,
+          "dueDate": null,
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
         }
       ]
     },
@@ -62,8 +83,8 @@
       "author": "Robert C. Martin",
       "publisher": "Prentice Hall",
       "isbn": ["0132350882", "0132350883"],
-      "status": "Available",
-      "requests": 0,
+      "status": "Borrowed",
+      "requests": 1,
       "description": "Even bad code can function. But if code isn't clean, it can bring a development organization to its knees.",
       "keywords": [
         "software engineering",
@@ -86,14 +107,40 @@
         {
           "isbn": "0132350882",
           "userId": 4,
-          "borrowDate": "2025-08-03",
-          "dueDate": "2025-08-17",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 2.5
+          "memberName": "Dimitri Patel",
+          "memberImage": "https://randomuser.me/api/portraits/men/4.jpg",
+          "borrowDate": "2025-07-23",
+          "dueDate": "2025-08-06",
+          "totalDelayDays": 18,
+          "fineRate": 2,
+          "totalFine": 36
+        },
+        {
+          "isbn": "0132350883",
+          "userId": 5,
+          "memberName": "Emma Thompson",
+          "memberImage": "https://randomuser.me/api/portraits/women/5.jpg",
+          "borrowDate": "2025-07-24",
+          "dueDate": "2025-08-07",
+          "totalDelayDays": 17,
+          "fineRate": 2,
+          "totalFine": 34
         }
       ],
-      "requestDetails": []
+      "requestDetails": [
+        {
+          "isbn": "0132350882",
+          "userId": 12,
+          "memberName": "Liam Foster",
+          "memberImage": "https://randomuser.me/api/portraits/men/12.jpg",
+          "requestDate": "2025-08-07",
+          "borrowDate": null,
+          "dueDate": null,
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        }
+      ]
     },
     {
       "id": 3,
@@ -101,8 +148,8 @@
       "author": "Don Norman",
       "publisher": "Basic Books",
       "isbn": ["0465050654", "0465050655"],
-      "status": "Available",
-      "requests": 0,
+      "status": "Borrowed",
+      "requests": 1,
       "description": "A fully updated and expanded edition of Don Norman's classic and influential work, which pioneered the application of cognitive science to design.",
       "keywords": [
         "design",
@@ -124,15 +171,41 @@
       "borrowDetails": [
         {
           "isbn": "0465050654",
-          "userId": 5,
+          "userId": 6,
+          "memberName": "Fiona Chen",
+          "memberImage": "https://randomuser.me/api/portraits/women/6.jpg",
           "borrowDate": "2025-07-25",
           "dueDate": "2025-08-08",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 7.0
+          "totalDelayDays": 16,
+          "fineRate": 2,
+          "totalFine": 32
+        },
+        {
+          "isbn": "0465050655",
+          "userId": 7,
+          "memberName": "George Alvarez",
+          "memberImage": "https://randomuser.me/api/portraits/men/7.jpg",
+          "borrowDate": "2025-07-26",
+          "dueDate": "2025-08-09",
+          "totalDelayDays": 15,
+          "fineRate": 2,
+          "totalFine": 30
         }
       ],
-      "requestDetails": []
+      "requestDetails": [
+        {
+          "isbn": "0465050654",
+          "userId": 13,
+          "memberName": "Liam Foster",
+          "memberImage": "https://randomuser.me/api/portraits/women/13.jpg",
+          "requestDate": "2025-08-09",
+          "borrowDate": null,
+          "dueDate": null,
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        }
+      ]
     },
     {
       "id": 4,
@@ -141,7 +214,7 @@
       "publisher": "Pearson",
       "isbn": ["1292401133", "1292401134"],
       "status": "Borrowed",
-      "requests": 3,
+      "requests": 2,
       "description": "The most comprehensive, up-to-date introduction to the theory and practice of artificial intelligence.",
       "keywords": [
         "artificial intelligence",
@@ -163,44 +236,53 @@
       "borrowDetails": [
         {
           "isbn": "1292401133",
-          "userId": 6,
-          "borrowDate": "2025-08-04",
-          "dueDate": "2025-08-18",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 2.0
+          "userId": 8,
+          "memberName": "Henry Brooks",
+          "memberImage": "https://randomuser.me/api/portraits/men/8.jpg",
+          "borrowDate": "2025-07-27",
+          "dueDate": "2025-08-10",
+          "totalDelayDays": 14,
+          "fineRate": 2,
+          "totalFine": 28
         },
         {
           "isbn": "1292401134",
-          "userId": 7,
-          "borrowDate": "2025-08-05",
-          "dueDate": "2025-08-19",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 1.5
+          "userId": 9,
+          "memberName": "Isabelle Tan",
+          "memberImage": "https://randomuser.me/api/portraits/women/9.jpg",
+          "borrowDate": "2025-07-28",
+          "dueDate": "2025-08-11",
+          "totalDelayDays": 14,
+          "fineRate": 2,
+          "totalFine": 28
         }
       ],
       "requestDetails": [
         {
-          "isbn": null,
-          "userId": 8,
-          "requestId": 2,
-          "requestDate": "2025-08-19",
-          "status": "PENDING"
+          "isbn": "1292401133",
+          "userId": 14,
+          "memberName": "Noah Kim",
+          "memberImage": "https://randomuser.me/api/portraits/men/14.jpg",
+          "requestDate": "2025-08-11",
+          "borrowDate": null,
+          "dueDate": null,
+          "returnDate": null,
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
         },
         {
-          "isbn": null,
-          "userId": 9,
-          "requestId": 3,
-          "requestDate": "2025-08-19",
-          "status": "PENDING"
-        },
-        {
-          "isbn": null,
-          "userId": 10,
-          "requestId": 4,
-          "requestDate": "2025-08-19",
-          "status": "PENDING"
+          "isbn": "1292401134",
+          "userId": 15,
+          "memberName": "Olivia Brown",
+          "memberImage": "https://randomuser.me/api/portraits/women/15.jpg",
+          "requestDate": "2025-08-12",
+          "borrowDate": null,
+          "dueDate": null,
+          "returnDate": null,
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
         }
       ]
     },
@@ -210,8 +292,8 @@
       "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
       "publisher": "MIT Press",
       "isbn": ["0262035618", "0262035619"],
-      "status": "Available",
-      "requests": 0,
+      "status": "Borrowed",
+      "requests": 1,
       "description": "An introduction to a broad range of topics in deep learning, covering mathematical and conceptual background, deep learning techniques used in industry, and research perspectives.",
       "keywords": [
         "deep learning",
@@ -233,15 +315,42 @@
       "borrowDetails": [
         {
           "isbn": "0262035618",
+          "userId": 10,
+          "memberName": "Jack Wilson",
+          "memberImage": "https://randomuser.me/api/portraits/men/10.jpg",
+          "borrowDate": "2025-07-29",
+          "dueDate": "2025-08-12",
+          "totalDelayDays": 12,
+          "fineRate": 2,
+          "totalFine": 24
+        },
+        {
+          "isbn": "0262035619",
           "userId": 11,
-          "borrowDate": "2025-08-06",
-          "dueDate": "2025-08-20",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 1.0
+          "memberName": "Karen Lee",
+          "memberImage": "https://randomuser.me/api/portraits/women/11.jpg",
+          "borrowDate": "2025-07-30",
+          "dueDate": "2025-08-13",
+          "totalDelayDays": 11,
+          "fineRate": 2,
+          "totalFine": 22
         }
       ],
-      "requestDetails": []
+      "requestDetails": [
+        {
+          "isbn": "0262035618",
+          "userId": 16,
+          "memberName": "Peter Evans",
+          "memberImage": "https://randomuser.me/api/portraits/men/16.jpg",
+          "requestDate": "2025-08-13",
+          "borrowDate": null,
+          "dueDate": null,
+          "returnDate": null,
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        }
+      ]
     },
     {
       "id": 6,
@@ -249,8 +358,8 @@
       "author": "Andrew S. Tanenbaum, Nick Feamster, David J. Wetherall",
       "publisher": "Pearson",
       "isbn": ["0135408008", "0135408009"],
-      "status": "Available",
-      "requests": 0,
+      "status": "Borrowed",
+      "requests": 1,
       "description": "For courses in Networking/Communications. Motivates students with a top-down, layered approach to computer networking. Unique among computer networking texts, the Seventh Edition of the popular Computer Networking: A Top Down Approach builds on the authors long tradition of teaching this complex subject through a layered approach in a top-down manner.",
       "keywords": [
         "computer networks",
@@ -273,14 +382,40 @@
         {
           "isbn": "0135408008",
           "userId": 12,
-          "borrowDate": "2025-07-26",
-          "dueDate": "2025-08-09",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 6.5
+          "memberName": "Liam Foster",
+          "memberImage": "https://randomuser.me/api/portraits/men/12.jpg",
+          "borrowDate": "2025-07-31",
+          "dueDate": "2025-08-14",
+          "totalDelayDays": 10,
+          "fineRate": 2,
+          "totalFine": 20
+        },
+        {
+          "isbn": "0135408009",
+          "userId": 13,
+          "memberName": "Mia Wong",
+          "memberImage": "https://randomuser.me/api/portraits/women/13.jpg",
+          "borrowDate": "2025-08-01",
+          "dueDate": "2025-08-15",
+          "totalDelayDays": 9,
+          "fineRate": 2,
+          "totalFine": 18
         }
       ],
-      "requestDetails": []
+      "requestDetails": [
+        {
+          "isbn": "0135408008",
+          "userId": 17,
+          "memberName": "Rachel Gupta",
+          "memberImage": "https://randomuser.me/api/portraits/women/17.jpg",
+          "requestDate": "2025-08-15",
+          "borrowDate": null,
+          "dueDate": null,
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        }
+      ]
     },
     {
       "id": 7,
@@ -289,7 +424,7 @@
       "publisher": "McGraw-Hill Education",
       "isbn": ["0078022150", "0078022151"],
       "status": "Borrowed",
-      "requests": 2,
+      "requests": 1,
       "description": "Database System Concepts presents the fundamental concepts of database management in an intuitive manner geared toward allowing students to begin working with databases as quickly as possible.",
       "keywords": [
         "databases",
@@ -311,37 +446,41 @@
       "borrowDetails": [
         {
           "isbn": "0078022150",
-          "userId": 13,
-          "borrowDate": "2025-08-07",
-          "dueDate": "2025-08-21",
+          "userId": 14,
+          "memberName": "Noah Kim",
+          "memberImage": "https://randomuser.me/api/portraits/men/14.jpg",
+          "borrowDate": "2025-08-02",
+          "dueDate": "2025-08-16",
           "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 0.5
+          "totalDelayDays": 8,
+          "fineRate": 2,
+          "totalFine": 16
         },
         {
           "isbn": "0078022151",
-          "userId": 14,
-          "borrowDate": "2025-08-08",
-          "dueDate": "2025-08-22",
+          "userId": 15,
+          "memberName": "Olivia Brown",
+          "memberImage": "https://randomuser.me/api/portraits/women/15.jpg",
+          "borrowDate": "2025-08-03",
+          "dueDate": "2025-08-17",
           "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 0.0
+          "totalDelayDays": 7,
+          "fineRate": 2,
+          "totalFine": 14
         }
       ],
       "requestDetails": [
         {
-          "isbn": null,
-          "userId": 15,
-          "requestId": 5,
-          "requestDate": "2025-08-22",
-          "status": "PENDING"
-        },
-        {
-          "isbn": null,
-          "userId": 16,
-          "requestId": 6,
-          "requestDate": "2025-08-22",
-          "status": "PENDING"
+          "isbn": "0078022150",
+          "userId": 18,
+          "memberName": "Sanjay Rao",
+          "memberImage": "https://randomuser.me/api/portraits/men/18.jpg",
+          "requestDate": "2025-08-17",
+          "borrowDate": null,
+          "dueDate": null,
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
         }
       ]
     },
@@ -351,8 +490,8 @@
       "author": "Abraham Silberschatz, Peter B. Galvin, Greg Gagne",
       "publisher": "Wiley",
       "isbn": ["1119456339", "1119456340"],
-      "status": "Available",
-      "requests": 0,
+      "status": "Borrowed",
+      "requests": 1,
       "description": "The tenth edition of Operating System Concepts has been revised to keep it fresh and up-to-date with contemporary examples of how operating systems function, as well as enhanced interactive elements to improve learning and the student’s experience with the material.",
       "keywords": [
         "operating systems",
@@ -374,15 +513,41 @@
       "borrowDetails": [
         {
           "isbn": "1119456339",
+          "userId": 16,
+          "memberName": "Peter Evans",
+          "memberImage": "https://randomuser.me/api/portraits/men/16.jpg",
+          "borrowDate": "2025-08-04",
+          "dueDate": "2025-08-18",
+          "totalDelayDays": 6,
+          "fineRate": 2,
+          "totalFine": 12
+        },
+        {
+          "isbn": "1119456340",
           "userId": 17,
-          "borrowDate": "2025-07-27",
-          "dueDate": "2025-08-10",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 6.0
+          "memberName": "Rachel Gupta",
+          "memberImage": "https://randomuser.me/api/portraits/women/17.jpg",
+          "borrowDate": "2025-08-05",
+          "dueDate": "2025-08-19",
+          "totalDelayDays": 5,
+          "fineRate": 2,
+          "totalFine": 10
         }
       ],
-      "requestDetails": []
+      "requestDetails": [
+        {
+          "isbn": "1119456339",
+          "userId": 19,
+          "memberName": "Tara Singh",
+          "memberImage": "https://randomuser.me/api/portraits/women/19.jpg",
+          "requestDate": "2025-08-19",
+          "borrowDate": null,
+          "dueDate": null,
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        }
+      ]
     },
     {
       "id": 9,
@@ -390,7 +555,7 @@
       "author": "David A. Patterson, John L. Hennessy",
       "publisher": "Morgan Kaufmann",
       "isbn": ["0128122757", "0128122758"],
-      "status": "Available",
+      "status": "Borrowed",
       "requests": 0,
       "description": "Computer Organization and Design RISC-V Edition: The Hardware Software Interface, Second Edition, the award-winning textbook from Patterson and Hennessy that is used by more than 40,000 students per year, continues to present the most comprehensive and readable introduction to this core computer science topic.",
       "keywords": [
@@ -414,11 +579,25 @@
         {
           "isbn": "0128122757",
           "userId": 18,
-          "borrowDate": "2025-07-28",
-          "dueDate": "2025-08-11",
+          "memberName": "Sanjay Rao",
+          "memberImage": "https://randomuser.me/api/portraits/men/18.jpg",
+          "borrowDate": "2025-08-06",
+          "dueDate": "2025-08-20",
+          "totalDelayDays": 4,
+          "fineRate": 2,
+          "totalFine": 8
+        },
+        {
+          "isbn": "0128122758",
+          "userId": 19,
+          "memberName": "Tara Singh",
+          "memberImage": "https://randomuser.me/api/portraits/women/15.jpg",
+          "borrowDate": "2025-08-07",
+          "dueDate": "2025-08-21",
           "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 5.5
+          "totalDelayDays": 3,
+          "fineRate": 2,
+          "totalFine": 6
         }
       ],
       "requestDetails": []
@@ -430,7 +609,7 @@
       "publisher": "Prentice Hall",
       "isbn": ["0131103624", "0131103625"],
       "status": "Borrowed",
-      "requests": 2,
+      "requests": 0,
       "description": "Known as the bible of C, this classic bestseller introduces the C programming language and illustrates algorithms, data structures, and programming techniques.",
       "keywords": [
         "C programming",
@@ -452,39 +631,28 @@
       "borrowDetails": [
         {
           "isbn": "0131103624",
-          "userId": 19,
-          "borrowDate": "2025-08-09",
-          "dueDate": "2025-08-23",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 0.0
+          "userId": 20,
+          "memberName": "Uma Desai",
+          "memberImage": "https://randomuser.me/api/portraits/women/20.jpg",
+          "borrowDate": "2025-08-08",
+          "dueDate": "2025-08-22",
+          "totalDelayDays": 2,
+          "fineRate": 2,
+          "totalFine": 4
         },
         {
           "isbn": "0131103625",
-          "userId": 20,
-          "borrowDate": "2025-08-10",
-          "dueDate": "2025-08-24",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 0.0
+          "userId": 21,
+          "memberName": "Vikram Joshi",
+          "memberImage": "https://randomuser.me/api/portraits/men/21.jpg",
+          "borrowDate": "2025-08-09",
+          "dueDate": "2025-08-23",
+          "totalDelayDays": 1,
+          "fineRate": 2,
+          "totalFine": 2
         }
       ],
-      "requestDetails": [
-        {
-          "isbn": null,
-          "userId": 21,
-          "requestId": 7,
-          "requestDate": "2025-08-24",
-          "status": "PENDING"
-        },
-        {
-          "isbn": null,
-          "userId": 1,
-          "requestId": 8,
-          "requestDate": "2025-08-24",
-          "status": "PENDING"
-        }
-      ]
+      "requestDetails": []
     },
     {
       "id": 11,
@@ -492,7 +660,7 @@
       "author": "Harold Abelson, Gerald Jay Sussman, Julie Sussman",
       "publisher": "MIT Press",
       "isbn": ["0262510871", "0262510872"],
-      "status": "Available",
+      "status": "Borrowed",
       "requests": 0,
       "description": "A classic textbook that teaches fundamental principles of computer programming, including abstraction, recursion, and modularity.",
       "keywords": [
@@ -515,12 +683,25 @@
       "borrowDetails": [
         {
           "isbn": "0262510871",
-          "userId": 2,
-          "borrowDate": "2025-07-29",
-          "dueDate": "2025-08-12",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 5.0
+          "userId": 3,
+          "memberName": "Clara Ng",
+          "memberImage": "https://randomuser.me/api/portraits/women/3.jpg",
+          "borrowDate": "2025-08-10",
+          "dueDate": "2025-08-24",
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        },
+        {
+          "isbn": "0262510872",
+          "userId": 4,
+          "memberName": "Dimitri Patel",
+          "memberImage": "https://randomuser.me/api/portraits/men/4.jpg",
+          "borrowDate": "2025-08-11",
+          "dueDate": "2025-08-25",
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
         }
       ],
       "requestDetails": []
@@ -551,17 +732,7 @@
       "subject": "Compiler Design",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780321486813-L.jpg",
       "addedDate": "2022-11-30",
-      "borrowDetails": [
-        {
-          "isbn": "0321486811",
-          "userId": 3,
-          "borrowDate": "2025-07-30",
-          "dueDate": "2025-08-13",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 4.5
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -570,8 +741,8 @@
       "author": "John F. Hughes, Andries van Dam, Morgan McGuire, David F. Sklar",
       "publisher": "Addison-Wesley Professional",
       "isbn": ["0321399528", "0321399529"],
-      "status": "Borrowed",
-      "requests": 1,
+      "status": "Available",
+      "requests": 0,
       "description": "A comprehensive introduction to computer graphics that explores the core concepts, mathematical foundations, and modern techniques.",
       "keywords": [
         "computer graphics",
@@ -590,35 +761,8 @@
       "subject": "Computer Graphics",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780321399526-L.jpg",
       "addedDate": "2023-04-10",
-      "borrowDetails": [
-        {
-          "isbn": "0321399528",
-          "userId": 4,
-          "borrowDate": "2025-08-11",
-          "dueDate": "2025-08-25",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 0.0
-        },
-        {
-          "isbn": "0321399529",
-          "userId": 5,
-          "borrowDate": "2025-08-12",
-          "dueDate": "2025-08-26",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 0.0
-        }
-      ],
-      "requestDetails": [
-        {
-          "isbn": null,
-          "userId": 6,
-          "requestId": 9,
-          "requestDate": "2025-08-26",
-          "status": "PENDING"
-        }
-      ]
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 14,
@@ -646,17 +790,7 @@
       "subject": "Theory of Computation",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781133187790-L.jpg",
       "addedDate": "2023-01-08",
-      "borrowDetails": [
-        {
-          "isbn": "113318779X",
-          "userId": 7,
-          "borrowDate": "2025-07-31",
-          "dueDate": "2025-08-14",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 4.0
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -685,17 +819,7 @@
       "subject": "Computer Security",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780134794105-L.jpg",
       "addedDate": "2023-05-12",
-      "borrowDetails": [
-        {
-          "isbn": "0134794109",
-          "userId": 8,
-          "borrowDate": "2025-08-01",
-          "dueDate": "2025-08-15",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 3.5
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -724,17 +848,7 @@
       "subject": "Data Mining",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780128117606-L.jpg",
       "addedDate": "2023-02-22",
-      "borrowDetails": [
-        {
-          "isbn": "0128117605",
-          "userId": 9,
-          "borrowDate": "2025-08-02",
-          "dueDate": "2025-08-16",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 3.0
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -763,17 +877,7 @@
       "subject": "Distributed Systems",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780132143011-L.jpg",
       "addedDate": "2023-03-28",
-      "borrowDetails": [
-        {
-          "isbn": "0132143011",
-          "userId": 10,
-          "borrowDate": "2025-07-25",
-          "dueDate": "2025-08-08",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 7.0
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -782,8 +886,8 @@
       "author": "Richard Szeliski",
       "publisher": "Springer",
       "isbn": ["3030343715", "3030343716"],
-      "status": "Borrowed",
-      "requests": 3,
+      "status": "Available",
+      "requests": 0,
       "description": "Computer Vision: Algorithms and Applications explores the variety of techniques used to analyze and interpret images.",
       "keywords": [
         "computer vision",
@@ -802,49 +906,8 @@
       "subject": "Computer Vision",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9783030343712-L.jpg",
       "addedDate": "2023-04-05",
-      "borrowDetails": [
-        {
-          "isbn": "3030343715",
-          "userId": 11,
-          "borrowDate": "2025-08-03",
-          "dueDate": "2025-08-17",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 2.5
-        },
-        {
-          "isbn": "3030343716",
-          "userId": 12,
-          "borrowDate": "2025-08-04",
-          "dueDate": "2025-08-18",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 2.0
-        }
-      ],
-      "requestDetails": [
-        {
-          "isbn": null,
-          "userId": 13,
-          "requestId": 10,
-          "requestDate": "2025-08-18",
-          "status": "PENDING"
-        },
-        {
-          "isbn": null,
-          "userId": 14,
-          "requestId": 11,
-          "requestDate": "2025-08-18",
-          "status": "PENDING"
-        },
-        {
-          "isbn": null,
-          "userId": 15,
-          "requestId": 12,
-          "requestDate": "2025-08-18",
-          "status": "PENDING"
-        }
-      ]
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 19,
@@ -872,17 +935,7 @@
       "subject": "Software Engineering",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781260548006-L.jpg",
       "addedDate": "2023-01-30",
-      "borrowDetails": [
-        {
-          "isbn": "1260548007",
-          "userId": 16,
-          "borrowDate": "2025-07-26",
-          "dueDate": "2025-08-09",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 6.5
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -911,17 +964,7 @@
       "subject": "Software Project Management",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780201835953-L.jpg",
       "addedDate": "2022-12-15",
-      "borrowDetails": [
-        {
-          "isbn": "0201835959",
-          "userId": 17,
-          "borrowDate": "2025-07-27",
-          "dueDate": "2025-08-10",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 6.0
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -950,17 +993,7 @@
       "subject": "Design Patterns",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780201633610-L.jpg",
       "addedDate": "2023-03-05",
-      "borrowDetails": [
-        {
-          "isbn": "0201633612",
-          "userId": 18,
-          "borrowDate": "2025-08-05",
-          "dueDate": "2025-08-19",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 1.5
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -989,17 +1022,7 @@
       "subject": "Code Refactoring",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780201485677-L.jpg",
       "addedDate": "2023-04-22",
-      "borrowDetails": [
-        {
-          "isbn": "0201485672",
-          "userId": 19,
-          "borrowDate": "2025-08-06",
-          "dueDate": "2025-08-20",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 1.0
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -1028,17 +1051,7 @@
       "subject": "Programming Practices",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780135957059-L.jpg",
       "addedDate": "2023-02-10",
-      "borrowDetails": [
-        {
-          "isbn": "0135957052",
-          "userId": 20,
-          "borrowDate": "2025-07-28",
-          "dueDate": "2025-08-11",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 5.5
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -1067,17 +1080,7 @@
       "subject": "Software Construction",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780735619678-L.jpg",
       "addedDate": "2023-01-05",
-      "borrowDetails": [
-        {
-          "isbn": "0735619670",
-          "userId": 21,
-          "borrowDate": "2025-08-07",
-          "dueDate": "2025-08-21",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 0.5
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -1106,17 +1109,7 @@
       "subject": "Legacy Code",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780131177055-L.jpg",
       "addedDate": "2023-03-20",
-      "borrowDetails": [
-        {
-          "isbn": "0131177052",
-          "userId": 1,
-          "borrowDate": "2025-07-29",
-          "dueDate": "2025-08-12",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 5.0
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -1145,17 +1138,7 @@
       "subject": "Programming Algorithms",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780201896831-L.jpg",
       "addedDate": "2022-10-20",
-      "borrowDetails": [
-        {
-          "isbn": "0201896834",
-          "userId": 2,
-          "borrowDate": "2025-07-30",
-          "dueDate": "2025-08-13",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 4.5
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -1184,17 +1167,7 @@
       "subject": "Linear Algebra",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781733146654-L.jpg",
       "addedDate": "2023-05-08",
-      "borrowDetails": [
-        {
-          "isbn": "1733146652",
-          "userId": 3,
-          "borrowDate": "2025-08-08",
-          "dueDate": "2025-08-22",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 0.0
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -1223,17 +1196,7 @@
       "subject": "Calculus",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781337613927-L.jpg",
       "addedDate": "2023-04-14",
-      "borrowDetails": [
-        {
-          "isbn": "1337613924",
-          "userId": 4,
-          "borrowDate": "2025-07-31",
-          "dueDate": "2025-08-14",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 4.0
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -1262,17 +1225,7 @@
       "subject": "Probability and Statistics",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781305251809-L.jpg",
       "addedDate": "2023-03-12",
-      "borrowDetails": [
-        {
-          "isbn": "1305251806",
-          "userId": 5,
-          "borrowDate": "2025-07-25",
-          "dueDate": "2025-08-08",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 7.0
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -1281,8 +1234,8 @@
       "author": "Kenneth H. Rosen",
       "publisher": "McGraw-Hill Education",
       "isbn": ["0073383090", "0073383091"],
-      "status": "Borrowed",
-      "requests": 3,
+      "status": "Available",
+      "requests": 0,
       "description": "Rosen's Discrete Mathematics and its Applications presents a precise, relevant, comprehensive approach to mathematical concepts.",
       "keywords": [
         "discrete mathematics",
@@ -1301,49 +1254,8 @@
       "subject": "Discrete Mathematics",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780073383095-L.jpg",
       "addedDate": "2023-02-28",
-      "borrowDetails": [
-        {
-          "isbn": "0073383090",
-          "userId": 6,
-          "borrowDate": "2025-08-09",
-          "dueDate": "2025-08-23",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 0.0
-        },
-        {
-          "isbn": "0073383091",
-          "userId": 7,
-          "borrowDate": "2025-08-10",
-          "dueDate": "2025-08-24",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 0.0
-        }
-      ],
-      "requestDetails": [
-        {
-          "isbn": null,
-          "userId": 8,
-          "requestId": 13,
-          "requestDate": "2025-08-24",
-          "status": "PENDING"
-        },
-        {
-          "isbn": null,
-          "userId": 9,
-          "requestId": 14,
-          "requestDate": "2025-08-24",
-          "status": "PENDING"
-        },
-        {
-          "isbn": null,
-          "userId": 10,
-          "requestId": 15,
-          "requestDate": "2025-08-24",
-          "status": "PENDING"
-        }
-      ]
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 31,
@@ -1371,17 +1283,7 @@
       "subject": "Numerical Analysis",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781305253667-L.jpg",
       "addedDate": "2023-01-25",
-      "borrowDetails": [
-        {
-          "isbn": "1305253663",
-          "userId": 11,
-          "borrowDate": "2025-07-26",
-          "dueDate": "2025-08-09",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 6.5
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -1410,17 +1312,7 @@
       "subject": "Differential Equations",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780134497181-L.jpg",
       "addedDate": "2023-04-30",
-      "borrowDetails": [
-        {
-          "isbn": "013449718X",
-          "userId": 12,
-          "borrowDate": "2025-07-27",
-          "dueDate": "2025-08-10",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 6.0
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -1429,8 +1321,8 @@
       "author": "David S. Dummit, Richard M. Foote",
       "publisher": "John Wiley & Sons",
       "isbn": ["0471433349", "0471433350"],
-      "status": "Borrowed",
-      "requests": 1,
+      "status": "Available",
+      "requests": 0,
       "description": "Widely acclaimed algebra text. This book is designed to give the reader insight into the power and beauty that accrues from a rich interplay between different areas of mathematics.",
       "keywords": [
         "abstract algebra",
@@ -1449,35 +1341,8 @@
       "subject": "Abstract Algebra",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780471433347-L.jpg",
       "addedDate": "2023-03-08",
-      "borrowDetails": [
-        {
-          "isbn": "0471433349",
-          "userId": 13,
-          "borrowDate": "2025-08-11",
-          "dueDate": "2025-08-25",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 0.0
-        },
-        {
-          "isbn": "0471433350",
-          "userId": 14,
-          "borrowDate": "2025-08-12",
-          "dueDate": "2025-08-26",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 0.0
-        }
-      ],
-      "requestDetails": [
-        {
-          "isbn": null,
-          "userId": 15,
-          "requestId": 16,
-          "requestDate": "2025-08-26",
-          "status": "PENDING"
-        }
-      ]
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 34,
@@ -1505,17 +1370,7 @@
       "subject": "Complex Analysis",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780387950693-L.jpg",
       "addedDate": "2023-02-15",
-      "borrowDetails": [
-        {
-          "isbn": "0387950699",
-          "userId": 16,
-          "borrowDate": "2025-07-28",
-          "dueDate": "2025-08-11",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 5.5
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -1544,17 +1399,7 @@
       "subject": "Real Analysis",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780471317166-L.jpg",
       "addedDate": "2023-05-05",
-      "borrowDetails": [
-        {
-          "isbn": "0471317160",
-          "userId": 17,
-          "borrowDate": "2025-07-29",
-          "dueDate": "2025-08-12",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 5.0
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -1563,8 +1408,8 @@
       "author": "James R. Munkres",
       "publisher": "Prentice Hall",
       "isbn": ["0131816292", "0131816293"],
-      "status": "Borrowed",
-      "requests": 2,
+      "status": "Available",
+      "requests": 0,
       "description": "Topology, Second Edition provides a convenient single text resource for bridging between general and algebraic topology courses.",
       "keywords": [
         "topology",
@@ -1583,42 +1428,8 @@
       "subject": "Topology",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780131816299-L.jpg",
       "addedDate": "2023-04-08",
-      "borrowDetails": [
-        {
-          "isbn": "0131816292",
-          "userId": 18,
-          "borrowDate": "2025-08-13",
-          "dueDate": "2025-08-27",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 0.0
-        },
-        {
-          "isbn": "0131816293",
-          "userId": 19,
-          "borrowDate": "2025-08-14",
-          "dueDate": "2025-08-28",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 0.0
-        }
-      ],
-      "requestDetails": [
-        {
-          "isbn": null,
-          "userId": 20,
-          "requestId": 17,
-          "requestDate": "2025-08-28",
-          "status": "PENDING"
-        },
-        {
-          "isbn": null,
-          "userId": 21,
-          "requestId": 18,
-          "requestDate": "2025-08-28",
-          "status": "PENDING"
-        }
-      ]
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 37,
@@ -1646,17 +1457,7 @@
       "subject": "Partial Differential Equations",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780470054567-L.jpg",
       "addedDate": "2023-03-25",
-      "borrowDetails": [
-        {
-          "isbn": "0470054565",
-          "userId": 1,
-          "borrowDate": "2025-07-30",
-          "dueDate": "2025-08-13",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 4.5
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -1685,17 +1486,7 @@
       "subject": "Number Theory",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780470424131-L.jpg",
       "addedDate": "2023-02-05",
-      "borrowDetails": [
-        {
-          "isbn": "0470424133",
-          "userId": 2,
-          "borrowDate": "2025-07-31",
-          "dueDate": "2025-08-14",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 4.0
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -1704,8 +1495,8 @@
       "author": "Reinhard Diestel",
       "publisher": "Springer",
       "isbn": ["3662536218", "3662536219"],
-      "status": "Borrowed",
-      "requests": 3,
+      "status": "Available",
+      "requests": 0,
       "description": "This standard textbook of modern graph theory, now in its fifth edition, combines the authority of a classic with the engaging freshness of style that is the hallmark of active mathematics.",
       "keywords": [
         "graph theory",
@@ -1724,49 +1515,8 @@
       "subject": "Graph Theory",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9783662536216-L.jpg",
       "addedDate": "2023-05-15",
-      "borrowDetails": [
-        {
-          "isbn": "3662536218",
-          "userId": 3,
-          "borrowDate": "2025-08-15",
-          "dueDate": "2025-08-29",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 0.0
-        },
-        {
-          "isbn": "3662536219",
-          "userId": 4,
-          "borrowDate": "2025-08-16",
-          "dueDate": "2025-08-30",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 0.0
-        }
-      ],
-      "requestDetails": [
-        {
-          "isbn": null,
-          "userId": 5,
-          "requestId": 19,
-          "requestDate": "2025-08-30",
-          "status": "PENDING"
-        },
-        {
-          "isbn": null,
-          "userId": 6,
-          "requestId": 20,
-          "requestDate": "2025-08-30",
-          "status": "PENDING"
-        },
-        {
-          "isbn": null,
-          "userId": 7,
-          "requestId": 21,
-          "requestDate": "2025-08-30",
-          "status": "PENDING"
-        }
-      ]
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 40,
@@ -1794,17 +1544,7 @@
       "subject": "Mathematical Statistics",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780495110811-L.jpg",
       "addedDate": "2023-04-12",
-      "borrowDetails": [
-        {
-          "isbn": "0495110817",
-          "userId": 8,
-          "borrowDate": "2025-08-01",
-          "dueDate": "2025-08-15",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 3.5
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -1833,17 +1573,7 @@
       "subject": "Probability",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780128143469-L.jpg",
       "addedDate": "2023-03-18",
-      "borrowDetails": [
-        {
-          "isbn": "0128143460",
-          "userId": 9,
-          "borrowDate": "2025-08-02",
-          "dueDate": "2025-08-16",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 3.0
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -1852,8 +1582,8 @@
       "author": "Alan V. Oppenheim, Alan S. Willsky, S. Hamid Nawab",
       "publisher": "Pearson",
       "isbn": ["0138147574", "0138147575"],
-      "status": "Borrowed",
-      "requests": 1,
+      "status": "Available",
+      "requests": 0,
       "description": "This authoritative book, highly regarded for its intellectual quality and contributions provides a solid foundation and life-long reference for anyone studying the most important methods of modern signal and system analysis.",
       "keywords": [
         "signals and systems",
@@ -1872,35 +1602,8 @@
       "subject": "Signals and Systems",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780138147570-L.jpg",
       "addedDate": "2023-04-25",
-      "borrowDetails": [
-        {
-          "isbn": "0138147574",
-          "userId": 10,
-          "borrowDate": "2025-08-11",
-          "dueDate": "2025-08-25",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 0.0
-        },
-        {
-          "isbn": "0138147575",
-          "userId": 11,
-          "borrowDate": "2025-08-12",
-          "dueDate": "2025-08-26",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 0.0
-        }
-      ],
-      "requestDetails": [
-        {
-          "isbn": null,
-          "userId": 12,
-          "requestId": 22,
-          "requestDate": "2025-08-26",
-          "status": "PENDING"
-        }
-      ]
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 43,
@@ -1928,17 +1631,7 @@
       "subject": "Digital Signal Processing",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780131873742-L.jpg",
       "addedDate": "2023-03-10",
-      "borrowDetails": [
-        {
-          "isbn": "0131873741",
-          "userId": 13,
-          "borrowDate": "2025-07-25",
-          "dueDate": "2025-08-08",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 7.0
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -1967,17 +1660,7 @@
       "subject": "Microelectronics",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780190853464-L.jpg",
       "addedDate": "2023-05-01",
-      "borrowDetails": [
-        {
-          "isbn": "0190853468",
-          "userId": 14,
-          "borrowDate": "2025-07-26",
-          "dueDate": "2025-08-09",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 6.5
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -1986,8 +1669,8 @@
       "author": "James W. Nilsson, Susan Riedel",
       "publisher": "Pearson",
       "isbn": ["0134746961", "0134746962"],
-      "status": "Borrowed",
-      "requests": 2,
+      "status": "Available",
+      "requests": 0,
       "description": "Electric Circuits, Eleventh Edition, is designed for a first course in circuits, typically taken by electrical and computer engineering majors.",
       "keywords": [
         "electric circuits",
@@ -2006,42 +1689,8 @@
       "subject": "Circuit Analysis",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780134746968-L.jpg",
       "addedDate": "2023-02-20",
-      "borrowDetails": [
-        {
-          "isbn": "0134746961",
-          "userId": 15,
-          "borrowDate": "2025-08-13",
-          "dueDate": "2025-08-27",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 0.0
-        },
-        {
-          "isbn": "0134746962",
-          "userId": 16,
-          "borrowDate": "2025-08-14",
-          "dueDate": "2025-08-28",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 0.0
-        }
-      ],
-      "requestDetails": [
-        {
-          "isbn": null,
-          "userId": 17,
-          "requestId": 23,
-          "requestDate": "2025-08-28",
-          "status": "PENDING"
-        },
-        {
-          "isbn": null,
-          "userId": 18,
-          "requestId": 24,
-          "requestDate": "2025-08-28",
-          "status": "PENDING"
-        }
-      ]
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 46,
@@ -2069,17 +1718,7 @@
       "subject": "Electromagnetics",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781577667834-L.jpg",
       "addedDate": "2023-04-15",
-      "borrowDetails": [
-        {
-          "isbn": "1577667832",
-          "userId": 19,
-          "borrowDate": "2025-07-27",
-          "dueDate": "2025-08-10",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 6.0
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -2108,17 +1747,7 @@
       "subject": "Control Systems",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781119474210-L.jpg",
       "addedDate": "2023-03-30",
-      "borrowDetails": [
-        {
-          "isbn": "1119474213",
-          "userId": 20,
-          "borrowDate": "2025-07-28",
-          "dueDate": "2025-08-11",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 5.5
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -2127,8 +1756,8 @@
       "author": "John J. Craig",
       "publisher": "Pearson",
       "isbn": ["0133489795", "0133489796"],
-      "status": "Borrowed",
-      "requests": 3,
+      "status": "Available",
+      "requests": 0,
       "description": "Now in its fourth edition, Introduction to Robotics by John J. Craig provides readers with real-world practicality with underlying theory presented.",
       "keywords": [
         "robotics",
@@ -2147,49 +1776,8 @@
       "subject": "Robotics",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780133489798-L.jpg",
       "addedDate": "2023-05-10",
-      "borrowDetails": [
-        {
-          "isbn": "0133489795",
-          "userId": 21,
-          "borrowDate": "2025-08-15",
-          "dueDate": "2025-08-29",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 0.0
-        },
-        {
-          "isbn": "0133489796",
-          "userId": 1,
-          "borrowDate": "2025-08-16",
-          "dueDate": "2025-08-30",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 0.0
-        }
-      ],
-      "requestDetails": [
-        {
-          "isbn": null,
-          "userId": 2,
-          "requestId": 25,
-          "requestDate": "2025-08-30",
-          "status": "PENDING"
-        },
-        {
-          "isbn": null,
-          "userId": 3,
-          "requestId": 26,
-          "requestDate": "2025-08-30",
-          "status": "PENDING"
-        },
-        {
-          "isbn": null,
-          "userId": 4,
-          "requestId": 27,
-          "requestDate": "2025-08-30",
-          "status": "PENDING"
-        }
-      ]
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 49,
@@ -2217,17 +1805,7 @@
       "subject": "Automata Theory",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780321455369-L.jpg",
       "addedDate": "2023-04-18",
-      "borrowDetails": [
-        {
-          "isbn": "0321455363",
-          "userId": 5,
-          "borrowDate": "2025-07-29",
-          "dueDate": "2025-08-12",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 5.0
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     },
     {
@@ -2256,17 +1834,7 @@
       "subject": "Pattern Recognition",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780387310732-L.jpg",
       "addedDate": "2023-03-15",
-      "borrowDetails": [
-        {
-          "isbn": "0387310738",
-          "userId": 6,
-          "borrowDate": "2025-07-30",
-          "dueDate": "2025-08-13",
-          "returnDate": null,
-          "fineRate": 0.5,
-          "fineDue": 4.5
-        }
-      ],
+      "borrowDetails": [],
       "requestDetails": []
     }
   ],
@@ -2585,6 +2153,916 @@
       "subFaculty": "Operations",
       "membershipType": "admin",
       "userImage": "https://randomuser.me/api/portraits/men/21.jpg"
+    }
+  ],
+  "borrowedBooks": [
+    {
+      "id": 1,
+      "bookTitle": "Introduction to Algorithms",
+      "bookAuthor": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+      "bookId": 1,
+      "memberName": "Andrew Kazantzis",
+      "memberId": 1,
+      "borrowDate": "2025-07-21",
+      "dueDate": "2025-08-04",
+      "returnDate": null,
+      "totalDelayDays": 20,
+      "fineRate": 2,
+      "totalFine": 40,
+      "isbn": "0262046305",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 2,
+      "bookTitle": "Introduction to Algorithms",
+      "bookAuthor": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+      "bookId": 1,
+      "memberName": "Bethany Lim",
+      "memberId": 2,
+      "borrowDate": "2025-07-22",
+      "dueDate": "2025-08-05",
+      "returnDate": null,
+      "totalDelayDays": 19,
+      "fineRate": 2,
+      "totalFine": 38,
+      "isbn": "0262046306",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "id": 3,
+      "bookTitle": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "bookAuthor": "Robert C. Martin",
+      "bookId": 2,
+      "memberName": "Dimitri Patel",
+      "memberId": 4,
+      "borrowDate": "2025-07-23",
+      "dueDate": "2025-08-06",
+      "returnDate": null,
+      "totalDelayDays": 18,
+      "fineRate": 2,
+      "totalFine": 36,
+      "isbn": "0132350882",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/4.jpg"
+    },
+    {
+      "id": 4,
+      "bookTitle": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "bookAuthor": "Robert C. Martin",
+      "bookId": 2,
+      "memberName": "Emma Thompson",
+      "memberId": 5,
+      "borrowDate": "2025-07-24",
+      "dueDate": "2025-08-07",
+      "returnDate": null,
+      "totalDelayDays": 17,
+      "fineRate": 2,
+      "totalFine": 34,
+      "isbn": "0132350883",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/5.jpg"
+    },
+    {
+      "id": 5,
+      "bookTitle": "The Design of Everyday Things",
+      "bookAuthor": "Don Norman",
+      "bookId": 3,
+      "memberName": "Fiona Chen",
+      "memberId": 6,
+      "borrowDate": "2025-07-25",
+      "dueDate": "2025-08-08",
+      "returnDate": null,
+      "totalDelayDays": 16,
+      "fineRate": 2,
+      "totalFine": 32,
+      "isbn": "0465050654",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780465050659-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    {
+      "id": 6,
+      "bookTitle": "The Design of Everyday Things",
+      "bookAuthor": "Don Norman",
+      "bookId": 3,
+      "memberName": "George Alvarez",
+      "memberId": 7,
+      "borrowDate": "2025-07-26",
+      "dueDate": "2025-08-09",
+      "returnDate": null,
+      "totalDelayDays": 15,
+      "fineRate": 2,
+      "totalFine": 30,
+      "isbn": "0465050655",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780465050659-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    {
+      "id": 7,
+      "bookTitle": "Artificial Intelligence: A Modern Approach",
+      "bookAuthor": "Stuart Russell, Peter Norvig",
+      "bookId": 4,
+      "memberName": "Henry Brooks",
+      "memberId": 8,
+      "borrowDate": "2025-07-27",
+      "dueDate": "2025-08-10",
+      "returnDate": null,
+      "totalDelayDays": 14,
+      "fineRate": 2,
+      "totalFine": 28,
+      "isbn": "1292401133",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781292401132-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/8.jpg"
+    },
+    {
+      "id": 8,
+      "bookTitle": "Artificial Intelligence: A Modern Approach",
+      "bookAuthor": "Stuart Russell, Peter Norvig",
+      "bookId": 4,
+      "memberName": "Isabelle Tan",
+      "memberId": 9,
+      "borrowDate": "2025-07-28",
+      "dueDate": "2025-08-11",
+      "returnDate": null,
+      "totalDelayDays": 13,
+      "fineRate": 2,
+      "totalFine": 26,
+      "isbn": "1292401134",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781292401132-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/9.jpg"
+    },
+    {
+      "id": 9,
+      "bookTitle": "Deep Learning",
+      "bookAuthor": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+      "bookId": 5,
+      "memberName": "Jack Wilson",
+      "memberId": 10,
+      "borrowDate": "2025-07-29",
+      "dueDate": "2025-08-12",
+      "returnDate": null,
+      "totalDelayDays": 12,
+      "fineRate": 2,
+      "totalFine": 24,
+      "isbn": "0262035618",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262035613-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/10.jpg"
+    },
+    {
+      "id": 10,
+      "bookTitle": "Deep Learning",
+      "bookAuthor": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+      "bookId": 5,
+      "memberName": "Karen Lee",
+      "memberId": 11,
+      "borrowDate": "2025-07-30",
+      "dueDate": "2025-08-13",
+      "returnDate": null,
+      "totalDelayDays": 11,
+      "fineRate": 2,
+      "totalFine": 22,
+      "isbn": "0262035619",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262035613-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/11.jpg"
+    },
+    {
+      "id": 11,
+      "bookTitle": "Computer Networks",
+      "bookAuthor": "Andrew S. Tanenbaum, David J. Wetherall",
+      "bookId": 6,
+      "memberName": "Liam Foster",
+      "memberId": 12,
+      "borrowDate": "2025-07-31",
+      "dueDate": "2025-08-14",
+      "returnDate": null,
+      "totalDelayDays": 10,
+      "fineRate": 2,
+      "totalFine": 20,
+      "isbn": "0135408008",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780135408001-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/12.jpg"
+    },
+    {
+      "id": 12,
+      "bookTitle": "Computer Networks",
+      "bookAuthor": "Andrew S. Tanenbaum, David J. Wetherall",
+      "bookId": 6,
+      "memberName": "Mia Wong",
+      "memberId": 13,
+      "borrowDate": "2025-08-01",
+      "dueDate": "2025-08-15",
+      "returnDate": null,
+      "totalDelayDays": 9,
+      "fineRate": 2,
+      "totalFine": 18,
+      "isbn": "0135408009",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780135408001-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/13.jpg"
+    },
+    {
+      "id": 13,
+      "bookTitle": "Database System Concepts",
+      "bookAuthor": "Abraham Silberschatz, Henry F. Korth, S. Sudarshan",
+      "bookId": 7,
+      "memberName": "Noah Kim",
+      "memberId": 14,
+      "borrowDate": "2025-08-02",
+      "dueDate": "2025-08-16",
+      "returnDate": null,
+      "totalDelayDays": 8,
+      "fineRate": 2,
+      "totalFine": 16,
+      "isbn": "0078022150",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780078022159-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/14.jpg"
+    },
+    {
+      "id": 14,
+      "bookTitle": "Database System Concepts",
+      "bookAuthor": "Abraham Silberschatz, Henry F. Korth, S. Sudarshan",
+      "bookId": 7,
+      "memberName": "Olivia Brown",
+      "memberId": 15,
+      "borrowDate": "2025-08-03",
+      "dueDate": "2025-08-17",
+      "returnDate": null,
+      "totalDelayDays": 7,
+      "fineRate": 2,
+      "totalFine": 14,
+      "isbn": "0078022151",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780078022159-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/15.jpg"
+    },
+    {
+      "id": 15,
+      "bookTitle": "Operating System Concepts",
+      "bookAuthor": "Abraham Silberschatz, Peter B. Galvin, Greg Gagne",
+      "bookId": 8,
+      "memberName": "Peter Evans",
+      "memberId": 16,
+      "borrowDate": "2025-08-04",
+      "dueDate": "2025-08-18",
+      "returnDate": null,
+      "totalDelayDays": 6,
+      "fineRate": 2,
+      "totalFine": 12,
+      "isbn": "1119456339",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781119456339-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/16.jpg"
+    },
+    {
+      "id": 16,
+      "bookTitle": "Operating System Concepts",
+      "bookAuthor": "Abraham Silberschatz, Peter B. Galvin, Greg Gagne",
+      "bookId": 8,
+      "memberName": "Rachel Gupta",
+      "memberId": 17,
+      "borrowDate": "2025-08-05",
+      "dueDate": "2025-08-19",
+      "returnDate": null,
+      "totalDelayDays": 5,
+      "fineRate": 2,
+      "totalFine": 10,
+      "isbn": "1119456340",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781119456339-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/17.jpg"
+    },
+    {
+      "id": 17,
+      "bookTitle": "Computer Organization and Design",
+      "bookAuthor": "David A. Patterson, John L. Hennessy",
+      "bookId": 9,
+      "memberName": "Sanjay Rao",
+      "memberId": 18,
+      "borrowDate": "2025-08-06",
+      "dueDate": "2025-08-20",
+      "returnDate": null,
+      "totalDelayDays": 4,
+      "fineRate": 2,
+      "totalFine": 8,
+      "isbn": "0128122757",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128122754-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/18.jpg"
+    },
+    {
+      "id": 18,
+      "bookTitle": "Computer Organization and Design",
+      "bookAuthor": "David A. Patterson, John L. Hennessy",
+      "bookId": 9,
+      "memberName": "Tara Singh",
+      "memberId": 19,
+      "borrowDate": "2025-08-07",
+      "dueDate": "2025-08-21",
+      "returnDate": null,
+      "totalDelayDays": 3,
+      "fineRate": 2,
+      "totalFine": 6,
+      "isbn": "0128122758",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128122754-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/19.jpg"
+    },
+    {
+      "id": 19,
+      "bookTitle": "The C Programming Language",
+      "bookAuthor": "Brian W. Kernighan, Dennis M. Ritchie",
+      "bookId": 10,
+      "memberName": "Uma Desai",
+      "memberId": 20,
+      "borrowDate": "2025-08-08",
+      "dueDate": "2025-08-22",
+      "returnDate": null,
+      "totalDelayDays": 2,
+      "fineRate": 2,
+      "totalFine": 4,
+      "isbn": "0131103624",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780131103627-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/20.jpg"
+    },
+    {
+      "id": 20,
+      "bookTitle": "The C Programming Language",
+      "bookAuthor": "Brian W. Kernighan, Dennis M. Ritchie",
+      "bookId": 10,
+      "memberName": "Vikram Joshi",
+      "memberId": 21,
+      "borrowDate": "2025-08-09",
+      "dueDate": "2025-08-23",
+      "returnDate": null,
+      "totalDelayDays": 1,
+      "fineRate": 2,
+      "totalFine": 2,
+      "isbn": "0131103625",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780131103627-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/21.jpg"
+    },
+    {
+      "id": 21,
+      "bookTitle": "Structure and Interpretation of Computer Programs",
+      "bookAuthor": "Harold Abelson, Gerald Jay Sussman",
+      "bookId": 11,
+      "memberName": "Clara Ng",
+      "memberId": 3,
+      "borrowDate": "2025-08-10",
+      "dueDate": "2025-08-24",
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0262510871",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262510875-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/3.jpg"
+    },
+    {
+      "id": 22,
+      "bookTitle": "Structure and Interpretation of Computer Programs",
+      "bookAuthor": "Harold Abelson, Gerald Jay Sussman",
+      "bookId": 11,
+      "memberName": "Dimitri Patel",
+      "memberId": 4,
+      "borrowDate": "2025-08-11",
+      "dueDate": "2025-08-25",
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0262510872",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262510875-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/4.jpg"
+    }
+  ],
+  "requestedBooks": [
+    {
+      "id": 1,
+      "bookTitle": "Introduction to Algorithms",
+      "bookAuthor": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+      "bookId": 1,
+      "memberName": "Clara Ng",
+      "memberId": 3,
+      "requestDate": "2025-08-05",
+      "borrowDate": null,
+      "dueDate": null,
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0262046305",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/3.jpg",
+      "queuePosition": 1
+    },
+    {
+      "id": 2,
+      "bookTitle": "Introduction to Algorithms",
+      "bookAuthor": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+      "bookId": 1,
+      "memberName": "Karen Lee",
+      "memberId": 11,
+      "requestDate": "2025-08-06",
+      "borrowDate": null,
+      "dueDate": null,
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0262046306",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/11.jpg",
+      "queuePosition": 2
+    },
+    {
+      "id": 3,
+      "bookTitle": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "bookAuthor": "Robert C. Martin",
+      "bookId": 2,
+      "memberName": "Liam Foster",
+      "memberId": 12,
+      "requestDate": "2025-08-07",
+      "borrowDate": null,
+      "dueDate": null,
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0132350882",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/12.jpg",
+      "queuePosition": 1
+    },
+    {
+      "id": 4,
+      "bookTitle": "The Design of Everyday Things",
+      "bookAuthor": "Don Norman",
+      "bookId": 3,
+      "memberName": "Mia Wong",
+      "memberId": 13,
+      "requestDate": "2025-08-09",
+      "borrowDate": null,
+      "dueDate": null,
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0465050654",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780465050659-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/13.jpg",
+      "queuePosition": 1
+    },
+    {
+      "id": 5,
+      "bookTitle": "Artificial Intelligence: A Modern Approach",
+      "bookAuthor": "Stuart Russell, Peter Norvig",
+      "bookId": 4,
+      "memberName": "Noah Kim",
+      "memberId": 14,
+      "requestDate": "2025-08-11",
+      "borrowDate": null,
+      "dueDate": null,
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "1292401133",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781292401132-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/14.jpg",
+      "queuePosition": 1
+    },
+    {
+      "id": 6,
+      "bookTitle": "Artificial Intelligence: A Modern Approach",
+      "bookAuthor": "Stuart Russell, Peter Norvig",
+      "bookId": 4,
+      "memberName": "Olivia Brown",
+      "memberId": 15,
+      "requestDate": "2025-08-12",
+      "borrowDate": null,
+      "dueDate": null,
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "1292401134",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781292401132-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/15.jpg",
+      "queuePosition": 2
+    },
+    {
+      "id": 7,
+      "bookTitle": "Deep Learning",
+      "bookAuthor": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+      "bookId": 5,
+      "memberName": "Peter Evans",
+      "memberId": 16,
+      "requestDate": "2025-08-13",
+      "borrowDate": null,
+      "dueDate": null,
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0262035618",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262035613-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/16.jpg",
+      "queuePosition": 1
+    },
+    {
+      "id": 8,
+      "bookTitle": "Computer Networks",
+      "bookAuthor": "Andrew S. Tanenbaum, David J. Wetherall",
+      "bookId": 6,
+      "memberName": "Rachel Gupta",
+      "memberId": 17,
+      "requestDate": "2025-08-15",
+      "borrowDate": null,
+      "dueDate": null,
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0135408008",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780135408001-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/17.jpg",
+      "queuePosition": 1
+    },
+    {
+      "id": 9,
+      "bookTitle": "Database System Concepts",
+      "bookAuthor": "Abraham Silberschatz, Henry F. Korth, S. Sudarshan",
+      "bookId": 7,
+      "memberName": "Sanjay Rao",
+      "memberId": 18,
+      "requestDate": "2025-08-17",
+      "borrowDate": null,
+      "dueDate": null,
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0078022150",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780078022159-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/18.jpg",
+      "queuePosition": 1
+    },
+    {
+      "id": 10,
+      "bookTitle": "Operating System Concepts",
+      "bookAuthor": "Abraham Silberschatz, Peter B. Galvin, Greg Gagne",
+      "bookId": 8,
+      "memberName": "Tara Singh",
+      "memberId": 19,
+      "requestDate": "2025-08-19",
+      "borrowDate": null,
+      "dueDate": null,
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "1119456339",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781119456339-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/19.jpg",
+      "queuePosition": 1
+    }
+  ],
+  "overdueBooks": [
+    {
+      "id": 1,
+      "bookTitle": "Introduction to Algorithms",
+      "bookAuthor": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+      "bookId": 1,
+      "memberName": "Andrew Kazantzis",
+      "memberId": 1,
+      "borrowDate": "2025-07-21",
+      "dueDate": "2025-08-04",
+      "returnDate": null,
+      "totalDelayDays": 20,
+      "fineRate": 2,
+      "totalFine": 40,
+      "isbn": "0262046305",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 2,
+      "bookTitle": "Introduction to Algorithms",
+      "bookAuthor": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+      "bookId": 1,
+      "memberName": "Bethany Lim",
+      "memberId": 2,
+      "borrowDate": "2025-07-22",
+      "dueDate": "2025-08-05",
+      "returnDate": null,
+      "totalDelayDays": 19,
+      "fineRate": 2,
+      "totalFine": 38,
+      "isbn": "0262046306",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "id": 3,
+      "bookTitle": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "bookAuthor": "Robert C. Martin",
+      "bookId": 2,
+      "memberName": "Dimitri Patel",
+      "memberId": 4,
+      "borrowDate": "2025-07-23",
+      "dueDate": "2025-08-06",
+      "returnDate": null,
+      "totalDelayDays": 18,
+      "fineRate": 2,
+      "totalFine": 36,
+      "isbn": "0132350882",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/4.jpg"
+    },
+    {
+      "id": 4,
+      "bookTitle": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "bookAuthor": "Robert C. Martin",
+      "bookId": 2,
+      "memberName": "Emma Thompson",
+      "memberId": 5,
+      "borrowDate": "2025-07-24",
+      "dueDate": "2025-08-07",
+      "returnDate": null,
+      "totalDelayDays": 17,
+      "fineRate": 2,
+      "totalFine": 34,
+      "isbn": "0132350883",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/5.jpg"
+    },
+    {
+      "id": 5,
+      "bookTitle": "The Design of Everyday Things",
+      "bookAuthor": "Don Norman",
+      "bookId": 3,
+      "memberName": "Fiona Chen",
+      "memberId": 6,
+      "borrowDate": "2025-07-25",
+      "dueDate": "2025-08-08",
+      "returnDate": null,
+      "totalDelayDays": 16,
+      "fineRate": 2,
+      "totalFine": 32,
+      "isbn": "0465050654",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780465050659-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    {
+      "id": 6,
+      "bookTitle": "The Design of Everyday Things",
+      "bookAuthor": "Don Norman",
+      "bookId": 3,
+      "memberName": "George Alvarez",
+      "memberId": 7,
+      "borrowDate": "2025-07-26",
+      "dueDate": "2025-08-09",
+      "returnDate": null,
+      "totalDelayDays": 15,
+      "fineRate": 2,
+      "totalFine": 30,
+      "isbn": "0465050655",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780465050659-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    {
+      "id": 7,
+      "bookTitle": "Artificial Intelligence: A Modern Approach",
+      "bookAuthor": "Stuart Russell, Peter Norvig",
+      "bookId": 4,
+      "memberName": "Henry Brooks",
+      "memberId": 8,
+      "borrowDate": "2025-07-27",
+      "dueDate": "2025-08-10",
+      "returnDate": null,
+      "totalDelayDays": 14,
+      "fineRate": 2,
+      "totalFine": 28,
+      "isbn": "1292401133",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781292401132-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/8.jpg"
+    },
+    {
+      "id": 8,
+      "bookTitle": "Artificial Intelligence: A Modern Approach",
+      "bookAuthor": "Stuart Russell, Peter Norvig",
+      "bookId": 4,
+      "memberName": "Isabelle Tan",
+      "memberId": 9,
+      "borrowDate": "2025-07-28",
+      "dueDate": "2025-08-11",
+      "returnDate": null,
+      "totalDelayDays": 13,
+      "fineRate": 2,
+      "totalFine": 26,
+      "isbn": "1292401134",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781292401132-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/9.jpg"
+    },
+    {
+      "id": 9,
+      "bookTitle": "Deep Learning",
+      "bookAuthor": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+      "bookId": 5,
+      "memberName": "Jack Wilson",
+      "memberId": 10,
+      "borrowDate": "2025-07-29",
+      "dueDate": "2025-08-12",
+      "returnDate": null,
+      "totalDelayDays": 12,
+      "fineRate": 2,
+      "totalFine": 24,
+      "isbn": "0262035618",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262035613-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/10.jpg"
+    },
+    {
+      "id": 10,
+      "bookTitle": "Deep Learning",
+      "bookAuthor": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+      "bookId": 5,
+      "memberName": "Karen Lee",
+      "memberId": 11,
+      "borrowDate": "2025-07-30",
+      "dueDate": "2025-08-13",
+      "returnDate": null,
+      "totalDelayDays": 11,
+      "fineRate": 2,
+      "totalFine": 22,
+      "isbn": "0262035619",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262035613-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/11.jpg"
+    },
+    {
+      "id": 11,
+      "bookTitle": "Computer Networks",
+      "bookAuthor": "Andrew S. Tanenbaum, David J. Wetherall",
+      "bookId": 6,
+      "memberName": "Liam Foster",
+      "memberId": 12,
+      "borrowDate": "2025-07-31",
+      "dueDate": "2025-08-14",
+      "returnDate": null,
+      "totalDelayDays": 10,
+      "fineRate": 2,
+      "totalFine": 20,
+      "isbn": "0135408008",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780135408001-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/12.jpg"
+    },
+    {
+      "id": 12,
+      "bookTitle": "Computer Networks",
+      "bookAuthor": "Andrew S. Tanenbaum, David J. Wetherall",
+      "bookId": 6,
+      "memberName": "Mia Wong",
+      "memberId": 13,
+      "borrowDate": "2025-08-01",
+      "dueDate": "2025-08-15",
+      "returnDate": null,
+      "totalDelayDays": 9,
+      "fineRate": 2,
+      "totalFine": 18,
+      "isbn": "0135408009",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780135408001-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/13.jpg"
+    },
+    {
+      "id": 13,
+      "bookTitle": "Database System Concepts",
+      "bookAuthor": "Abraham Silberschatz, Henry F. Korth, S. Sudarshan",
+      "bookId": 7,
+      "memberName": "Noah Kim",
+      "memberId": 14,
+      "borrowDate": "2025-08-02",
+      "dueDate": "2025-08-16",
+      "returnDate": null,
+      "totalDelayDays": 8,
+      "fineRate": 2,
+      "totalFine": 16,
+      "isbn": "0078022150",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780078022159-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/14.jpg"
+    },
+    {
+      "id": 14,
+      "bookTitle": "Database System Concepts",
+      "bookAuthor": "Abraham Silberschatz, Henry F. Korth, S. Sudarshan",
+      "bookId": 7,
+      "memberName": "Olivia Brown",
+      "memberId": 15,
+      "borrowDate": "2025-08-03",
+      "dueDate": "2025-08-17",
+      "returnDate": null,
+      "totalDelayDays": 7,
+      "fineRate": 2,
+      "totalFine": 14,
+      "isbn": "0078022151",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780078022159-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/15.jpg"
+    },
+    {
+      "id": 15,
+      "bookTitle": "Operating System Concepts",
+      "bookAuthor": "Abraham Silberschatz, Peter B. Galvin, Greg Gagne",
+      "bookId": 8,
+      "memberName": "Peter Evans",
+      "memberId": 16,
+      "borrowDate": "2025-08-04",
+      "dueDate": "2025-08-18",
+      "returnDate": null,
+      "totalDelayDays": 6,
+      "fineRate": 2,
+      "totalFine": 12,
+      "isbn": "1119456339",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781119456339-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/16.jpg"
+    },
+    {
+      "id": 16,
+      "bookTitle": "Operating System Concepts",
+      "bookAuthor": "Abraham Silberschatz, Peter B. Galvin, Greg Gagne",
+      "bookId": 8,
+      "memberName": "Rachel Gupta",
+      "memberId": 17,
+      "borrowDate": "2025-08-05",
+      "dueDate": "2025-08-19",
+      "returnDate": null,
+      "totalDelayDays": 5,
+      "fineRate": 2,
+      "totalFine": 10,
+      "isbn": "1119456340",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781119456339-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/17.jpg"
+    },
+    {
+      "id": 17,
+      "bookTitle": "Computer Organization and Design",
+      "bookAuthor": "David A. Patterson, John L. Hennessy",
+      "bookId": 9,
+      "memberName": "Sanjay Rao",
+      "memberId": 18,
+      "borrowDate": "2025-08-06",
+      "dueDate": "2025-08-20",
+      "returnDate": null,
+      "totalDelayDays": 4,
+      "fineRate": 2,
+      "totalFine": 8,
+      "isbn": "0128122757",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128122754-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/18.jpg"
+    },
+    {
+      "id": 18,
+      "bookTitle": "Computer Organization and Design",
+      "bookAuthor": "David A. Patterson, John L. Hennessy",
+      "bookId": 9,
+      "memberName": "Tara Singh",
+      "memberId": 19,
+      "borrowDate": "2025-08-07",
+      "dueDate": "2025-08-21",
+      "returnDate": null,
+      "totalDelayDays": 3,
+      "fineRate": 2,
+      "totalFine": 6,
+      "isbn": "0128122758",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128122754-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/19.jpg"
+    },
+    {
+      "id": 19,
+      "bookTitle": "The C Programming Language",
+      "bookAuthor": "Brian W. Kernighan, Dennis M. Ritchie",
+      "bookId": 10,
+      "memberName": "Uma Desai",
+      "memberId": 20,
+      "borrowDate": "2025-08-08",
+      "dueDate": "2025-08-22",
+      "returnDate": null,
+      "totalDelayDays": 2,
+      "fineRate": 2,
+      "totalFine": 4,
+      "isbn": "0131103624",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780131103627-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/20.jpg"
+    },
+    {
+      "id": 20,
+      "bookTitle": "The C Programming Language",
+      "bookAuthor": "Brian W. Kernighan, Dennis M. Ritchie",
+      "bookId": 10,
+      "memberName": "Vikram Joshi",
+      "memberId": 21,
+      "borrowDate": "2025-08-09",
+      "dueDate": "2025-08-23",
+      "returnDate": null,
+      "totalDelayDays": 1,
+      "fineRate": 2,
+      "totalFine": 2,
+      "isbn": "0131103625",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780131103627-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/21.jpg"
     }
   ],
   "login": []
