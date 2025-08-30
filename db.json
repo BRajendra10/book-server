@@ -3024,23 +3024,6 @@
       "memberImage": "https://randomuser.me/api/portraits/men/21.jpg"
     }
   ],
-  "login": [
-    {
-      "id": 1,
-      "name": "John Smith",
-      "email": "john.smith@university.edu",
-      "phone": "+1-555-0121",
-      "lastVisited": "2025-08-30",
-      "isLogedIn": false,
-      "department": "Administration",
-      "memberId": 21,
-      "year": null,
-      "fineDue": 0,
-      "status": "Active",
-      "userImage": "https://randomuser.me/api/portraits/men/21.jpg",
-      "membershipType": "admin",
-      "password": "admin123"
-    }
-  ]
+  "login": []
 }
 
