@@ -333,7 +333,7 @@
       "author": "David A. Patterson, John L. Hennessy",
       "publisher": "Morgan Kaufmann",
       "isbn": ["0128122757", "0128122758"],
-      "status": "Available",
+      "status": "Borrowed",
       "requests": 0,
       "description": "Computer Organization and Design RISC-V Edition: The Hardware Software Interface, Second Edition, the award-winning textbook from Patterson and Hennessy that is used by more than 40,000 students per year, continues to present the most comprehensive and readable introduction to this core computer science topic.",
       "keywords": [
@@ -377,7 +377,20 @@
           "totalFine": 0
         }
       ],
-      "requestDetails": []
+      "requestDetails": [
+        {
+          "isbn": "0128122758",
+          "userId": 18,
+          "memberName": "Harper Adams",
+          "memberImage": "https://randomuser.me/api/portraits/women/18.jpg",
+          "requestDate": "2025-08-7",
+          "borrowDate": null,
+          "dueDate": null,
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        }
+      ]
     },
     {
       "id": 10,
@@ -443,7 +456,7 @@
       "author": "Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman",
       "publisher": "Pearson",
       "isbn": ["0321486811", "0321486812"],
-      "status": "Available",
+      "status": "Borrowed",
       "requests": 0,
       "description": "The classic Dragon Book on compiler design, covering lexical analysis, parsing, syntax-directed translation, and code optimization.",
       "keywords": [
@@ -463,8 +476,44 @@
       "subject": "Compiler Design",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780321486813-L.jpg",
       "addedDate": "2022-11-30",
-      "borrowDetails": [],
-      "requestDetails": []
+      "borrowDetails": [
+        {
+          "isbn": "0321486811",
+          "userId": 16,
+          "memberName": "Amelia Wright",
+          "memberImage": "https://randomuser.me/api/portraits/women/16.jpg",
+          "borrowDate": "2025-08-21",
+          "dueDate": "2025-09-05",
+          "totalDelayDays": 2,
+          "fineRate": 2,
+          "totalFine": 4
+        },
+        {
+          "isbn": "0321486812",
+          "userId": 17,
+          "memberName": "Benjamin Scott",
+          "memberImage": "https://randomuser.me/api/portraits/men/17.jpg",
+          "borrowDate": "2025-08-23",
+          "dueDate": "2025-09-07",
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        }
+      ],
+      "requestDetails": [
+        {
+          "isbn": "0321486811",
+          "userId": 9,
+          "memberName": "Mason Rodriguez",
+          "memberImage": "https://randomuser.me/api/portraits/men/9.jpg",
+          "requestDate": "2025-09-05",
+          "borrowDate": null,
+          "dueDate": null,
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        }
+      ]
     },
     {
       "id": 13,
@@ -579,8 +628,44 @@
       "subject": "Data Mining",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780128117606-L.jpg",
       "addedDate": "2023-02-22",
-      "borrowDetails": [],
-      "requestDetails": []
+      "borrowDetails": [
+        {
+          "isbn": "0128117605",
+          "userId": 14,
+          "memberName": "Charlotte Young",
+          "memberImage": "https://randomuser.me/api/portraits/women/14.jpg",
+          "borrowDate": "2025-09-3",
+          "dueDate": "2025-09-18",
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        },
+        {
+          "isbn": "0128117606",
+          "userId": 19,
+          "memberName": "Elijah Baker",
+          "memberImage": "https://randomuser.me/api/portraits/men/19.jpg",
+          "borrowDate": "2025-09-18",
+          "dueDate": "2025-09-02",
+          "totalDelayDays": 5,
+          "fineRate": 2,
+          "totalFine": 10
+        }
+      ],
+      "requestDetails": [
+        {
+          "isbn": "0128117606",
+          "userId": 7,
+          "memberName": "Noah Davis",
+          "memberImage": "https://randomuser.me/api/portraits/men/7.jpg",
+          "requestDate": "2025-09-01",
+          "borrowDate": null,
+          "dueDate": null,
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        }
+      ]
     },
     {
       "id": 17,
@@ -2002,7 +2087,7 @@
       "bookId": 9,
       "memberName": "Mia Lopez",
       "memberId": 12,
-      "borrowDate": "2025-08-5",
+      "borrowDate": "2025-08-05",
       "dueDate": "2025-09-20",
       "returnDate": null,
       "totalDelayDays": 0,
@@ -2011,6 +2096,74 @@
       "isbn": "0128122758",
       "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128122754-L.jpg",
       "memberImage": "https://randomuser.me/api/portraits/women/12.jpg"
+    },
+    {
+      "id": 10,
+      "bookTitle": "Compilers: Principles, Techniques, and Tools",
+      "bookAuthor": "Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman",
+      "bookId": 12,
+      "memberName": "Amelia Wright",
+      "memberId": 16,
+      "borrowDate": "2025-08-21",
+      "dueDate": "2025-09-05",
+      "returnDate": null,
+      "totalDelayDays": 2,
+      "fineRate": 2,
+      "totalFine": 4,
+      "isbn": "0321486811",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780321486813-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/16.jpg"
+    },
+    {
+      "id": 11,
+      "bookTitle": "Compilers: Principles, Techniques, and Tools",
+      "bookAuthor": "Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman",
+      "bookId": 12,
+      "memberName": "Benjamin Scott",
+      "memberId": 17,
+      "borrowDate": "2025-08-23",
+      "dueDate": "2025-09-07",
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0321486812",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780321486813-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/17.jpg"
+    },
+    {
+      "id": 12,
+      "bookTitle": "Data Mining: Concepts and Techniques",
+      "bookAuthor": "Jiawei Han, Micheline Kamber, Jian Pei",
+      "bookId": 16,
+      "memberName": "Charlotte Young",
+      "memberId": 14,
+      "borrowDate": "2025-09-03",
+      "dueDate": "2025-09-18",
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0128117605",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128117606-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/14.jpg"
+    },
+    {
+      "id": 13,
+      "bookTitle": "Data Mining: Concepts and Techniques",
+      "bookAuthor": "Jiawei Han, Micheline Kamber, Jian Pei",
+      "bookId": 16,
+      "memberName": "Elijah Baker",
+      "memberId": 14,
+      "borrowDate": "2025-09-18",
+      "dueDate": "2025-09-02",
+      "returnDate": null,
+      "totalDelayDays": 5,
+      "fineRate": 2,
+      "totalFine": 10,
+      "isbn": "0128117606",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128117606-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/19.jpg"
     }
   ],
   "requestedBooks": [
@@ -2031,6 +2184,63 @@
       "isbn": "0262046305",
       "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
       "memberImage": "https://randomuser.me/api/portraits/women/3.jpg",
+      "queuePosition": 1
+    },
+    {
+      "id": 2,
+      "bookTitle": "Computer Organization and Design",
+      "bookAuthor": "David A. Patterson, John L. Hennessy",
+      "bookId": 9,
+      "memberName": "Harper Adams",
+      "memberId": 18,
+      "requestDate": "2025-08-26",
+      "borrowDate": null,
+      "dueDate": null,
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0128122758",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128122754-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/18.jpg",
+      "queuePosition": 1
+    },
+    {
+      "id": 3,
+      "bookTitle": "Compilers: Principles, Techniques, and Tools",
+      "bookAuthor": "Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman",
+      "bookId": 12,
+      "memberName": "Mason Rodriguez",
+      "memberId": 9,
+      "requestDate": "2025-09-05",
+      "borrowDate": null,
+      "dueDate": null,
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0321486811",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780321486813-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/9.jpg",
+      "queuePosition": 1
+    },
+    {
+      "id": 4,
+      "bookTitle": "Data Mining: Concepts and Techniques",
+      "bookAuthor": "Jiawei Han, Micheline Kamber, Jian Pei",
+      "bookId": 16,
+      "memberName": "Noah Davis",
+      "memberId": 7,
+      "requestDate": "2025-09-01",
+      "borrowDate": null,
+      "dueDate": null,
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0128117606",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128117606-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/7.jpg",
       "queuePosition": 1
     }
   ],
@@ -2136,6 +2346,40 @@
       "isbn": "0078022150",
       "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780078022159-L.jpg",
       "memberImage": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    {
+      "id": 7,
+      "bookTitle": "Compilers: Principles, Techniques, and Tools",
+      "bookAuthor": "Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman",
+      "bookId": 12,
+      "memberName": "Amelia Wright",
+      "memberId": 16,
+      "borrowDate": "2025-08-21",
+      "dueDate": "2025-09-05",
+      "returnDate": null,
+      "totalDelayDays": 2,
+      "fineRate": 2,
+      "totalFine": 4,
+      "isbn": "0321486811",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780321486813-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/16.jpg"
+    },
+    {
+      "id": 8,
+      "bookTitle": "Data Mining: Concepts and Techniques",
+      "bookAuthor": "Jiawei Han, Micheline Kamber, Jian Pei",
+      "bookId": 16,
+      "memberName": "Elijah Baker",
+      "memberId": 14,
+      "borrowDate": "2025-09-18",
+      "dueDate": "2025-09-02",
+      "returnDate": null,
+      "totalDelayDays": 5,
+      "fineRate": 2,
+      "totalFine": 10,
+      "isbn": "0128117606",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128117606-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/19.jpg"
     }
   ]
 }
