@@ -45,9 +45,9 @@
           "memberImage": "https://randomuser.me/api/portraits/women/2.jpg",
           "borrowDate": "2025-08-11",
           "dueDate": "2025-08-26",
-          "totalDelayDays": 11,
+          "totalDelayDays": 12,
           "fineRate": 2,
-          "totalFine": 22
+          "totalFine": 24
         }
       ],
       "requestDetails": [
@@ -91,7 +91,19 @@
       "subject": "Software Development",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg",
       "addedDate": "2022-11-20",
-      "borrowDetails": [],
+      "borrowDetails": [
+        {
+          "isbn": "0132350882",
+          "userId": 3,
+          "memberName": "Liam Thompson",
+          "memberImage": "https://randomuser.me/api/portraits/men/3.jpg",
+          "borrowDate": "2025-08-20",
+          "dueDate": "2025-09-04",
+          "totalDelayDays": 3,
+          "fineRate": 2,
+          "totalFine": 6
+        }
+      ],
       "requestDetails": []
     },
     {
@@ -120,7 +132,19 @@
       "subject": "Product Design",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780465050659-L.jpg",
       "addedDate": "2023-03-10",
-      "borrowDetails": [],
+      "borrowDetails": [
+        {
+          "isbn": "0465050654",
+          "userId": 4,
+          "memberName": "Emma Wilson",
+          "memberImage": "https://randomuser.me/api/portraits/women/4.jpg",
+          "borrowDate": "2025-08-22",
+          "dueDate": "2025-09-06",
+          "totalDelayDays": 1,
+          "fineRate": 2,
+          "totalFine": 2
+        }
+      ],
       "requestDetails": []
     },
     {
@@ -129,7 +153,7 @@
       "author": "Stuart Russell, Peter Norvig",
       "publisher": "Pearson",
       "isbn": ["1292401133", "1292401134"],
-      "status": "Available",
+      "status": "Borrowed",
       "requests": 2,
       "description": "The most comprehensive, up-to-date introduction to the theory and practice of artificial intelligence.",
       "keywords": [
@@ -149,7 +173,30 @@
       "subject": "Artificial Intelligence",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781292401133-L.jpg",
       "addedDate": "2023-02-05",
-      "borrowDetails": [],
+      "borrowDetails": [
+        {
+          "isbn": "1292401133",
+          "userId": 5,
+          "memberName": "James Lee",
+          "memberImage": "https://randomuser.me/api/portraits/men/5.jpg",
+          "borrowDate": "2025-08-20",
+          "dueDate": "2025-09-04",
+          "totalDelayDays": 3,
+          "fineRate": 2,
+          "totalFine": 6
+        },
+        {
+          "isbn": "1292401134",
+          "userId": 6,
+          "memberName": "Olivia Brown",
+          "memberImage": "https://randomuser.me/api/portraits/women/6.jpg",
+          "borrowDate": "2025-08-30",
+          "dueDate": "2025-09-14",
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        }
+      ],
       "requestDetails": []
     },
     {
@@ -236,7 +283,19 @@
       "subject": "Database Systems",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780078022159-L.jpg",
       "addedDate": "2022-12-08",
-      "borrowDetails": [],
+      "borrowDetails": [
+        {
+          "isbn": "0078022150",
+          "userId": 7,
+          "memberName": "Noah Davis",
+          "memberImage": "https://randomuser.me/api/portraits/men/7.jpg",
+          "borrowDate": "2025-08-19",
+          "dueDate": "2025-09-03",
+          "totalDelayDays": 4,
+          "fineRate": 2,
+          "totalFine": 8
+        }
+      ],
       "requestDetails": []
     },
     {
@@ -294,7 +353,30 @@
       "subject": "Computer Architecture",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780128122754-L.jpg",
       "addedDate": "2023-02-18",
-      "borrowDetails": [],
+      "borrowDetails": [
+        {
+          "isbn": "0128122757",
+          "userId": 10,
+          "memberName": "Ava Martinez",
+          "memberImage": "https://randomuser.me/api/portraits/women/10.jpg",
+          "borrowDate": "2025-08-1",
+          "dueDate": "2025-09-16",
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        },
+        {
+          "isbn": "0128122758",
+          "userId": 12,
+          "memberName": "Mia Lopez",
+          "memberImage": "https://randomuser.me/api/portraits/women/12.jpg",
+          "borrowDate": "2025-08-5",
+          "dueDate": "2025-09-20",
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        }
+      ],
       "requestDetails": []
     },
     {
@@ -1810,6 +1892,125 @@
       "isbn": "0262046306",
       "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
       "memberImage": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "id": 3,
+      "bookTitle": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "bookAuthor": "Robert C. Martin",
+      "bookId": 2,
+      "memberName": "Liam Thompson",
+      "memberId": 3,
+      "borrowDate": "2025-08-20",
+      "dueDate": "2025-09-04",
+      "returnDate": null,
+      "totalDelayDays": 3,
+      "fineRate": 2,
+      "totalFine": 6,
+      "isbn": "0132350882",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+      "id": 4,
+      "bookTitle": "The Design of Everyday Things",
+      "bookAuthor": "Don Norman",
+      "bookId": 3,
+      "memberName": "Emma Wilson",
+      "memberId": 4,
+      "borrowDate": "2025-08-22",
+      "dueDate": "2025-09-06",
+      "returnDate": null,
+      "totalDelayDays": 1,
+      "fineRate": 2,
+      "totalFine": 2,
+      "isbn": "0465050654",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780465050659-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    {
+      "id": 5,
+      "bookTitle": "Artificial Intelligence: A Modern Approach",
+      "bookAuthor": "Stuart Russell, Peter Norvig",
+      "bookId": 4,
+      "memberName": "James Lee",
+      "memberId": 5,
+      "borrowDate": "2025-08-20",
+      "dueDate": "2025-09-04",
+      "returnDate": null,
+      "totalDelayDays": 3,
+      "fineRate": 2,
+      "totalFine": 6,
+      "isbn": "1292401133",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781292401133-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    {
+      "id": 6,
+      "bookTitle": "Artificial Intelligence: A Modern Approach",
+      "bookAuthor": "Stuart Russell, Peter Norvig",
+      "bookId": 4,
+      "memberName": "Olivia Brown",
+      "memberId": 6,
+      "borrowDate": "2025-08-30",
+      "dueDate": "2025-09-14",
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "1292401134",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781292401133-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    {
+      "id": 7,
+      "bookTitle": "Database System Concepts",
+      "bookAuthor": "Abraham Silberschatz, Henry F. Korth, S. Sudarshan",
+      "bookId": 7,
+      "memberName": "Noah Davis",
+      "memberId": 7,
+      "borrowDate": "2025-08-19",
+      "dueDate": "2025-09-3",
+      "returnDate": null,
+      "totalDelayDays": 4,
+      "fineRate": 2,
+      "totalFine": 8,
+      "isbn": "0078022150",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780078022159-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    {
+      "id": 8,
+      "bookTitle": "Computer Organization and Design",
+      "bookAuthor": "David A. Patterson, John L. Hennessy",
+      "bookId": 9,
+      "memberName": "Ava Martinez",
+      "memberId": 10,
+      "borrowDate": "2025-08-1",
+      "dueDate": "2025-09-16",
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0128122757",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128122754-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/10.jpg"
+    },
+    {
+      "id": 9,
+      "bookTitle": "Computer Organization and Design",
+      "bookAuthor": "David A. Patterson, John L. Hennessy",
+      "bookId": 9,
+      "memberName": "Mia Lopez",
+      "memberId": 12,
+      "borrowDate": "2025-08-5",
+      "dueDate": "2025-09-20",
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0128122758",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128122754-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/12.jpg"
     }
   ],
   "requestedBooks": [
@@ -1841,12 +2042,12 @@
       "bookId": 1,
       "memberName": "Andrew Kazantzis",
       "memberId": 1,
-      "borrowDate": "2025-07-21",
-      "dueDate": "2025-08-04",
+      "borrowDate": "2025-08-10",
+      "dueDate": "2025-08-25",
       "returnDate": null,
-      "totalDelayDays": 20,
+      "totalDelayDays": 12,
       "fineRate": 2,
-      "totalFine": 40,
+      "totalFine": 24,
       "isbn": "0262046305",
       "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
       "memberImage": "https://randomuser.me/api/portraits/men/1.jpg"
@@ -1859,14 +2060,82 @@
       "memberName": "Sophie Martinez",
       "memberId": 2,
       "borrowDate": "2025-08-11",
-      "dueDate": "2025-08-226",
+      "dueDate": "2025-08-26",
       "returnDate": null,
-      "totalDelayDays": 11,
+      "totalDelayDays": 12,
       "fineRate": 2,
-      "totalFine": 22,
+      "totalFine": 24,
       "isbn": "0262046306",
       "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
       "memberImage": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "id": 3,
+      "bookTitle": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "bookAuthor": "Robert C. Martin",
+      "bookId": 2,
+      "memberName": "Liam Thompson",
+      "memberId": 3,
+      "borrowDate": "2025-08-20",
+      "dueDate": "2025-09-04",
+      "returnDate": null,
+      "totalDelayDays": 3,
+      "fineRate": 2,
+      "totalFine": 6,
+      "isbn": "0132350882",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+      "id": 4,
+      "bookTitle": "The Design of Everyday Things",
+      "bookAuthor": "Don Norman",
+      "bookId": 3,
+      "memberName": "Emma Wilson",
+      "memberId": 4,
+      "borrowDate": "2025-08-22",
+      "dueDate": "2025-09-06",
+      "returnDate": null,
+      "totalDelayDays": 1,
+      "fineRate": 2,
+      "totalFine": 2,
+      "isbn": "0465050654",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780465050659-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    {
+      "id": 5,
+      "bookTitle": "Artificial Intelligence: A Modern Approach",
+      "bookAuthor": "Stuart Russell, Peter Norvig",
+      "bookId": 4,
+      "memberName": "James Lee",
+      "memberId": 5,
+      "borrowDate": "2025-08-20",
+      "dueDate": "2025-09-04",
+      "returnDate": null,
+      "totalDelayDays": 3,
+      "fineRate": 2,
+      "totalFine": 6,
+      "isbn": "1292401133",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781292401133-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    {
+      "id": 6,
+      "bookTitle": "Database System Concepts",
+      "bookAuthor": "Abraham Silberschatz, Henry F. Korth, S. Sudarshan",
+      "bookId": 7,
+      "memberName": "Noah Davis",
+      "memberId": 7,
+      "borrowDate": "2025-08-19",
+      "dueDate": "2025-09-3",
+      "returnDate": null,
+      "totalDelayDays": 4,
+      "fineRate": 2,
+      "totalFine": 8,
+      "isbn": "0078022150",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780078022159-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/7.jpg"
     }
   ]
 }
