@@ -34,9 +34,9 @@
           "memberImage": "https://randomuser.me/api/portraits/men/1.jpg",
           "borrowDate": "2025-08-10",
           "dueDate": "2025-08-25",
-          "totalDelayDays": 12,
+          "totalDelayDays": 13,
           "fineRate": 2,
-          "totalFine": 24
+          "totalFine": 26
         },
         {
           "isbn": "0262046306",
@@ -731,7 +731,7 @@
       "author": "Roger S. Pressman, Bruce R. Maxim",
       "publisher": "McGraw-Hill Education",
       "isbn": ["1260548007", "1260548008"],
-      "status": "Available",
+      "status": "Borrowed",
       "requests": 0,
       "description": "For almost four decades, Software Engineering: A Practitioner's Approach (SEPA) has been the world's leading textbook in software engineering.",
       "keywords": [
@@ -751,7 +751,30 @@
       "subject": "Software Engineering",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781260548006-L.jpg",
       "addedDate": "2023-01-30",
-      "borrowDetails": [],
+      "borrowDetails": [
+        {
+          "isbn": "1260548007",
+          "userId": 14,
+          "memberName": "Charlotte Young",
+          "memberImage": "https://randomuser.me/api/portraits/women/14.jpg",
+          "borrowDate": "2025-09-01",
+          "dueDate": "2025-09-15",
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        },
+        {
+          "isbn": "1260548008",
+          "userId": 16,
+          "memberName": "Amelia Wright",
+          "memberImage": "https://randomuser.me/api/portraits/women/16.jpg",
+          "borrowDate": "2025-08-21",
+          "dueDate": "2025-09-05",
+          "totalDelayDays": 2,
+          "fineRate": 2,
+          "totalFine": 4
+        }
+      ],
       "requestDetails": []
     },
     {
@@ -1663,7 +1686,7 @@
       "lastVisited": "2025-08-10",
       "department": "CSE",
       "year": "1st",
-      "fineDue": 40,
+      "fineDue": 26,
       "status": "Active",
       "userImage": "https://randomuser.me/api/portraits/men/1.jpg",
       "membershipType": "student"
@@ -1676,7 +1699,7 @@
       "lastVisited": "2025-08-11",
       "department": "ECE",
       "year": "2nd",
-      "fineDue": 0,
+      "fineDue": 24,
       "status": "Active",
       "userImage": "https://randomuser.me/api/portraits/women/2.jpg",
       "membershipType": "student"
@@ -1689,7 +1712,7 @@
       "lastVisited": "2025-08-10",
       "department": "ME",
       "year": "3rd",
-      "fineDue": 20,
+      "fineDue": 6,
       "status": "Active",
       "userImage": "https://randomuser.me/api/portraits/men/3.jpg",
       "membershipType": "student"
@@ -1702,7 +1725,7 @@
       "lastVisited": "2025-08-12",
       "department": "IT",
       "year": "4th",
-      "fineDue": 0,
+      "fineDue": 2,
       "status": "Active",
       "userImage": "https://randomuser.me/api/portraits/women/4.jpg",
       "membershipType": "student"
@@ -1715,7 +1738,7 @@
       "lastVisited": "2025-08-13",
       "department": "CSE",
       "year": "2nd",
-      "fineDue": 16,
+      "fineDue": 6,
       "status": "Active",
       "userImage": "https://randomuser.me/api/portraits/men/5.jpg",
       "membershipType": "student"
@@ -1741,7 +1764,7 @@
       "lastVisited": "2025-08-30",
       "department": "ME",
       "year": "1st",
-      "fineDue": 0,
+      "fineDue": 8,
       "status": "Active",
       "userImage": "https://randomuser.me/api/portraits/men/7.jpg",
       "membershipType": "student"
@@ -1858,7 +1881,7 @@
       "lastVisited": "2025-08-28",
       "department": "IT",
       "year": "4th",
-      "fineDue": 0,
+      "fineDue": 4,
       "status": "Active",
       "userImage": "https://randomuser.me/api/portraits/women/16.jpg",
       "membershipType": "student"
@@ -1897,7 +1920,7 @@
       "lastVisited": "2025-08-28",
       "department": "ME",
       "year": "1st",
-      "fineDue": 0,
+      "fineDue": 10,
       "status": "Active",
       "userImage": "https://randomuser.me/api/portraits/men/19.jpg",
       "membershipType": "student"
@@ -1954,9 +1977,9 @@
       "borrowDate": "2025-08-10",
       "dueDate": "2025-08-25",
       "returnDate": null,
-      "totalDelayDays": 12,
+      "totalDelayDays": 13,
       "fineRate": 2,
-      "totalFine": 24,
+      "totalFine": 26,
       "isbn": "0262046305",
       "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
       "memberImage": "https://randomuser.me/api/portraits/men/1.jpg"
@@ -2070,7 +2093,7 @@
       "bookId": 9,
       "memberName": "Ava Martinez",
       "memberId": 10,
-      "borrowDate": "2025-08-1",
+      "borrowDate": "2025-08-01",
       "dueDate": "2025-09-16",
       "returnDate": null,
       "totalDelayDays": 0,
@@ -2153,7 +2176,7 @@
       "bookTitle": "Data Mining: Concepts and Techniques",
       "bookAuthor": "Jiawei Han, Micheline Kamber, Jian Pei",
       "bookId": 16,
-      "memberName": "Elijah Baker",
+      "memberName": "Charlotte Young",
       "memberId": 14,
       "borrowDate": "2025-09-18",
       "dueDate": "2025-09-02",
@@ -2164,6 +2187,40 @@
       "isbn": "0128117606",
       "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128117606-L.jpg",
       "memberImage": "https://randomuser.me/api/portraits/men/19.jpg"
+    },
+    {
+      "id": 14,
+      "bookTitle": "Software Engineering: A Practitioner's Approach",
+      "bookAuthor": "Roger S. Pressman, Bruce R. Maxim",
+      "bookId": 19,
+      "memberName": "Charlotte Young",
+      "memberId": 14,
+      "borrowDate": "2025-09-01",
+      "dueDate": "2025-09-15",
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "1260548007",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781260548006-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/14.jpg"
+    },
+    {
+      "id": 15,
+      "bookTitle": "Software Engineering: A Practitioner's Approach",
+      "bookAuthor": "Roger S. Pressman, Bruce R. Maxim",
+      "bookId": 19,
+      "memberName": "Amelia Wright",
+      "memberId": 16,
+      "borrowDate": "2025-09-01",
+      "dueDate": "2025-09-15",
+      "returnDate": null,
+      "totalDelayDays": 2,
+      "fineRate": 2,
+      "totalFine": 4,
+      "isbn": "1260548008",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781260548006-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/16.jpg"
     }
   ],
   "requestedBooks": [
@@ -2255,9 +2312,9 @@
       "borrowDate": "2025-08-10",
       "dueDate": "2025-08-25",
       "returnDate": null,
-      "totalDelayDays": 12,
+      "totalDelayDays": 13,
       "fineRate": 2,
-      "totalFine": 24,
+      "totalFine": 26,
       "isbn": "0262046305",
       "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
       "memberImage": "https://randomuser.me/api/portraits/men/1.jpg"
