@@ -1688,6 +1688,7 @@
       "year": "1st",
       "fineDue": 26,
       "status": "Active",
+      "password": "andrew123",
       "userImage": "https://randomuser.me/api/portraits/men/1.jpg",
       "membershipType": "student"
     },
@@ -1701,6 +1702,7 @@
       "year": "2nd",
       "fineDue": 24,
       "status": "Active",
+      "password": "sophie456",
       "userImage": "https://randomuser.me/api/portraits/women/2.jpg",
       "membershipType": "student"
     },
@@ -1714,6 +1716,7 @@
       "year": "3rd",
       "fineDue": 6,
       "status": "Active",
+      "password": "Liam14789",
       "userImage": "https://randomuser.me/api/portraits/men/3.jpg",
       "membershipType": "student"
     },
@@ -1727,6 +1730,7 @@
       "year": "4th",
       "fineDue": 2,
       "status": "Active",
+      "password": "Emma1236987",
       "userImage": "https://randomuser.me/api/portraits/women/4.jpg",
       "membershipType": "student"
     },
@@ -1740,6 +1744,7 @@
       "year": "2nd",
       "fineDue": 6,
       "status": "Active",
+      "password": "Lee15963",
       "userImage": "https://randomuser.me/api/portraits/men/5.jpg",
       "membershipType": "student"
     },
@@ -1753,6 +1758,7 @@
       "year": "3rd",
       "fineDue": 0,
       "status": "Active",
+      "password": "Olivia15987",
       "userImage": "https://randomuser.me/api/portraits/women/6.jpg",
       "membershipType": "student"
     },
@@ -1766,6 +1772,7 @@
       "year": "1st",
       "fineDue": 8,
       "status": "Active",
+      "password": "Noah14789",
       "userImage": "https://randomuser.me/api/portraits/men/7.jpg",
       "membershipType": "student"
     },
@@ -1779,6 +1786,7 @@
       "year": "4th",
       "fineDue": 0,
       "status": "Active",
+      "password": "Garcia1236987",
       "userImage": "https://randomuser.me/api/portraits/women/8.jpg",
       "membershipType": "student"
     },
@@ -1792,6 +1800,7 @@
       "year": "2nd",
       "fineDue": 0,
       "status": "Active",
+      "password": "Rodriguez24",
       "userImage": "https://randomuser.me/api/portraits/men/9.jpg",
       "membershipType": "student"
     },
@@ -1805,6 +1814,7 @@
       "year": "3rd",
       "fineDue": 0,
       "status": "Active",
+      "password": "Martinez23",
       "userImage": "https://randomuser.me/api/portraits/women/10.jpg",
       "membershipType": "student"
     },
@@ -1818,6 +1828,7 @@
       "year": "1st",
       "fineDue": 0,
       "status": "Active",
+      "password": "Hernandez1563",
       "userImage": "https://randomuser.me/api/portraits/men/11.jpg",
       "membershipType": "student"
     },
@@ -1831,6 +1842,7 @@
       "year": "4th",
       "fineDue": 0,
       "status": "Active",
+      "password": "Lopez2145",
       "userImage": "https://randomuser.me/api/portraits/women/12.jpg",
       "membershipType": "student"
     },
@@ -1844,6 +1856,7 @@
       "year": "2nd",
       "fineDue": 0,
       "status": "Active",
+      "password": "Walker48",
       "userImage": "https://randomuser.me/api/portraits/men/13.jpg",
       "membershipType": "student"
     },
@@ -1857,6 +1870,7 @@
       "year": "3rd",
       "fineDue": 0,
       "status": "Active",
+      "password": "Young4563",
       "userImage": "https://randomuser.me/api/portraits/women/14.jpg",
       "membershipType": "student"
     },
@@ -1870,6 +1884,7 @@
       "year": "1st",
       "fineDue": 0,
       "status": "Active",
+      "password": "Alexander9163",
       "userImage": "https://randomuser.me/api/portraits/men/15.jpg",
       "membershipType": "student"
     },
@@ -1883,6 +1898,7 @@
       "year": "4th",
       "fineDue": 4,
       "status": "Active",
+      "password": "Amelia123",
       "userImage": "https://randomuser.me/api/portraits/women/16.jpg",
       "membershipType": "student"
     },
@@ -1896,6 +1912,7 @@
       "year": "2nd",
       "fineDue": 0,
       "status": "Active",
+      "password": "Scott98",
       "userImage": "https://randomuser.me/api/portraits/men/17.jpg",
       "membershipType": "student"
     },
@@ -1909,6 +1926,7 @@
       "year": "3rd",
       "fineDue": 0,
       "status": "Active",
+      "password": "Adams12",
       "userImage": "https://randomuser.me/api/portraits/women/18.jpg",
       "membershipType": "student"
     },
@@ -1922,6 +1940,7 @@
       "year": "1st",
       "fineDue": 10,
       "status": "Active",
+      "password": "Elijah24",
       "userImage": "https://randomuser.me/api/portraits/men/19.jpg",
       "membershipType": "student"
     },
@@ -1935,6 +1954,7 @@
       "year": "4th",
       "fineDue": 0,
       "status": "Active",
+      "password": "Abigail456",
       "userImage": "https://randomuser.me/api/portraits/women/20.jpg",
       "membershipType": "student"
     },
