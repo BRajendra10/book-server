@@ -25,7 +25,45 @@
       "department": "Computer Science",
       "subject": "Algorithms",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
-      "addedDate": "2023-01-15"
+      "addedDate": "2023-01-15",
+      "borrowDetails": [
+        {
+          "isbn": "0262046305",
+          "userId": 1,
+          "memberName": "Andrew Kazantzis",
+          "memberImage": "https://randomuser.me/api/portraits/men/1.jpg",
+          "borrowDate": "2025-08-10",
+          "dueDate": "2025-08-25",
+          "totalDelayDays": 13,
+          "fineRate": 2,
+          "totalFine": 26
+        },
+        {
+          "isbn": "0262046306",
+          "userId": 2,
+          "memberName": "Sophie Martinez",
+          "memberImage": "https://randomuser.me/api/portraits/women/2.jpg",
+          "borrowDate": "2025-08-11",
+          "dueDate": "2025-08-26",
+          "totalDelayDays": 12,
+          "fineRate": 2,
+          "totalFine": 24
+        }
+      ],
+      "requestDetails": [
+        {
+          "isbn": "0262046305",
+          "userId": 3,
+          "memberName": "Liam Thompson",
+          "memberImage": "https://randomuser.me/api/portraits/women/3.jpg",
+          "requestDate": "2025-08-26",
+          "borrowDate": null,
+          "dueDate": null,
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        }
+      ]
     },
     {
       "id": 2,
@@ -52,7 +90,21 @@
       "department": "Software Engineering",
       "subject": "Software Development",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg",
-      "addedDate": "2022-11-20"
+      "addedDate": "2022-11-20",
+      "borrowDetails": [
+        {
+          "isbn": "0132350882",
+          "userId": 3,
+          "memberName": "Liam Thompson",
+          "memberImage": "https://randomuser.me/api/portraits/men/3.jpg",
+          "borrowDate": "2025-08-20",
+          "dueDate": "2025-09-04",
+          "totalDelayDays": 3,
+          "fineRate": 2,
+          "totalFine": 6
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 3,
@@ -79,7 +131,21 @@
       "department": "Design",
       "subject": "Product Design",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780465050659-L.jpg",
-      "addedDate": "2023-03-10"
+      "addedDate": "2023-03-10",
+      "borrowDetails": [
+        {
+          "isbn": "0465050654",
+          "userId": 4,
+          "memberName": "Emma Wilson",
+          "memberImage": "https://randomuser.me/api/portraits/women/4.jpg",
+          "borrowDate": "2025-08-22",
+          "dueDate": "2025-09-06",
+          "totalDelayDays": 1,
+          "fineRate": 2,
+          "totalFine": 2
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 4,
@@ -106,7 +172,32 @@
       "department": "Computer Science",
       "subject": "Artificial Intelligence",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781292401133-L.jpg",
-      "addedDate": "2023-02-05"
+      "addedDate": "2023-02-05",
+      "borrowDetails": [
+        {
+          "isbn": "1292401133",
+          "userId": 5,
+          "memberName": "James Lee",
+          "memberImage": "https://randomuser.me/api/portraits/men/5.jpg",
+          "borrowDate": "2025-08-20",
+          "dueDate": "2025-09-04",
+          "totalDelayDays": 3,
+          "fineRate": 2,
+          "totalFine": 6
+        },
+        {
+          "isbn": "1292401134",
+          "userId": 6,
+          "memberName": "Olivia Brown",
+          "memberImage": "https://randomuser.me/api/portraits/women/6.jpg",
+          "borrowDate": "2025-08-30",
+          "dueDate": "2025-09-14",
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 5,
@@ -133,7 +224,9 @@
       "department": "Computer Science",
       "subject": "Deep Learning",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780262035613-L.jpg",
-      "addedDate": "2022-09-12"
+      "addedDate": "2022-09-12",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 6,
@@ -160,7 +253,9 @@
       "department": "Computer Science",
       "subject": "Networking",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780135408001-L.jpg",
-      "addedDate": "2023-04-18"
+      "addedDate": "2023-04-18",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 7,
@@ -228,7 +323,9 @@
       "department": "Computer Science",
       "subject": "Operating Systems",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781119456339-L.jpg",
-      "addedDate": "2023-01-22"
+      "addedDate": "2023-01-22",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 9,
@@ -255,7 +352,45 @@
       "department": "Computer Science",
       "subject": "Computer Architecture",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780128122754-L.jpg",
-      "addedDate": "2023-02-18"
+      "addedDate": "2023-02-18",
+      "borrowDetails": [
+        {
+          "isbn": "0128122757",
+          "userId": 10,
+          "memberName": "Ava Martinez",
+          "memberImage": "https://randomuser.me/api/portraits/women/10.jpg",
+          "borrowDate": "2025-08-1",
+          "dueDate": "2025-09-16",
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        },
+        {
+          "isbn": "0128122758",
+          "userId": 12,
+          "memberName": "Mia Lopez",
+          "memberImage": "https://randomuser.me/api/portraits/women/12.jpg",
+          "borrowDate": "2025-08-5",
+          "dueDate": "2025-09-20",
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        }
+      ],
+      "requestDetails": [
+        {
+          "isbn": "0128122758",
+          "userId": 18,
+          "memberName": "Harper Adams",
+          "memberImage": "https://randomuser.me/api/portraits/women/18.jpg",
+          "requestDate": "2025-08-7",
+          "borrowDate": null,
+          "dueDate": null,
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        }
+      ]
     },
     {
       "id": 10,
@@ -282,7 +417,9 @@
       "department": "Computer Science",
       "subject": "Programming Languages",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780131103627-L.jpg",
-      "addedDate": "2022-10-05"
+      "addedDate": "2022-10-05",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 11,
@@ -309,7 +446,9 @@
       "department": "Computer Science",
       "subject": "Programming Principles",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780262510875-L.jpg",
-      "addedDate": "2023-03-15"
+      "addedDate": "2023-03-15",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 12,
@@ -336,7 +475,45 @@
       "department": "Computer Science",
       "subject": "Compiler Design",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780321486813-L.jpg",
-      "addedDate": "2022-11-30"
+      "addedDate": "2022-11-30",
+      "borrowDetails": [
+        {
+          "isbn": "0321486811",
+          "userId": 16,
+          "memberName": "Amelia Wright",
+          "memberImage": "https://randomuser.me/api/portraits/women/16.jpg",
+          "borrowDate": "2025-08-21",
+          "dueDate": "2025-09-05",
+          "totalDelayDays": 2,
+          "fineRate": 2,
+          "totalFine": 4
+        },
+        {
+          "isbn": "0321486812",
+          "userId": 17,
+          "memberName": "Benjamin Scott",
+          "memberImage": "https://randomuser.me/api/portraits/men/17.jpg",
+          "borrowDate": "2025-08-23",
+          "dueDate": "2025-09-07",
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        }
+      ],
+      "requestDetails": [
+        {
+          "isbn": "0321486811",
+          "userId": 9,
+          "memberName": "Mason Rodriguez",
+          "memberImage": "https://randomuser.me/api/portraits/men/9.jpg",
+          "requestDate": "2025-09-05",
+          "borrowDate": null,
+          "dueDate": null,
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        }
+      ]
     },
     {
       "id": 13,
@@ -363,7 +540,9 @@
       "department": "Computer Science",
       "subject": "Computer Graphics",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780321399526-L.jpg",
-      "addedDate": "2023-04-10"
+      "addedDate": "2023-04-10",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 14,
@@ -390,7 +569,9 @@
       "department": "Computer Science",
       "subject": "Theory of Computation",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781133187790-L.jpg",
-      "addedDate": "2023-01-08"
+      "addedDate": "2023-01-08",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 15,
@@ -417,7 +598,9 @@
       "department": "Computer Science",
       "subject": "Computer Security",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780134794105-L.jpg",
-      "addedDate": "2023-05-12"
+      "addedDate": "2023-05-12",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 16,
@@ -444,7 +627,45 @@
       "department": "Computer Science",
       "subject": "Data Mining",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780128117606-L.jpg",
-      "addedDate": "2023-02-22"
+      "addedDate": "2023-02-22",
+      "borrowDetails": [
+        {
+          "isbn": "0128117605",
+          "userId": 14,
+          "memberName": "Charlotte Young",
+          "memberImage": "https://randomuser.me/api/portraits/women/14.jpg",
+          "borrowDate": "2025-09-3",
+          "dueDate": "2025-09-18",
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        },
+        {
+          "isbn": "0128117606",
+          "userId": 19,
+          "memberName": "Elijah Baker",
+          "memberImage": "https://randomuser.me/api/portraits/men/19.jpg",
+          "borrowDate": "2025-09-18",
+          "dueDate": "2025-09-02",
+          "totalDelayDays": 5,
+          "fineRate": 2,
+          "totalFine": 10
+        }
+      ],
+      "requestDetails": [
+        {
+          "isbn": "0128117606",
+          "userId": 7,
+          "memberName": "Noah Davis",
+          "memberImage": "https://randomuser.me/api/portraits/men/7.jpg",
+          "requestDate": "2025-09-01",
+          "borrowDate": null,
+          "dueDate": null,
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        }
+      ]
     },
     {
       "id": 17,
@@ -471,7 +692,9 @@
       "department": "Computer Science",
       "subject": "Distributed Systems",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780132143011-L.jpg",
-      "addedDate": "2023-03-28"
+      "addedDate": "2023-03-28",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 18,
@@ -498,7 +721,9 @@
       "department": "Computer Science",
       "subject": "Computer Vision",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9783030343712-L.jpg",
-      "addedDate": "2023-04-05"
+      "addedDate": "2023-04-05",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 19,
@@ -525,7 +750,32 @@
       "department": "Software Engineering",
       "subject": "Software Engineering",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781260548006-L.jpg",
-      "addedDate": "2023-01-30"
+      "addedDate": "2023-01-30",
+      "borrowDetails": [
+        {
+          "isbn": "1260548007",
+          "userId": 14,
+          "memberName": "Charlotte Young",
+          "memberImage": "https://randomuser.me/api/portraits/women/14.jpg",
+          "borrowDate": "2025-09-01",
+          "dueDate": "2025-09-15",
+          "totalDelayDays": 0,
+          "fineRate": 2,
+          "totalFine": 0
+        },
+        {
+          "isbn": "1260548008",
+          "userId": 16,
+          "memberName": "Amelia Wright",
+          "memberImage": "https://randomuser.me/api/portraits/women/16.jpg",
+          "borrowDate": "2025-08-21",
+          "dueDate": "2025-09-05",
+          "totalDelayDays": 2,
+          "fineRate": 2,
+          "totalFine": 4
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 20,
@@ -552,7 +802,9 @@
       "department": "Software Engineering",
       "subject": "Software Project Management",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780201835953-L.jpg",
-      "addedDate": "2022-12-15"
+      "addedDate": "2022-12-15",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 21,
@@ -579,7 +831,9 @@
       "department": "Software Engineering",
       "subject": "Design Patterns",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780201633610-L.jpg",
-      "addedDate": "2023-03-05"
+      "addedDate": "2023-03-05",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 22,
@@ -606,7 +860,9 @@
       "department": "Software Engineering",
       "subject": "Code Refactoring",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780201485677-L.jpg",
-      "addedDate": "2023-04-22"
+      "addedDate": "2023-04-22",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 23,
@@ -633,7 +889,9 @@
       "department": "Software Engineering",
       "subject": "Programming Practices",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780135957059-L.jpg",
-      "addedDate": "2023-02-10"
+      "addedDate": "2023-02-10",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 24,
@@ -660,7 +918,9 @@
       "department": "Software Engineering",
       "subject": "Software Construction",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780735619678-L.jpg",
-      "addedDate": "2023-01-05"
+      "addedDate": "2023-01-05",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 25,
@@ -687,7 +947,9 @@
       "department": "Software Engineering",
       "subject": "Legacy Code",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780131177055-L.jpg",
-      "addedDate": "2023-03-20"
+      "addedDate": "2023-03-20",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 26,
@@ -714,7 +976,9 @@
       "department": "Computer Science",
       "subject": "Programming Algorithms",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780201896831-L.jpg",
-      "addedDate": "2022-10-20"
+      "addedDate": "2022-10-20",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 27,
@@ -741,7 +1005,9 @@
       "department": "Mathematics",
       "subject": "Linear Algebra",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781733146654-L.jpg",
-      "addedDate": "2023-05-08"
+      "addedDate": "2023-05-08",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 28,
@@ -768,7 +1034,9 @@
       "department": "Mathematics",
       "subject": "Calculus",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781337613927-L.jpg",
-      "addedDate": "2023-04-14"
+      "addedDate": "2023-04-14",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 29,
@@ -795,7 +1063,9 @@
       "department": "Mathematics",
       "subject": "Probability and Statistics",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781305251809-L.jpg",
-      "addedDate": "2023-03-12"
+      "addedDate": "2023-03-12",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 30,
@@ -822,7 +1092,9 @@
       "department": "Mathematics",
       "subject": "Discrete Mathematics",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780073383095-L.jpg",
-      "addedDate": "2023-02-28"
+      "addedDate": "2023-02-28",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 31,
@@ -849,7 +1121,9 @@
       "department": "Mathematics",
       "subject": "Numerical Analysis",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781305253667-L.jpg",
-      "addedDate": "2023-01-25"
+      "addedDate": "2023-01-25",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 32,
@@ -876,7 +1150,9 @@
       "department": "Mathematics",
       "subject": "Differential Equations",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780134497181-L.jpg",
-      "addedDate": "2023-04-30"
+      "addedDate": "2023-04-30",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 33,
@@ -903,7 +1179,9 @@
       "department": "Mathematics",
       "subject": "Abstract Algebra",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780471433347-L.jpg",
-      "addedDate": "2023-03-08"
+      "addedDate": "2023-03-08",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 34,
@@ -930,7 +1208,9 @@
       "department": "Mathematics",
       "subject": "Complex Analysis",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780387950693-L.jpg",
-      "addedDate": "2023-02-15"
+      "addedDate": "2023-02-15",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 35,
@@ -957,7 +1237,9 @@
       "department": "Mathematics",
       "subject": "Real Analysis",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780471317166-L.jpg",
-      "addedDate": "2023-05-05"
+      "addedDate": "2023-05-05",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 36,
@@ -984,7 +1266,9 @@
       "department": "Mathematics",
       "subject": "Topology",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780131816299-L.jpg",
-      "addedDate": "2023-04-08"
+      "addedDate": "2023-04-08",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 37,
@@ -1011,7 +1295,9 @@
       "department": "Mathematics",
       "subject": "Partial Differential Equations",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780470054567-L.jpg",
-      "addedDate": "2023-03-25"
+      "addedDate": "2023-03-25",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 38,
@@ -1038,7 +1324,9 @@
       "department": "Mathematics",
       "subject": "Number Theory",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780470424131-L.jpg",
-      "addedDate": "2023-02-05"
+      "addedDate": "2023-02-05",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 39,
@@ -1065,7 +1353,9 @@
       "department": "Mathematics",
       "subject": "Graph Theory",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9783662536216-L.jpg",
-      "addedDate": "2023-05-15"
+      "addedDate": "2023-05-15",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 40,
@@ -1092,7 +1382,9 @@
       "department": "Mathematics",
       "subject": "Mathematical Statistics",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780495110811-L.jpg",
-      "addedDate": "2023-04-12"
+      "addedDate": "2023-04-12",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 41,
@@ -1119,7 +1411,9 @@
       "department": "Mathematics",
       "subject": "Probability",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780128143469-L.jpg",
-      "addedDate": "2023-03-18"
+      "addedDate": "2023-03-18",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 42,
@@ -1146,7 +1440,9 @@
       "department": "Electrical Engineering",
       "subject": "Signals and Systems",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780138147570-L.jpg",
-      "addedDate": "2023-04-25"
+      "addedDate": "2023-04-25",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 43,
@@ -1173,7 +1469,9 @@
       "department": "Electrical Engineering",
       "subject": "Digital Signal Processing",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780131873742-L.jpg",
-      "addedDate": "2023-03-10"
+      "addedDate": "2023-03-10",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 44,
@@ -1200,7 +1498,9 @@
       "department": "Electrical Engineering",
       "subject": "Microelectronics",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780190853464-L.jpg",
-      "addedDate": "2023-05-01"
+      "addedDate": "2023-05-01",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 45,
@@ -1227,7 +1527,9 @@
       "department": "Electrical Engineering",
       "subject": "Circuit Analysis",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780134746968-L.jpg",
-      "addedDate": "2023-02-20"
+      "addedDate": "2023-02-20",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 46,
@@ -1254,7 +1556,9 @@
       "department": "Electrical Engineering",
       "subject": "Electromagnetics",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781577667834-L.jpg",
-      "addedDate": "2023-04-15"
+      "addedDate": "2023-04-15",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 47,
@@ -1281,7 +1585,9 @@
       "department": "Electrical Engineering",
       "subject": "Control Systems",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781119474210-L.jpg",
-      "addedDate": "2023-03-30"
+      "addedDate": "2023-03-30",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 48,
@@ -1308,7 +1614,9 @@
       "department": "Robotics",
       "subject": "Robotics",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780133489798-L.jpg",
-      "addedDate": "2023-05-10"
+      "addedDate": "2023-05-10",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 49,
@@ -1335,7 +1643,9 @@
       "department": "Computer Science",
       "subject": "Automata Theory",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780321455369-L.jpg",
-      "addedDate": "2023-04-18"
+      "addedDate": "2023-04-18",
+      "borrowDetails": [],
+      "requestDetails": []
     },
     {
       "id": 50,
@@ -1362,7 +1672,9 @@
       "department": "Computer Science",
       "subject": "Pattern Recognition",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780387310732-L.jpg",
-      "addedDate": "2023-03-15"
+      "addedDate": "2023-03-15",
+      "borrowDetails": [],
+      "requestDetails": []
     }
   ],
   "members": [
