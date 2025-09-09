@@ -7,7 +7,7 @@
       "publisher": "MIT Press",
       "isbn": ["0262046305", "0262046306"],
       "status": "Borrowed",
-      "requests": 1,
+      "requests": 2,
       "description": "A comprehensive update of the leading algorithms text, with new material on matchings in bipartite graphs, online algorithms, machine learning, and other topics.",
       "keywords": [
         "algorithms",
@@ -34,10 +34,9 @@
           "memberImage": "https://randomuser.me/api/portraits/men/1.jpg",
           "borrowDate": "2025-08-10",
           "dueDate": "2025-08-25",
-          "returnDate": null,
-          "totalDelayDays": 14,
+          "totalDelayDays": 13,
           "fineRate": 2,
-          "totalFine": 28
+          "totalFine": 26
         },
         {
           "isbn": "0262046306",
@@ -46,10 +45,9 @@
           "memberImage": "https://randomuser.me/api/portraits/women/2.jpg",
           "borrowDate": "2025-08-11",
           "dueDate": "2025-08-26",
-          "returnDate": null,
-          "totalDelayDays": 13,
+          "totalDelayDays": 12,
           "fineRate": 2,
-          "totalFine": 26
+          "totalFine": 24
         }
       ],
       "requestDetails": [
@@ -57,40 +55,13 @@
           "isbn": "0262046305",
           "userId": 3,
           "memberName": "Liam Thompson",
-          "memberImage": "https://randomuser.me/api/portraits/men/3.jpg",
+          "memberImage": "https://randomuser.me/api/portraits/women/3.jpg",
           "requestDate": "2025-08-26",
-          "queuePosition": 1,
           "borrowDate": null,
           "dueDate": null,
           "totalDelayDays": 0,
           "fineRate": 2,
           "totalFine": 0
-        }
-      ],
-      "overdueDetails": [
-        {
-          "isbn": "0262046305",
-          "userId": 1,
-          "memberName": "Andrew Kazantzis",
-          "memberImage": "https://randomuser.me/api/portraits/men/1.jpg",
-          "borrowDate": "2025-08-10",
-          "dueDate": "2025-08-25",
-          "returnDate": null,
-          "totalDelayDays": 14,
-          "fineRate": 2,
-          "totalFine": 28
-        },
-        {
-          "isbn": "0262046306",
-          "userId": 2,
-          "memberName": "Sophie Martinez",
-          "memberImage": "https://randomuser.me/api/portraits/women/2.jpg",
-          "borrowDate": "2025-08-11",
-          "dueDate": "2025-08-26",
-          "returnDate": null,
-          "totalDelayDays": 13,
-          "fineRate": 2,
-          "totalFine": 26
         }
       ]
     },
@@ -101,7 +72,7 @@
       "publisher": "Prentice Hall",
       "isbn": ["0132350882", "0132350883"],
       "status": "Available",
-      "requests": 0,
+      "requests": 1,
       "description": "Even bad code can function. But if code isn't clean, it can bring a development organization to its knees.",
       "keywords": [
         "software engineering",
@@ -120,9 +91,20 @@
       "subject": "Software Development",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg",
       "addedDate": "2022-11-20",
-      "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "borrowDetails": [
+        {
+          "isbn": "0132350882",
+          "userId": 3,
+          "memberName": "Liam Thompson",
+          "memberImage": "https://randomuser.me/api/portraits/men/3.jpg",
+          "borrowDate": "2025-08-20",
+          "dueDate": "2025-09-04",
+          "totalDelayDays": 3,
+          "fineRate": 2,
+          "totalFine": 6
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 3,
@@ -131,7 +113,7 @@
       "publisher": "Basic Books",
       "isbn": ["0465050654", "0465050655"],
       "status": "Available",
-      "requests": 0,
+      "requests": 1,
       "description": "A fully updated and expanded edition of Don Norman's classic and influential work, which pioneered the application of cognitive science to design.",
       "keywords": [
         "design",
@@ -150,9 +132,20 @@
       "subject": "Product Design",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780465050659-L.jpg",
       "addedDate": "2023-03-10",
-      "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "borrowDetails": [
+        {
+          "isbn": "0465050654",
+          "userId": 4,
+          "memberName": "Emma Wilson",
+          "memberImage": "https://randomuser.me/api/portraits/women/4.jpg",
+          "borrowDate": "2025-08-22",
+          "dueDate": "2025-09-06",
+          "totalDelayDays": 1,
+          "fineRate": 2,
+          "totalFine": 2
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 4,
@@ -161,7 +154,7 @@
       "publisher": "Pearson",
       "isbn": ["1292401133", "1292401134"],
       "status": "Borrowed",
-      "requests": 0,
+      "requests": 2,
       "description": "The most comprehensive, up-to-date introduction to the theory and practice of artificial intelligence.",
       "keywords": [
         "artificial intelligence",
@@ -188,10 +181,9 @@
           "memberImage": "https://randomuser.me/api/portraits/men/5.jpg",
           "borrowDate": "2025-08-20",
           "dueDate": "2025-09-04",
-          "returnDate": null,
-          "totalDelayDays": 4,
+          "totalDelayDays": 3,
           "fineRate": 2,
-          "totalFine": 8
+          "totalFine": 6
         },
         {
           "isbn": "1292401134",
@@ -200,27 +192,12 @@
           "memberImage": "https://randomuser.me/api/portraits/women/6.jpg",
           "borrowDate": "2025-08-30",
           "dueDate": "2025-09-14",
-          "returnDate": null,
           "totalDelayDays": 0,
           "fineRate": 2,
           "totalFine": 0
         }
       ],
-      "requestDetails": [],
-      "overdueDetails": [
-        {
-          "isbn": "1292401133",
-          "userId": 5,
-          "memberName": "James Lee",
-          "memberImage": "https://randomuser.me/api/portraits/men/5.jpg",
-          "borrowDate": "2025-08-20",
-          "dueDate": "2025-09-04",
-          "returnDate": null,
-          "totalDelayDays": 4,
-          "fineRate": 2,
-          "totalFine": 8
-        }
-      ]
+      "requestDetails": []
     },
     {
       "id": 5,
@@ -229,7 +206,7 @@
       "publisher": "MIT Press",
       "isbn": ["0262035618", "0262035619"],
       "status": "Available",
-      "requests": 0,
+      "requests": 1,
       "description": "An introduction to a broad range of topics in deep learning, covering mathematical and conceptual background, deep learning techniques used in industry, and research perspectives.",
       "keywords": [
         "deep learning",
@@ -249,8 +226,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780262035613-L.jpg",
       "addedDate": "2022-09-12",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 6,
@@ -259,8 +235,8 @@
       "publisher": "Pearson",
       "isbn": ["0135408008", "0135408009"],
       "status": "Available",
-      "requests": 0,
-      "description": "For courses in Networking/Communications. Motivates students with a top-down, layered approach to computer networking.",
+      "requests": 1,
+      "description": "For courses in Networking/Communications. Motivates students with a top-down, layered approach to computer networking. Unique among computer networking texts, the Seventh Edition of the popular Computer Networking: A Top Down Approach builds on the authors long tradition of teaching this complex subject through a layered approach in a top-down manner.",
       "keywords": [
         "computer networks",
         "TCP/IP",
@@ -279,8 +255,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780135408001-L.jpg",
       "addedDate": "2023-04-18",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 7,
@@ -289,7 +264,7 @@
       "publisher": "McGraw-Hill Education",
       "isbn": ["0078022150", "0078022151"],
       "status": "Available",
-      "requests": 0,
+      "requests": 1,
       "description": "Database System Concepts presents the fundamental concepts of database management in an intuitive manner geared toward allowing students to begin working with databases as quickly as possible.",
       "keywords": [
         "databases",
@@ -308,9 +283,20 @@
       "subject": "Database Systems",
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780078022159-L.jpg",
       "addedDate": "2022-12-08",
-      "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "borrowDetails": [
+        {
+          "isbn": "0078022150",
+          "userId": 7,
+          "memberName": "Noah Davis",
+          "memberImage": "https://randomuser.me/api/portraits/men/7.jpg",
+          "borrowDate": "2025-08-19",
+          "dueDate": "2025-09-03",
+          "totalDelayDays": 4,
+          "fineRate": 2,
+          "totalFine": 8
+        }
+      ],
+      "requestDetails": []
     },
     {
       "id": 8,
@@ -319,8 +305,8 @@
       "publisher": "Wiley",
       "isbn": ["1119456339", "1119456340"],
       "status": "Available",
-      "requests": 0,
-      "description": "The tenth edition of Operating System Concepts has been revised to keep it fresh and up-to-date with contemporary examples of how operating systems function.",
+      "requests": 1,
+      "description": "The tenth edition of Operating System Concepts has been revised to keep it fresh and up-to-date with contemporary examples of how operating systems function, as well as enhanced interactive elements to improve learning and the student’s experience with the material.",
       "keywords": [
         "operating systems",
         "process management",
@@ -339,8 +325,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781119456339-L.jpg",
       "addedDate": "2023-01-22",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 9,
@@ -349,8 +334,8 @@
       "publisher": "Morgan Kaufmann",
       "isbn": ["0128122757", "0128122758"],
       "status": "Borrowed",
-      "requests": 1,
-      "description": "Computer Organization and Design RISC-V Edition: The Hardware Software Interface, Second Edition, the award-winning textbook from Patterson and Hennessy.",
+      "requests": 0,
+      "description": "Computer Organization and Design RISC-V Edition: The Hardware Software Interface, Second Edition, the award-winning textbook from Patterson and Hennessy that is used by more than 40,000 students per year, continues to present the most comprehensive and readable introduction to this core computer science topic.",
       "keywords": [
         "computer architecture",
         "hardware",
@@ -374,9 +359,8 @@
           "userId": 10,
           "memberName": "Ava Martinez",
           "memberImage": "https://randomuser.me/api/portraits/women/10.jpg",
-          "borrowDate": "2025-09-01",
+          "borrowDate": "2025-08-1",
           "dueDate": "2025-09-16",
-          "returnDate": null,
           "totalDelayDays": 0,
           "fineRate": 2,
           "totalFine": 0
@@ -386,9 +370,8 @@
           "userId": 12,
           "memberName": "Mia Lopez",
           "memberImage": "https://randomuser.me/api/portraits/women/12.jpg",
-          "borrowDate": "2025-09-05",
+          "borrowDate": "2025-08-5",
           "dueDate": "2025-09-20",
-          "returnDate": null,
           "totalDelayDays": 0,
           "fineRate": 2,
           "totalFine": 0
@@ -400,16 +383,14 @@
           "userId": 18,
           "memberName": "Harper Adams",
           "memberImage": "https://randomuser.me/api/portraits/women/18.jpg",
-          "requestDate": "2025-09-07",
-          "queuePosition": 1,
+          "requestDate": "2025-08-7",
           "borrowDate": null,
           "dueDate": null,
           "totalDelayDays": 0,
           "fineRate": 2,
           "totalFine": 0
         }
-      ],
-      "overdueDetails": []
+      ]
     },
     {
       "id": 10,
@@ -438,8 +419,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780131103627-L.jpg",
       "addedDate": "2022-10-05",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 11,
@@ -468,8 +448,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780262510875-L.jpg",
       "addedDate": "2023-03-15",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 12,
@@ -478,7 +457,7 @@
       "publisher": "Pearson",
       "isbn": ["0321486811", "0321486812"],
       "status": "Borrowed",
-      "requests": 1,
+      "requests": 0,
       "description": "The classic Dragon Book on compiler design, covering lexical analysis, parsing, syntax-directed translation, and code optimization.",
       "keywords": [
         "compilers",
@@ -505,22 +484,20 @@
           "memberImage": "https://randomuser.me/api/portraits/women/16.jpg",
           "borrowDate": "2025-08-21",
           "dueDate": "2025-09-05",
-          "returnDate": null,
-          "totalDelayDays": 3,
+          "totalDelayDays": 2,
           "fineRate": 2,
-          "totalFine": 6
+          "totalFine": 4
         },
         {
           "isbn": "0321486812",
           "userId": 17,
           "memberName": "Benjamin Scott",
           "memberImage": "https://randomuser.me/api/portraits/men/17.jpg",
-          "borrowDate": "2025-08-21",
-          "dueDate": "2025-09-05",
-          "returnDate": null,
-          "totalDelayDays": 6,
+          "borrowDate": "2025-08-23",
+          "dueDate": "2025-09-07",
+          "totalDelayDays": 0,
           "fineRate": 2,
-          "totalFine": 3
+          "totalFine": 0
         }
       ],
       "requestDetails": [
@@ -530,38 +507,11 @@
           "memberName": "Mason Rodriguez",
           "memberImage": "https://randomuser.me/api/portraits/men/9.jpg",
           "requestDate": "2025-09-05",
-          "queuePosition": 1,
           "borrowDate": null,
           "dueDate": null,
           "totalDelayDays": 0,
           "fineRate": 2,
           "totalFine": 0
-        }
-      ],
-      "overdueDetails": [
-        {
-          "isbn": "0321486811",
-          "userId": 16,
-          "memberName": "Amelia Wright",
-          "memberImage": "https://randomuser.me/api/portraits/women/16.jpg",
-          "borrowDate": "2025-08-21",
-          "dueDate": "2025-09-05",
-          "returnDate": null,
-          "totalDelayDays": 3,
-          "fineRate": 2,
-          "totalFine": 6
-        },
-        {
-          "isbn": "0321486812",
-          "userId": 17,
-          "memberName": "Benjamin Scott",
-          "memberImage": "https://randomuser.me/api/portraits/men/17.jpg",
-          "borrowDate": "2025-08-23",
-          "dueDate": "2025-09-07",
-          "returnDate": null,
-          "totalDelayDays": 1,
-          "fineRate": 2,
-          "totalFine": 2
         }
       ]
     },
@@ -592,8 +542,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780321399526-L.jpg",
       "addedDate": "2023-04-10",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 14,
@@ -622,8 +571,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781133187790-L.jpg",
       "addedDate": "2023-01-08",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 15,
@@ -652,8 +600,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780134794105-L.jpg",
       "addedDate": "2023-05-12",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 16,
@@ -661,8 +608,8 @@
       "author": "Jiawei Han, Micheline Kamber, Jian Pei",
       "publisher": "Morgan Kaufmann",
       "isbn": ["0128117605", "0128117606"],
-      "status": "Borrowed",
-      "requests": 1,
+      "status": "Available",
+      "requests": 0,
       "description": "Data Mining: Concepts and Techniques, Fourth Edition introduces concepts, principles, and methods for mining patterns, knowledge, and models from various kinds of data for diverse applications.",
       "keywords": [
         "data mining",
@@ -687,9 +634,8 @@
           "userId": 14,
           "memberName": "Charlotte Young",
           "memberImage": "https://randomuser.me/api/portraits/women/14.jpg",
-          "borrowDate": "2025-09-03",
+          "borrowDate": "2025-09-3",
           "dueDate": "2025-09-18",
-          "returnDate": null,
           "totalDelayDays": 0,
           "fineRate": 2,
           "totalFine": 0
@@ -699,12 +645,11 @@
           "userId": 19,
           "memberName": "Elijah Baker",
           "memberImage": "https://randomuser.me/api/portraits/men/19.jpg",
-          "borrowDate": "2025-08-18",
+          "borrowDate": "2025-09-18",
           "dueDate": "2025-09-02",
-          "returnDate": null,
-          "totalDelayDays": 6,
+          "totalDelayDays": 5,
           "fineRate": 2,
-          "totalFine": 12
+          "totalFine": 10
         }
       ],
       "requestDetails": [
@@ -714,26 +659,11 @@
           "memberName": "Noah Davis",
           "memberImage": "https://randomuser.me/api/portraits/men/7.jpg",
           "requestDate": "2025-09-01",
-          "queuePosition": 1,
           "borrowDate": null,
           "dueDate": null,
           "totalDelayDays": 0,
           "fineRate": 2,
           "totalFine": 0
-        }
-      ],
-      "overdueDetails": [
-        {
-          "isbn": "0128117606",
-          "userId": 19,
-          "memberName": "Elijah Baker",
-          "memberImage": "https://randomuser.me/api/portraits/men/19.jpg",
-          "borrowDate": "2025-08-18",
-          "dueDate": "2025-09-02",
-          "returnDate": null,
-          "totalDelayDays": 6,
-          "fineRate": 2,
-          "totalFine": 12
         }
       ]
     },
@@ -764,8 +694,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780132143011-L.jpg",
       "addedDate": "2023-03-28",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 18,
@@ -794,8 +723,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9783030343712-L.jpg",
       "addedDate": "2023-04-05",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 19,
@@ -831,7 +759,6 @@
           "memberImage": "https://randomuser.me/api/portraits/women/14.jpg",
           "borrowDate": "2025-09-01",
           "dueDate": "2025-09-15",
-          "returnDate": null,
           "totalDelayDays": 0,
           "fineRate": 2,
           "totalFine": 0
@@ -843,27 +770,12 @@
           "memberImage": "https://randomuser.me/api/portraits/women/16.jpg",
           "borrowDate": "2025-08-21",
           "dueDate": "2025-09-05",
-          "returnDate": null,
-          "totalDelayDays": 3,
+          "totalDelayDays": 2,
           "fineRate": 2,
-          "totalFine": 6
+          "totalFine": 4
         }
       ],
-      "requestDetails": [],
-      "overdueDetails": [
-        {
-          "isbn": "1260548008",
-          "userId": 16,
-          "memberName": "Amelia Wright",
-          "memberImage": "https://randomuser.me/api/portraits/women/16.jpg",
-          "borrowDate": "2025-08-21",
-          "dueDate": "2025-09-05",
-          "returnDate": null,
-          "totalDelayDays": 3,
-          "fineRate": 2,
-          "totalFine": 6
-        }
-      ]
+      "requestDetails": []
     },
     {
       "id": 20,
@@ -892,8 +804,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780201835953-L.jpg",
       "addedDate": "2022-12-15",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 21,
@@ -922,8 +833,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780201633610-L.jpg",
       "addedDate": "2023-03-05",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 22,
@@ -933,7 +843,7 @@
       "isbn": ["0201485672", "0201485673"],
       "status": "Available",
       "requests": 0,
-      "description": "As the application of object technology--particularly the Java programming language--has become commonplace, a new problem has emerged to confront the software development community.",
+      "description": "As the application of object technology--particularly the Java programming language--has become commonplace, a new problem has emerged to confront the software development community. Significant numbers of poorly designed programs have been created by less-experienced developers, resulting in applications that are inefficient and hard to maintain and extend.",
       "keywords": [
         "refactoring",
         "code quality",
@@ -952,8 +862,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780201485677-L.jpg",
       "addedDate": "2023-04-22",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 23,
@@ -982,8 +891,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780135957059-L.jpg",
       "addedDate": "2023-02-10",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 24,
@@ -1012,8 +920,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780735619678-L.jpg",
       "addedDate": "2023-01-05",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 25,
@@ -1042,8 +949,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780131177055-L.jpg",
       "addedDate": "2023-03-20",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 26,
@@ -1072,8 +978,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780201896831-L.jpg",
       "addedDate": "2022-10-20",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 27,
@@ -1083,7 +988,7 @@
       "isbn": ["1733146652", "1733146653"],
       "status": "Available",
       "requests": 0,
-      "description": "Linear algebra is something all mathematics undergraduates and many other students, in subjects ranging from engineering to economics, have to learn.",
+      "description": "Linear algebra is something all mathematics undergraduates and many other students, in subjects ranging from engineering to economics, have to learn. The fifth edition of this hugely successful textbook retains all the qualities of earlier editions, while at the same time seeing numerous minor improvements and major additions and revisions.",
       "keywords": [
         "linear algebra",
         "mathematics",
@@ -1102,8 +1007,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781733146654-L.jpg",
       "addedDate": "2023-05-08",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 28,
@@ -1132,8 +1036,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781337613927-L.jpg",
       "addedDate": "2023-04-14",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 29,
@@ -1162,8 +1065,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781305251809-L.jpg",
       "addedDate": "2023-03-12",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 30,
@@ -1192,8 +1094,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780073383095-L.jpg",
       "addedDate": "2023-02-28",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 31,
@@ -1222,8 +1123,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781305253667-L.jpg",
       "addedDate": "2023-01-25",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 32,
@@ -1252,8 +1152,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780134497181-L.jpg",
       "addedDate": "2023-04-30",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 33,
@@ -1282,8 +1181,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780471433347-L.jpg",
       "addedDate": "2023-03-08",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 34,
@@ -1312,8 +1210,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780387950693-L.jpg",
       "addedDate": "2023-02-15",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 35,
@@ -1342,8 +1239,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780471317166-L.jpg",
       "addedDate": "2023-05-05",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 36,
@@ -1372,8 +1268,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780131816299-L.jpg",
       "addedDate": "2023-04-08",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 37,
@@ -1402,8 +1297,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780470054567-L.jpg",
       "addedDate": "2023-03-25",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 38,
@@ -1432,8 +1326,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780470424131-L.jpg",
       "addedDate": "2023-02-05",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 39,
@@ -1462,8 +1355,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9783662536216-L.jpg",
       "addedDate": "2023-05-15",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 40,
@@ -1492,8 +1384,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780495110811-L.jpg",
       "addedDate": "2023-04-12",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 41,
@@ -1522,8 +1413,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780128143469-L.jpg",
       "addedDate": "2023-03-18",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 42,
@@ -1552,8 +1442,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780138147570-L.jpg",
       "addedDate": "2023-04-25",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 43,
@@ -1582,8 +1471,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780131873742-L.jpg",
       "addedDate": "2023-03-10",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 44,
@@ -1612,8 +1500,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780190853464-L.jpg",
       "addedDate": "2023-05-01",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 45,
@@ -1642,8 +1529,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780134746968-L.jpg",
       "addedDate": "2023-02-20",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 46,
@@ -1672,8 +1558,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781577667834-L.jpg",
       "addedDate": "2023-04-15",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 47,
@@ -1702,8 +1587,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9781119474210-L.jpg",
       "addedDate": "2023-03-30",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 48,
@@ -1732,8 +1616,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780133489798-L.jpg",
       "addedDate": "2023-05-10",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 49,
@@ -1762,8 +1645,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780321455369-L.jpg",
       "addedDate": "2023-04-18",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     },
     {
       "id": 50,
@@ -1792,8 +1674,7 @@
       "thumbnail": "https://covers.openlibrary.org/b/isbn/9780387310732-L.jpg",
       "addedDate": "2023-03-15",
       "borrowDetails": [],
-      "requestDetails": [],
-      "overdueDetails": []
+      "requestDetails": []
     }
   ],
   "members": [
@@ -1809,37 +1690,7 @@
       "status": "Active",
       "password": "andrew123",
       "userImage": "https://randomuser.me/api/portraits/men/1.jpg",
-      "membershipType": "student",
-      "borrowedBooks": [
-        {
-          "bookId": 1,
-          "bookTitle": "Introduction to Algorithms",
-          "bookAuthor": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
-          "isbn": "0262046305",
-          "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
-          "borrowDate": "2025-08-10",
-          "dueDate": "2025-08-25",
-          "returnDate": null,
-          "fineRate": 2,
-          "totalFine": 28,
-          "totalDelayDays": 14
-        }
-      ],
-      "requestedBooks": [],
-      "overdueBooks": [
-        {
-          "bookId": 1,
-          "bookTitle": "Introduction to Algorithms",
-          "bookAuthor": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
-          "isbn": "0262046305",
-          "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
-          "borrowDate": "2025-08-10",
-          "dueDate": "2025-08-25",
-          "totalDelayDays": 14,
-          "fineRate": 2,
-          "totalFine": 28
-        }
-      ]
+      "membershipType": "student"
     },
     {
       "id": 2,
@@ -1853,37 +1704,7 @@
       "status": "Active",
       "password": "sophie456",
       "userImage": "https://randomuser.me/api/portraits/women/2.jpg",
-      "membershipType": "student",
-      "borrowedBooks": [
-        {
-          "bookId": 1,
-          "bookTitle": "Introduction to Algorithms",
-          "bookAuthor": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
-          "isbn": "0262046306",
-          "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
-          "borrowDate": "2025-08-11",
-          "dueDate": "2025-08-26",
-          "returnDate": null,
-          "fineRate": 2,
-          "totalFine": 26,
-          "totalDelayDays": 13
-        }
-      ],
-      "requestedBooks": [],
-      "overdueBooks": [
-        {
-          "bookId": 1,
-          "bookTitle": "Introduction to Algorithms",
-          "bookAuthor": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
-          "isbn": "0262046306",
-          "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
-          "borrowDate": "2025-08-11",
-          "dueDate": "2025-08-26",
-          "totalDelayDays": 13,
-          "fineRate": 2,
-          "totalFine": 26
-        }
-      ]
+      "membershipType": "student"
     },
     {
       "id": 3,
@@ -1897,20 +1718,7 @@
       "status": "Active",
       "password": "Liam14789",
       "userImage": "https://randomuser.me/api/portraits/men/3.jpg",
-      "membershipType": "student",
-      "borrowedBooks": [],
-      "requestedBooks": [
-        {
-          "bookId": 1,
-          "bookTitle": "Introduction to Algorithms",
-          "bookAuthor": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
-          "isbn": "0262046305",
-          "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
-          "requestDate": "2025-08-26",
-          "queuePosition": 1
-        }
-      ],
-      "overdueBooks": []
+      "membershipType": "student"
     },
     {
       "id": 4,
@@ -1938,37 +1746,7 @@
       "status": "Active",
       "password": "Lee15963",
       "userImage": "https://randomuser.me/api/portraits/men/5.jpg",
-      "membershipType": "student",
-      "borrowedBooks": [
-        {
-          "bookId": 4,
-          "bookTitle": "Artificial Intelligence: A Modern Approach",
-          "bookAuthor": "Stuart Russell, Peter Norvig",
-          "isbn": "1292401133",
-          "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781292401133-L.jpg",
-          "borrowDate": "2025-08-20",
-          "dueDate": "2025-09-04",
-          "returnDate": null,
-          "fineRate": 2,
-          "totalFine": 8,
-          "totalDelayDays": 4
-        }
-      ],
-      "requestedBooks": [],
-      "overdueBooks": [
-        {
-          "bookId": 4,
-          "bookTitle": "Artificial Intelligence: A Modern Approach",
-          "bookAuthor": "Stuart Russell, Peter Norvig",
-          "isbn": "1292401133",
-          "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781292401133-L.jpg",
-          "borrowDate": "2025-08-20",
-          "dueDate": "2025-09-04",
-          "fineRate": 2,
-          "totalFine": 8,
-          "totalDelayDays": 4
-        }
-      ]
+      "membershipType": "student"
     },
     {
       "id": 6,
@@ -1982,24 +1760,7 @@
       "status": "Active",
       "password": "Olivia15987",
       "userImage": "https://randomuser.me/api/portraits/women/6.jpg",
-      "membershipType": "student",
-      "borrowedBooks": [
-        {
-          "bookId": 4,
-          "bookTitle": "Artificial Intelligence: A Modern Approach",
-          "bookAuthor": "Stuart Russell, Peter Norvig",
-          "isbn": "1292401134",
-          "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781292401133-L.jpg",
-          "borrowDate": "2025-08-30",
-          "dueDate": "2025-09-14",
-          "returnDate": null,
-          "fineRate": 2,
-          "totalFine": 0,
-          "totalDelayDays": 0
-        }
-      ],
-      "requestedBooks": [],
-      "overdueBooks": []
+      "membershipType": "student"
     },
     {
       "id": 7,
@@ -2013,20 +1774,7 @@
       "status": "Active",
       "password": "Noah14789",
       "userImage": "https://randomuser.me/api/portraits/men/7.jpg",
-      "membershipType": "student",
-      "borrowedBooks": [],
-      "requestedBooks": [
-        {
-          "bookId": 16,
-          "bookTitle": "Data Mining: Concepts and Techniques",
-          "bookAuthor": "Jiawei Han, Micheline Kamber, Jian Pei",
-          "isbn": "0128117606",
-          "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128117606-L.jpg",
-          "requestDate": "2025-09-01",
-          "queuePosition": 1
-        }
-      ],
-      "overdueBooks": []
+      "membershipType": "student"
     },
     {
       "id": 8,
@@ -2054,20 +1802,7 @@
       "status": "Active",
       "password": "Rodriguez24",
       "userImage": "https://randomuser.me/api/portraits/men/9.jpg",
-      "membershipType": "student",
-      "borrowedBooks": [],
-      "requestedBooks": [
-        {
-          "bookId": 12,
-          "bookTitle": "Compilers: Principles, Techniques, and Tools",
-          "bookAuthor": "Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman",
-          "isbn": "0321486811",
-          "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780321486813-L.jpg",
-          "requestDate": "2025-09-05",
-          "queuePosition": 1
-        }
-      ],
-      "overdueBooks": []
+      "membershipType": "student"
     },
     {
       "id": 10,
@@ -2081,24 +1816,7 @@
       "status": "Active",
       "password": "Martinez23",
       "userImage": "https://randomuser.me/api/portraits/women/10.jpg",
-      "membershipType": "student",
-      "borrowedBooks": [
-        {
-          "bookId": 9,
-          "bookTitle": "Computer Organization and Design",
-          "bookAuthor": "David A. Patterson, John L. Hennessy",
-          "isbn": "0128122757",
-          "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128122754-L.jpg",
-          "borrowDate": "2025-09-01",
-          "dueDate": "2025-09-16",
-          "returnDate": null,
-          "fineRate": 2,
-          "totalFine": 0,
-          "totalDelayDays": 0
-        }
-      ],
-      "requestedBooks": [],
-      "overdueBooks": []
+      "membershipType": "student"
     },
     {
       "id": 11,
@@ -2126,24 +1844,7 @@
       "status": "Active",
       "password": "Lopez2145",
       "userImage": "https://randomuser.me/api/portraits/women/12.jpg",
-      "membershipType": "student",
-      "borrowedBooks": [
-        {
-          "bookId": 9,
-          "bookTitle": "Computer Organization and Design",
-          "bookAuthor": "David A. Patterson, John L. Hennessy",
-          "isbn": "0128122758",
-          "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128122754-L.jpg",
-          "borrowDate": "2025-09-05",
-          "dueDate": "2025-09-20",
-          "returnDate": null,
-          "fineRate": 2,
-          "totalFine": 0,
-          "totalDelayDays": 0
-        }
-      ],
-      "requestedBooks": [],
-      "overdueBooks": []
+      "membershipType": "student"
     },
     {
       "id": 13,
@@ -2171,37 +1872,7 @@
       "status": "Active",
       "password": "Young4563",
       "userImage": "https://randomuser.me/api/portraits/women/14.jpg",
-      "membershipType": "student",
-      "borrowedBooks": [
-        {
-          "bookId": 16,
-          "bookTitle": "Data Mining: Concepts and Techniques",
-          "bookAuthor": "Jiawei Han, Micheline Kamber, Jian Pei",
-          "isbn": "0128117605",
-          "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128117606-L.jpg",
-          "borrowDate": "2025-09-03",
-          "dueDate": "2025-09-18",
-          "returnDate": null,
-          "fineRate": 2,
-          "totalFine": 0,
-          "totalDelayDays": 0
-        },
-        {
-          "bookId": 19,
-          "bookTitle": "Data Mining: Concepts and Techniques",
-          "bookAuthor": "Jiawei Han, Micheline Kamber, Jian Pei",
-          "isbn": "1260548007",
-          "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781260548006-L.jpg",
-          "borrowDate": "2025-09-01",
-          "dueDate": "2025-09-15",
-          "returnDate": null,
-          "fineRate": 2,
-          "totalFine": 0,
-          "totalDelayDays": 0
-        }
-      ],
-      "requestedBooks": [],
-      "overdueBooks": []
+      "membershipType": "student"
     },
     {
       "id": 15,
@@ -2229,63 +1900,7 @@
       "status": "Active",
       "password": "Amelia123",
       "userImage": "https://randomuser.me/api/portraits/women/16.jpg",
-      "membershipType": "student",
-      "borrowedBooks": [
-        {
-          "bookId": 12,
-          "bookTitle": "Compilers: Principles, Techniques, and Tools",
-          "bookAuthor": "Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman",
-          "isbn": "0321486811",
-          "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780321486813-L.jpg",
-          "borrowDate": "2025-08-21",
-          "dueDate": "2025-09-05",
-          "returnDate": null,
-          "fineRate": 2,
-          "totalFine": 6,
-          "totalDelayDays": 3
-        },
-        {
-          "bookId": 19,
-          "bookTitle": "Data Mining: Concepts and Techniques",
-          "bookAuthor": "Jiawei Han, Micheline Kamber, Jian Pei",
-          "isbn": "1260548008",
-          "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781260548006-L.jpg",
-          "borrowDate": "2025-08-21",
-          "dueDate": "2025-09-05",
-          "returnDate": null,
-          "fineRate": 2,
-          "totalFine": 6,
-          "totalDelayDays": 3
-        }
-      ],
-      "requestedBooks": [],
-      "overdueBooks": [
-        {
-          "bookId": 12,
-          "bookTitle": "Compilers: Principles, Techniques, and Tools",
-          "bookAuthor": "Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman",
-          "isbn": "0321486811",
-          "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780321486813-L.jpg",
-          "borrowDate": "2025-08-21",
-          "dueDate": "2025-09-05",
-          "returnDate": null,
-          "fineRate": 2,
-          "totalFine": 6,
-          "totalDelayDays": 3
-        },
-        {
-          "bookId": 19,
-          "bookTitle": "Data Mining: Concepts and Techniques",
-          "bookAuthor": "Jiawei Han, Micheline Kamber, Jian Pei",
-          "isbn": "1260548008",
-          "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781260548006-L.jpg",
-          "borrowDate": "2025-08-21",
-          "dueDate": "2025-09-05",
-          "fineRate": 2,
-          "totalFine": 6,
-          "totalDelayDays": 3
-        }
-      ]
+      "membershipType": "student"
     },
     {
       "id": 17,
@@ -2299,37 +1914,7 @@
       "status": "Active",
       "password": "Scott98",
       "userImage": "https://randomuser.me/api/portraits/men/17.jpg",
-      "membershipType": "student",
-      "borrowedBooks": [
-        {
-          "bookId": 12,
-          "bookTitle": "Compilers: Principles, Techniques, and Tools",
-          "bookAuthor": "Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman",
-          "isbn": "0321486812",
-          "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780321486813-L.jpg",
-          "borrowDate": "2025-08-21",
-          "dueDate": "2025-09-05",
-          "returnDate": null,
-          "fineRate": 2,
-          "totalFine": 6,
-          "totalDelayDays": 3
-        }
-      ],
-      "requestedBooks": [],
-      "overdueBooks": [
-        {
-          "bookId": 1,
-          "bookTitle": "Compilers: Principles, Techniques, and Tools",
-          "bookAuthor": "Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman",
-          "isbn": "0321486812",
-          "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780321486813-L.jpg",
-          "borrowDate": "2025-08-23",
-          "dueDate": "2025-09-07",
-          "fineRate": 2,
-          "totalFine": 2,
-          "totalDelayDays": 1
-        }
-      ]
+      "membershipType": "student"
     },
     {
       "id": 18,
@@ -2343,20 +1928,7 @@
       "status": "Active",
       "password": "Adams12",
       "userImage": "https://randomuser.me/api/portraits/women/18.jpg",
-      "membershipType": "student",
-      "borrowedBooks": [],
-      "requestedBooks": [
-        {
-          "bookId": 9,
-          "bookTitle": "Computer Organization and Design",
-          "bookAuthor": "David A. Patterson, John L. Hennessy",
-          "isbn": "0128122758",
-          "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128122754-L.jpg",
-          "requestDate": "2025-09-07",
-          "queuePosition": 1
-        }
-      ],
-      "overdueBooks": []
+      "membershipType": "student"
     },
     {
       "id": 19,
@@ -2370,24 +1942,7 @@
       "status": "Active",
       "password": "Elijah24",
       "userImage": "https://randomuser.me/api/portraits/men/19.jpg",
-      "membershipType": "student",
-      "borrowedBooks": [
-        {
-          "bookId": 1,
-          "bookTitle": "Data Mining: Concepts and Techniques",
-          "bookAuthor": "Jiawei Han, Micheline Kamber, Jian Pei",
-          "isbn": "0128117606",
-          "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128117606-L.jpg",
-          "borrowDate": "2025-08-18",
-          "dueDate": "2025-09-02",
-          "returnDate": null,
-          "fineRate": 2,
-          "totalFine": 12,
-          "totalDelayDays": 6
-        }
-      ],
-      "requestedBooks": [],
-      "overdueBooks": []
+      "membershipType": "student"
     },
     {
       "id": 20,
@@ -2429,6 +1984,479 @@
       "membershipType": "admin",
       "password": "Raj147789",
       "userImage": "https://avatars.githubusercontent.com/u/182490144?s=48&v=4"
+    }
+  ],
+  "borrowedBooks": [
+    {
+      "id": 1,
+      "bookTitle": "Introduction to Algorithms",
+      "bookAuthor": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+      "bookId": 1,
+      "memberName": "Andrew Kazantzis",
+      "memberId": 1,
+      "borrowDate": "2025-08-10",
+      "dueDate": "2025-08-25",
+      "returnDate": null,
+      "totalDelayDays": 13,
+      "fineRate": 2,
+      "totalFine": 26,
+      "isbn": "0262046305",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 2,
+      "bookTitle": "Introduction to Algorithms",
+      "bookAuthor": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+      "bookId": 1,
+      "memberName": "Sophie Martinez",
+      "memberId": 2,
+      "borrowDate": "2025-08-11",
+      "dueDate": "2025-08-226",
+      "returnDate": null,
+      "totalDelayDays": 11,
+      "fineRate": 2,
+      "totalFine": 22,
+      "isbn": "0262046306",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "id": 3,
+      "bookTitle": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "bookAuthor": "Robert C. Martin",
+      "bookId": 2,
+      "memberName": "Liam Thompson",
+      "memberId": 3,
+      "borrowDate": "2025-08-20",
+      "dueDate": "2025-09-04",
+      "returnDate": null,
+      "totalDelayDays": 3,
+      "fineRate": 2,
+      "totalFine": 6,
+      "isbn": "0132350882",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+      "id": 4,
+      "bookTitle": "The Design of Everyday Things",
+      "bookAuthor": "Don Norman",
+      "bookId": 3,
+      "memberName": "Emma Wilson",
+      "memberId": 4,
+      "borrowDate": "2025-08-22",
+      "dueDate": "2025-09-06",
+      "returnDate": null,
+      "totalDelayDays": 1,
+      "fineRate": 2,
+      "totalFine": 2,
+      "isbn": "0465050654",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780465050659-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    {
+      "id": 5,
+      "bookTitle": "Artificial Intelligence: A Modern Approach",
+      "bookAuthor": "Stuart Russell, Peter Norvig",
+      "bookId": 4,
+      "memberName": "James Lee",
+      "memberId": 5,
+      "borrowDate": "2025-08-20",
+      "dueDate": "2025-09-04",
+      "returnDate": null,
+      "totalDelayDays": 3,
+      "fineRate": 2,
+      "totalFine": 6,
+      "isbn": "1292401133",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781292401133-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    {
+      "id": 6,
+      "bookTitle": "Artificial Intelligence: A Modern Approach",
+      "bookAuthor": "Stuart Russell, Peter Norvig",
+      "bookId": 4,
+      "memberName": "Olivia Brown",
+      "memberId": 6,
+      "borrowDate": "2025-08-30",
+      "dueDate": "2025-09-14",
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "1292401134",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781292401133-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    {
+      "id": 7,
+      "bookTitle": "Database System Concepts",
+      "bookAuthor": "Abraham Silberschatz, Henry F. Korth, S. Sudarshan",
+      "bookId": 7,
+      "memberName": "Noah Davis",
+      "memberId": 7,
+      "borrowDate": "2025-08-19",
+      "dueDate": "2025-09-3",
+      "returnDate": null,
+      "totalDelayDays": 4,
+      "fineRate": 2,
+      "totalFine": 8,
+      "isbn": "0078022150",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780078022159-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    {
+      "id": 8,
+      "bookTitle": "Computer Organization and Design",
+      "bookAuthor": "David A. Patterson, John L. Hennessy",
+      "bookId": 9,
+      "memberName": "Ava Martinez",
+      "memberId": 10,
+      "borrowDate": "2025-08-01",
+      "dueDate": "2025-09-16",
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0128122757",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128122754-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/10.jpg"
+    },
+    {
+      "id": 9,
+      "bookTitle": "Computer Organization and Design",
+      "bookAuthor": "David A. Patterson, John L. Hennessy",
+      "bookId": 9,
+      "memberName": "Mia Lopez",
+      "memberId": 12,
+      "borrowDate": "2025-08-05",
+      "dueDate": "2025-09-20",
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0128122758",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128122754-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/12.jpg"
+    },
+    {
+      "id": 10,
+      "bookTitle": "Compilers: Principles, Techniques, and Tools",
+      "bookAuthor": "Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman",
+      "bookId": 12,
+      "memberName": "Amelia Wright",
+      "memberId": 16,
+      "borrowDate": "2025-08-21",
+      "dueDate": "2025-09-05",
+      "returnDate": null,
+      "totalDelayDays": 2,
+      "fineRate": 2,
+      "totalFine": 4,
+      "isbn": "0321486811",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780321486813-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/16.jpg"
+    },
+    {
+      "id": 11,
+      "bookTitle": "Compilers: Principles, Techniques, and Tools",
+      "bookAuthor": "Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman",
+      "bookId": 12,
+      "memberName": "Benjamin Scott",
+      "memberId": 17,
+      "borrowDate": "2025-08-23",
+      "dueDate": "2025-09-07",
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0321486812",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780321486813-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/17.jpg"
+    },
+    {
+      "id": 12,
+      "bookTitle": "Data Mining: Concepts and Techniques",
+      "bookAuthor": "Jiawei Han, Micheline Kamber, Jian Pei",
+      "bookId": 16,
+      "memberName": "Charlotte Young",
+      "memberId": 14,
+      "borrowDate": "2025-09-03",
+      "dueDate": "2025-09-18",
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0128117605",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128117606-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/14.jpg"
+    },
+    {
+      "id": 13,
+      "bookTitle": "Data Mining: Concepts and Techniques",
+      "bookAuthor": "Jiawei Han, Micheline Kamber, Jian Pei",
+      "bookId": 16,
+      "memberName": "Charlotte Young",
+      "memberId": 14,
+      "borrowDate": "2025-09-18",
+      "dueDate": "2025-09-02",
+      "returnDate": null,
+      "totalDelayDays": 5,
+      "fineRate": 2,
+      "totalFine": 10,
+      "isbn": "0128117606",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128117606-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/19.jpg"
+    },
+    {
+      "id": 14,
+      "bookTitle": "Software Engineering: A Practitioner's Approach",
+      "bookAuthor": "Roger S. Pressman, Bruce R. Maxim",
+      "bookId": 19,
+      "memberName": "Charlotte Young",
+      "memberId": 14,
+      "borrowDate": "2025-09-01",
+      "dueDate": "2025-09-15",
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "1260548007",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781260548006-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/14.jpg"
+    },
+    {
+      "id": 15,
+      "bookTitle": "Software Engineering: A Practitioner's Approach",
+      "bookAuthor": "Roger S. Pressman, Bruce R. Maxim",
+      "bookId": 19,
+      "memberName": "Amelia Wright",
+      "memberId": 16,
+      "borrowDate": "2025-09-01",
+      "dueDate": "2025-09-15",
+      "returnDate": null,
+      "totalDelayDays": 2,
+      "fineRate": 2,
+      "totalFine": 4,
+      "isbn": "1260548008",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781260548006-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/16.jpg"
+    }
+  ],
+  "requestedBooks": [
+    {
+      "id": 1,
+      "bookTitle": "Introduction to Algorithms",
+      "bookAuthor": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+      "bookId": 1,
+      "memberName": "Liam Thompson",
+      "memberId": 3,
+      "requestDate": "2025-08-26",
+      "borrowDate": null,
+      "dueDate": null,
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0262046305",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/3.jpg",
+      "queuePosition": 1
+    },
+    {
+      "id": 2,
+      "bookTitle": "Computer Organization and Design",
+      "bookAuthor": "David A. Patterson, John L. Hennessy",
+      "bookId": 9,
+      "memberName": "Harper Adams",
+      "memberId": 18,
+      "requestDate": "2025-08-26",
+      "borrowDate": null,
+      "dueDate": null,
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0128122758",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128122754-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/18.jpg",
+      "queuePosition": 1
+    },
+    {
+      "id": 3,
+      "bookTitle": "Compilers: Principles, Techniques, and Tools",
+      "bookAuthor": "Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman",
+      "bookId": 12,
+      "memberName": "Mason Rodriguez",
+      "memberId": 9,
+      "requestDate": "2025-09-05",
+      "borrowDate": null,
+      "dueDate": null,
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0321486811",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780321486813-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/9.jpg",
+      "queuePosition": 1
+    },
+    {
+      "id": 4,
+      "bookTitle": "Data Mining: Concepts and Techniques",
+      "bookAuthor": "Jiawei Han, Micheline Kamber, Jian Pei",
+      "bookId": 16,
+      "memberName": "Noah Davis",
+      "memberId": 7,
+      "requestDate": "2025-09-01",
+      "borrowDate": null,
+      "dueDate": null,
+      "returnDate": null,
+      "totalDelayDays": 0,
+      "fineRate": 2,
+      "totalFine": 0,
+      "isbn": "0128117606",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128117606-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/7.jpg",
+      "queuePosition": 1
+    }
+  ],
+  "overdueBooks": [
+    {
+      "id": 1,
+      "bookTitle": "Introduction to Algorithms",
+      "bookAuthor": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+      "bookId": 1,
+      "memberName": "Andrew Kazantzis",
+      "memberId": 1,
+      "borrowDate": "2025-08-10",
+      "dueDate": "2025-08-25",
+      "returnDate": null,
+      "totalDelayDays": 13,
+      "fineRate": 2,
+      "totalFine": 26,
+      "isbn": "0262046305",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 2,
+      "bookTitle": "Introduction to Algorithms",
+      "bookAuthor": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+      "bookId": 1,
+      "memberName": "Sophie Martinez",
+      "memberId": 2,
+      "borrowDate": "2025-08-11",
+      "dueDate": "2025-08-26",
+      "returnDate": null,
+      "totalDelayDays": 12,
+      "fineRate": 2,
+      "totalFine": 24,
+      "isbn": "0262046306",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "id": 3,
+      "bookTitle": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "bookAuthor": "Robert C. Martin",
+      "bookId": 2,
+      "memberName": "Liam Thompson",
+      "memberId": 3,
+      "borrowDate": "2025-08-20",
+      "dueDate": "2025-09-04",
+      "returnDate": null,
+      "totalDelayDays": 3,
+      "fineRate": 2,
+      "totalFine": 6,
+      "isbn": "0132350882",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+      "id": 4,
+      "bookTitle": "The Design of Everyday Things",
+      "bookAuthor": "Don Norman",
+      "bookId": 3,
+      "memberName": "Emma Wilson",
+      "memberId": 4,
+      "borrowDate": "2025-08-22",
+      "dueDate": "2025-09-06",
+      "returnDate": null,
+      "totalDelayDays": 1,
+      "fineRate": 2,
+      "totalFine": 2,
+      "isbn": "0465050654",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780465050659-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    {
+      "id": 5,
+      "bookTitle": "Artificial Intelligence: A Modern Approach",
+      "bookAuthor": "Stuart Russell, Peter Norvig",
+      "bookId": 4,
+      "memberName": "James Lee",
+      "memberId": 5,
+      "borrowDate": "2025-08-20",
+      "dueDate": "2025-09-04",
+      "returnDate": null,
+      "totalDelayDays": 3,
+      "fineRate": 2,
+      "totalFine": 6,
+      "isbn": "1292401133",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9781292401133-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    {
+      "id": 6,
+      "bookTitle": "Database System Concepts",
+      "bookAuthor": "Abraham Silberschatz, Henry F. Korth, S. Sudarshan",
+      "bookId": 7,
+      "memberName": "Noah Davis",
+      "memberId": 7,
+      "borrowDate": "2025-08-19",
+      "dueDate": "2025-09-3",
+      "returnDate": null,
+      "totalDelayDays": 4,
+      "fineRate": 2,
+      "totalFine": 8,
+      "isbn": "0078022150",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780078022159-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    {
+      "id": 7,
+      "bookTitle": "Compilers: Principles, Techniques, and Tools",
+      "bookAuthor": "Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman",
+      "bookId": 12,
+      "memberName": "Amelia Wright",
+      "memberId": 16,
+      "borrowDate": "2025-08-21",
+      "dueDate": "2025-09-05",
+      "returnDate": null,
+      "totalDelayDays": 2,
+      "fineRate": 2,
+      "totalFine": 4,
+      "isbn": "0321486811",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780321486813-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/women/16.jpg"
+    },
+    {
+      "id": 8,
+      "bookTitle": "Data Mining: Concepts and Techniques",
+      "bookAuthor": "Jiawei Han, Micheline Kamber, Jian Pei",
+      "bookId": 16,
+      "memberName": "Elijah Baker",
+      "memberId": 14,
+      "borrowDate": "2025-09-18",
+      "dueDate": "2025-09-02",
+      "returnDate": null,
+      "totalDelayDays": 5,
+      "fineRate": 2,
+      "totalFine": 10,
+      "isbn": "0128117606",
+      "bookThumbnail": "https://covers.openlibrary.org/b/isbn/9780128117606-L.jpg",
+      "memberImage": "https://randomuser.me/api/portraits/men/19.jpg"
     }
   ]
 }
