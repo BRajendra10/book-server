@@ -336,9 +336,5 @@
   ],
   "borrowedBooks": [],
   "requestedBooks": [],
-  "overdueBooks": [],
-  "totalBooks": 20,
-  "bookIssued": 0,
-  "revenu": 0,
-  "overDue": 0
+  "overdueBooks": []
 }
