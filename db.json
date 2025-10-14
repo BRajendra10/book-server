@@ -255,6 +255,83 @@
     },
     {
       "id": "f6a7b8c9-d0e1-2345-6789-0f123456789a",
+      "title": "Cosmos",
+      "author": "Carl Sagan",
+      "category": "Science",
+      "isbn": ["9780345539434", "9780394502946"],
+      "coverImage": "https://m.media-amazon.com/images/I/61BfVvjwbiL._SY385_.jpg",
+      "tags": ["astronomy", "universe", "cosmology"],
+      "copiesAvailable": 3,
+      "description": "Carl Sagan’s groundbreaking exploration of the universe, life on Earth, and the human desire to understand our place in the cosmos."
+    },
+    {
+      "id": "g7b8c9d0-e1f2-3456-7890-1f23456789ab",
+      "title": "The Immortal Life of Henrietta Lacks",
+      "author": "Rebecca Skloot",
+      "category": "Science",
+      "isbn": ["9781400052189", "9780307888440"],
+      "coverImage": "https://m.media-amazon.com/images/I/81coyP8S-ZL._SY522_.jpg",
+      "tags": ["biology", "ethics", "medicine"],
+      "copiesAvailable": 4,
+      "description": "The true story of Henrietta Lacks and the immortal cells taken from her without consent that changed modern medicine forever."
+    },
+    {
+      "id": "h8c9d0e1-f2a3-4567-8901-2f3456789abc",
+      "title": "Astrophysics for People in a Hurry",
+      "author": "Neil deGrasse Tyson",
+      "category": "Science",
+      "isbn": ["9780393609394", "9780393609400"],
+      "coverImage": "https://m.media-amazon.com/images/I/71IAaf-DuUL._SY522_.jpg",
+      "tags": ["physics", "astronomy", "space"],
+      "copiesAvailable": 5,
+      "description": "Neil deGrasse Tyson’s concise and engaging guide to the essential principles of the universe for readers on the go."
+    },
+    {
+      "id": "i9d0e1f2-a3b4-5678-9012-3f456789abcd",
+      "title": "The Gene: An Intimate History",
+      "author": "Siddhartha Mukherjee",
+      "category": "Science",
+      "isbn": ["9781476733500", "9780099584575"],
+      "coverImage": "https://m.media-amazon.com/images/I/41lRFAEjeML._SY445_SX342_ControlCacheEqualizer_.jpg",
+      "tags": ["genetics", "biology", "history"],
+      "copiesAvailable": 3,
+      "description": "A sweeping history of the gene as both a scientific concept and a powerful force in shaping humanity."
+    },
+    {
+      "id": "j0e1f2a3-b4c5-6789-0123-4f56789abcde",
+      "title": "Brief Answers to the Big Questions",
+      "author": "Stephen Hawking",
+      "category": "Science",
+      "isbn": ["9781984819192", "9781473695986"],
+      "coverImage": "https://m.media-amazon.com/images/I/416+G0i+gKL._SY445_SX342_ControlCacheEqualizer_.jpg",
+      "tags": ["physics", "cosmology", "philosophy"],
+      "copiesAvailable": 2,
+      "description": "Stephen Hawking’s final work addressing the most profound questions about the universe, time, and human existence."
+    },
+    {
+      "id": "k1f2a3b4-c5d6-7890-1234-5f6789abcdef",
+      "title": "The Structure of Scientific Revolutions",
+      "author": "Thomas S. Kuhn",
+      "category": "Science",
+      "isbn": ["9780226458083", "9780226458120"],
+      "coverImage": "https://m.media-amazon.com/images/I/51tgYAVloIL._SY445_SX342_ControlCacheEqualizer_.jpg",
+      "tags": ["science", "philosophy", "history"],
+      "copiesAvailable": 4,
+      "description": "Kuhn’s classic analysis of how scientific paradigms shift and how progress in science truly occurs."
+    },
+    {
+      "id": "l2a3b4c5-d6e7-8901-2345-6f789abcdef0",
+      "title": "Surely You're Joking, Mr. Feynman!",
+      "author": "Richard P. Feynman",
+      "category": "Science",
+      "isbn": ["9780393316049", "9780393316049"],
+      "coverImage": "https://m.media-amazon.com/images/I/611QdJTWMmL._SY466_.jpg",
+      "tags": ["physics", "autobiography", "science"],
+      "copiesAvailable": 3,
+      "description": "A delightful collection of stories from Nobel-winning physicist Richard Feynman about his adventures, curiosity, and humor in science."
+    },
+    {
+      "id": "f6a7b8c9-d0e1-2345-6789-0f123456789a",
       "title": "Pride and Prejudice",
       "author": "Jane Austen",
       "category": "Romance",
