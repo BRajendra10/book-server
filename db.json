@@ -9,7 +9,8 @@
       "coverImage": "https://covers.openlibrary.org/b/id/15126503-L.jpg",
       "tags": ["programming", "best practices", "software engineering"],
       "copiesAvailable": 2,
-      "description": "A handbook of agile software craftsmanship, focusing on writing clean, maintainable code and best practices for software development."
+      "summary": "A handbook on agile craftsmanship and principles for producing clean, maintainable code.",
+      "description": "Robert C. Martin presents principles and practices for writing readable, maintainable software. The book emphasizes code quality, refactoring, and practical techniques to reduce technical debt. It includes examples and heuristics useful for professional developers and teams pursuing long-term code health."
     },
     {
       "id": "c2e4b5d6-5f6a-4821-9bcd-2345678901bc",
@@ -20,7 +21,8 @@
       "coverImage": "https://covers.openlibrary.org/b/id/6709987-M.jpg",
       "tags": ["algorithms", "data structures", "computer science"],
       "copiesAvailable": 2,
-      "description": "A comprehensive introduction to algorithms, covering a broad range of algorithms in depth, yet making their design and analysis accessible to all levels of readers."
+      "summary": "A comprehensive textbook covering design, analysis, and implementation of fundamental algorithms.",
+      "description": "This reference offers in-depth coverage of algorithms and data structures, explaining theoretical foundations and practical implementations. It systematically treats topics from sorting and searching to advanced graph and dynamic programming techniques. Suitable for students and practitioners requiring rigorous algorithmic understanding."
     },
     {
       "id": "d3f5c6e7-6a7b-4932-0cde-3456789012cd",
@@ -31,7 +33,8 @@
       "coverImage": "https://ia803200.us.archive.org/view_archive.php?archive=/23/items/m_covers_0009/m_covers_0009_24.zip&file=0009245523-M.jpg",
       "tags": ["javascript", "programming", "web development"],
       "copiesAvailable": 2,
-      "description": "A concise and elegant guide to the best features of JavaScript, focusing on the language's most elegant and beneficial aspects."
+      "summary": "A concise examination of JavaScript’s most reliable and expressive features.",
+      "description": "Douglas Crockford isolates JavaScript’s strengths and recommends best practices for using the language effectively. The book focuses on a subset of the language that promotes clarity, robustness, and maintainability. It is recommended for developers seeking a disciplined approach to JavaScript design."
     },
     {
       "id": "e4a6d7f8-7b8c-5043-1def-4567890123de",
@@ -42,7 +45,8 @@
       "coverImage": "https://m.media-amazon.com/images/I/41l2KFHRcFL._SY445_SX342_ControlCacheEqualizer_.jpg",
       "tags": ["design patterns", "OOP", "software engineering"],
       "copiesAvailable": 2,
-      "description": "A seminal work that introduces object-oriented design patterns, providing solutions to common design problems in software development."
+      "summary": "A foundational catalog of object-oriented design patterns for reusable software solutions.",
+      "description": "This seminal work documents common object-oriented design patterns and their intent, structure, and trade-offs. It provides practical examples that help developers recognize and apply patterns to solve recurring architectural problems. The text remains a core resource for professional software architects and engineers."
     },
     {
       "id": "f5b7e8a9-8c9d-6154-2ef0-5678901234ef",
@@ -53,7 +57,8 @@
       "coverImage": "https://m.media-amazon.com/images/I/41mXGJV8PbL._SY445_SX342_ControlCacheEqualizer_.jpg",
       "tags": ["javascript", "web development", "programming"],
       "copiesAvailable": 2,
-      "description": "An in-depth exploration of JavaScript's core mechanisms, offering a deep understanding of the language's intricacies."
+      "summary": "An in-depth series exploring JavaScript’s core mechanisms and nuanced behavior.",
+      "description": "Kyle Simpson provides a thorough exploration of JavaScript internals, covering scope, closures, prototypes, async patterns, and more. The series aims to deepen practical understanding and correct misconceptions. It is well-suited for developers seeking mastery of JavaScript’s unique characteristics."
     },
     {
       "id": "p6e7f8a9-b0c1-2345-6789-0abcdef12345",
@@ -64,7 +69,8 @@
       "coverImage": "https://m.media-amazon.com/images/I/41VvIauMuuL._SY445_SX342_FMwebp_.jpg",
       "tags": ["javascript", "web development", "programming"],
       "copiesAvailable": 2,
-      "description": "A modern introduction to programming using JavaScript, combining detailed explanations with engaging examples and exercises."
+      "summary": "A modern introduction to programming using JavaScript with practical exercises and examples.",
+      "description": "Eloquent JavaScript combines readable explanations with hands-on exercises to teach programming fundamentals using JavaScript. Topics range from basic syntax to higher-order functions and asynchronous programming. The book is useful for beginners and intermediate developers seeking a practical, example-driven approach."
     },
     {
       "id": "q7f8a9b0-c1d2-3456-7890-1abcdef23456",
@@ -75,7 +81,8 @@
       "coverImage": "https://m.media-amazon.com/images/I/514YGMKlQCL._SY445_SX342_FMwebp_.jpg",
       "tags": ["software engineering", "best practices", "programming"],
       "copiesAvailable": 2,
-      "description": "A classic guide filled with practical advice on how to think, design, and code like a pragmatic software developer."
+      "summary": "A practical guide offering principles and techniques for disciplined, effective software development.",
+      "description": "Hunt and Thomas present pragmatic practices for software professionals, emphasizing responsibility, craftsmanship, and continual learning. The book covers planning, debugging, communication, and career development with actionable advice. It serves as a practical handbook for developers and engineering teams."
     },
     {
       "id": "r8a9b0c1-d2e3-4567-8901-2abcdef34567",
@@ -86,7 +93,8 @@
       "coverImage": "https://m.media-amazon.com/images/I/71e6ndHEwqL._SY385_.jpg",
       "tags": ["refactoring", "code quality", "software engineering"],
       "copiesAvailable": 2,
-      "description": "A foundational book for improving existing codebases, showing how to make code cleaner and more maintainable without changing its behavior."
+      "summary": "A practical guide to improving code structure and maintainability without altering external behavior.",
+      "description": "Martin Fowler details systematic refactoring techniques to simplify and improve existing codebases. The book includes cataloged refactorings, motivations, and step-by-step examples. It is an essential reference for engineers aiming to reduce technical debt and improve software design incrementally."
     },
     {
       "id": "s9b0c1d2-e3f4-5678-9012-3abcdef45678",
@@ -97,7 +105,8 @@
       "coverImage": "https://m.media-amazon.com/images/I/41fijVG5x7L._SY445_SX342_ControlCacheEqualizer_.jpg",
       "tags": ["architecture", "software design", "clean code"],
       "copiesAvailable": 2,
-      "description": "A practical guide to building robust, flexible, and maintainable software systems through proven architectural principles."
+      "summary": "Practical principles for designing robust, maintainable software architectures.",
+      "description": "Robert C. Martin outlines architectural approaches that promote separation of concerns, testability, and independence from frameworks. The book presents guidelines for organizing systems to remain flexible and maintainable as requirements evolve. It is targeted at architects and senior developers designing long-lived systems."
     },
     {
       "id": "t0c1d2e3-f4a5-6789-0123-4abcdef56789",
@@ -108,7 +117,8 @@
       "coverImage": "https://m.media-amazon.com/images/I/41KoTSfNC9L._SX342_SY445_ControlCacheEqualizer_.jpg",
       "tags": ["software development", "best practices", "programming"],
       "copiesAvailable": 2,
-      "description": "A comprehensive guide to software construction, offering insights and techniques for writing high-quality, maintainable code."
+      "summary": "A comprehensive manual of software construction practices and coding techniques.",
+      "description": "Steve McConnell compiles best practices for constructing high-quality software, covering design, coding, debugging, and testing. The book synthesizes empirical evidence and practical guidance for developers seeking to improve productivity and code quality. Suitable as a core reference for professional development."
     },
     {
       "id": "a1b2c3d4-e5f6-7890-1234-56789abcde01",
@@ -119,7 +129,8 @@
       "coverImage": "https://covers.openlibrary.org/b/id/15113003-M.jpg",
       "tags": ["mathematics", "dimensions", "fiction"],
       "copiesAvailable": 2,
-      "description": "A brilliant blend of mathematics and satire, exploring dimensions through the story of a two-dimensional world."
+      "summary": "A satirical novella that explores geometry and society through a two-dimensional world.",
+      "description": "Edwin A. Abbott uses allegory and mathematical imagination to examine social hierarchy and dimensionality. The novella combines mathematical curiosity with social satire, offering insights into perception and intellectual humility. It remains a popular interdisciplinary classic bridging maths and literature."
     },
     {
       "id": "b2c3d4e5-f6a7-8901-2345-6789bcdef012",
@@ -130,7 +141,8 @@
       "coverImage": "https://ia800505.us.archive.org/view_archive.php?archive=/25/items/m_covers_0010/m_covers_0010_70.zip&file=0010708520-M.jpg",
       "tags": ["mathematics", "biography", "infinity"],
       "copiesAvailable": 2,
-      "description": "A moving biography of the mathematical genius Srinivasa Ramanujan and his profound collaboration with G.H. Hardy."
+      "summary": "A biography of Srinivasa Ramanujan and his collaboration with G. H. Hardy.",
+      "description": "Robert Kanigel chronicles Ramanujan's life from impoverished beginnings in India to mathematical recognition in England. The narrative covers his extraordinary intuition, correspondence with Hardy, and the cultural and academic challenges he faced. It situates his work within both human and mathematical contexts."
     },
     {
       "id": "c3d4e5f6-a7b8-9012-3456-789cdef01234",
@@ -140,8 +152,9 @@
       "isbn": ["9780521427067", "9780521641333"],
       "coverImage": "https://m.media-amazon.com/images/I/31dincS9BCL._SY445_SX342_ControlCacheEqualizer_.jpg",
       "tags": ["mathematics", "philosophy", "autobiography"],
-      "copiesAvailable": 3,
-      "description": "A deeply personal reflection by mathematician G. H. Hardy on the nature of mathematics, beauty, and creative work."
+      "copiesAvailable": 2,
+      "summary": "G. H. Hardy’s reflective essay on mathematical aesthetics and the life of a mathematician.",
+      "description": "Hardy offers a candid defense of pure mathematics as an artistic pursuit and reflects on his motivations and achievements. The essay combines personal memoir with philosophical musings about beauty, creativity, and intellectual labor. It remains influential for those studying the culture of mathematics."
     },
     {
       "id": "d4e5f6a7-b8c9-0123-4567-89def0123456",
@@ -151,8 +164,9 @@
       "isbn": ["9780465026562", "9780465030798"],
       "coverImage": "https://m.media-amazon.com/images/I/41AkcQQKK3L._SY445_SX342_ControlCacheEqualizer_.jpg",
       "tags": ["mathematics", "logic", "philosophy"],
-      "copiesAvailable": 4,
-      "description": "A profound exploration connecting the works of Gödel, Escher, and Bach to illustrate patterns of intelligence and self-reference."
+      "copiesAvailable": 2,
+      "summary": "An interdisciplinary exploration connecting logic, art, and music to notions of consciousness and self-reference.",
+      "description": "Douglas Hofstadter examines formal systems, recursion, and self-reference through the works of Gödel, Escher, and Bach. The book blends narrative, puzzles, and rigorous argument to probe themes of intelligence, meaning, and emergent structure. It is notable for its ambitious scope and creative presentation."
     },
     {
       "id": "e5f6a7b8-c9d0-1234-5678-9ef012345678",
@@ -162,8 +176,9 @@
       "isbn": ["9780544105850", "9780547517650"],
       "coverImage": "https://m.media-amazon.com/images/I/716ibX70C6L._SY466_.jpg",
       "tags": ["mathematics", "popular science", "education"],
-      "copiesAvailable": 3,
-      "description": "A charming journey through the beauty of mathematics, from simple arithmetic to calculus, showing its role in everyday life."
+      "copiesAvailable": 2,
+      "summary": "A popular-science tour of mathematics demonstrating its ubiquity and practical relevance.",
+      "description": "Steven Strogatz presents mathematical concepts through accessible examples from everyday life, history, and science. The book demystifies topics from arithmetic to calculus while emphasizing intuition and application. It aims to cultivate appreciation and understanding among general readers."
     },
     {
       "id": "f6a7b8c9-d0e1-2345-6789-0f123456789a",
@@ -173,8 +188,9 @@
       "isbn": ["9781541618510", "9780241258767"],
       "coverImage": "https://m.media-amazon.com/images/I/51Yyogk0U8L._SY445_SX342_ControlCacheEqualizer_.jpg",
       "tags": ["statistics", "data science", "mathematics"],
-      "copiesAvailable": 5,
-      "description": "An accessible introduction to understanding data, probability, and the real-world power of statistical reasoning."
+      "copiesAvailable": 2,
+      "summary": "An accessible introduction to statistical thinking and interpreting data responsibly.",
+      "description": "David Spiegelhalter explains statistical principles, data interpretation, and the pitfalls of misleading analysis. The book emphasizes critical thinking, uncertainty quantification, and real-world examples. It is intended for readers seeking practical skills for understanding and communicating data-driven conclusions."
     },
     {
       "id": "g7b8c9d0-e1f2-3456-7890-1f23456789ab",
@@ -184,8 +200,9 @@
       "isbn": ["9780465029730", "9780465027729"],
       "coverImage": "https://m.media-amazon.com/images/I/41-HtQFZTWL._SY445_SX342_ControlCacheEqualizer_.jpg",
       "tags": ["mathematics", "history", "science"],
-      "copiesAvailable": 4,
-      "description": "A fascinating look at seventeen of the most influential mathematical equations and their profound effects on our world."
+      "copiesAvailable": 2,
+      "summary": "A historical overview of seventeen equations that have had major scientific and cultural impact.",
+      "description": "Ian Stewart explores pivotal mathematical equations and their roles in shaping scientific progress. Each chapter contextualizes an equation’s origin, meaning, and consequences for technology and thought. The volume is both educational and historical in scope for general readers."
     },
     {
       "id": "h8c9d0e1-f2a3-4567-8901-2f3456789abc",
@@ -195,8 +212,9 @@
       "isbn": ["9780385493628", "9780385475778"],
       "coverImage": "https://m.media-amazon.com/images/I/51kDvbARihL._SY445_SX342_ML2_.jpg",
       "tags": ["mathematics", "number theory", "history"],
-      "copiesAvailable": 3,
-      "description": "A thrilling account of the centuries-long struggle to solve Fermat’s Last Theorem, culminating in Andrew Wiles’ groundbreaking proof."
+      "copiesAvailable": 2,
+      "summary": "A narrative account of the history and resolution of Fermat’s Last Theorem.",
+      "description": "Simon Singh recounts centuries of attempts to solve Fermat’s Last Theorem, culminating in Andrew Wiles’ proof. The book interweaves mathematical explanation with human stories of persistence and discovery. It provides a readable introduction to number theory’s historical drama."
     },
     {
       "id": "i9d0e1f2-a3b4-5678-9012-3f456789abcd",
@@ -206,8 +224,9 @@
       "isbn": ["9780143127536", "9781594205224"],
       "coverImage": "https://m.media-amazon.com/images/I/71CLlDc4BFL._SY466_.jpg",
       "tags": ["mathematics", "logic", "reasoning"],
-      "copiesAvailable": 4,
-      "description": "A lively exploration of how mathematical reasoning influences everything from politics to everyday decisions."
+      "copiesAvailable": 2,
+      "summary": "A lively exploration of applying mathematical reasoning to everyday problems and policy.",
+      "description": "Jordan Ellenberg demonstrates how mathematical thinking clarifies decisions and uncovers hidden structure in real-world situations. The book uses accessible examples from politics, medicine, and daily life to show the advantages of quantitative reasoning. It encourages thoughtful skepticism and clearer inference."
     },
     {
       "id": "j0e1f2a3-b4c5-6789-0123-4f56789abcde",
@@ -217,8 +236,9 @@
       "isbn": ["9780307275172", "9780375424045"],
       "coverImage": "https://m.media-amazon.com/images/I/41lbBi3dZbL._SY445_SX342_ControlCacheEqualizer_.jpg",
       "tags": ["probability", "statistics", "mathematics"],
-      "copiesAvailable": 5,
-      "description": "An engaging examination of how randomness and probability shape human behavior, success, and decision-making."
+      "copiesAvailable": 2,
+      "summary": "An accessible account of randomness, probability, and their influence on human judgment.",
+      "description": "Leonard Mlodinow explores how random processes shape outcomes in domains ranging from sports to finance. The book clarifies common statistical misconceptions and illuminates probability’s practical consequences. It is designed for general readers seeking to understand chance and uncertainty."
     },
     {
       "id": "c3d4e5f6-a7b8-9012-3456-789cdef01234",
@@ -229,7 +249,8 @@
       "coverImage": "https://covers.openlibrary.org/b/id/15104429-M.jpg",
       "tags": ["cosmology", "science", "physics"],
       "copiesAvailable": 2,
-      "description": "Hawking’s classic work explaining the universe, black holes, and the nature of time for the curious reader."
+      "summary": "A concise overview of cosmology, black holes, and the nature of time for general readers.",
+      "description": "Stephen Hawking presents key ideas of modern cosmology—including relativity, quantum mechanics, and black holes—in an accessible manner. The book discusses the origins and large-scale structure of the universe while avoiding heavy technicalities. It serves as an entry point to fundamental questions in physics."
     },
     {
       "id": "d4e5f6a7-b8c9-0123-4567-89def0123456",
@@ -240,7 +261,8 @@
       "coverImage": "https://covers.openlibrary.org/b/id/6561465-M.jpg",
       "tags": ["evolution", "biology", "science"],
       "copiesAvailable": 2,
-      "description": "A revolutionary look at evolution from the perspective of genes, transforming how we understand natural selection."
+      "summary": "A gene-centered perspective on evolution that reframes natural selection and behavior.",
+      "description": "Richard Dawkins argues that genes, rather than individuals or species, are primary units of selection. The book introduces influential concepts such as replicators and evolutionary strategies, clarifying complex biological phenomena with clear exposition. It remains a foundational text in evolutionary biology."
     },
     {
       "id": "e5f6a7b8-c9d0-1234-5678-9ef012345678",
@@ -251,7 +273,8 @@
       "coverImage": "https://covers.openlibrary.org/b/id/72329-M.jpg",
       "tags": ["string theory", "physics", "science"],
       "copiesAvailable": 2,
-      "description": "An accessible exploration of string theory and the fundamental nature of the universe."
+      "summary": "An accessible introduction to string theory and modern ideas in theoretical physics.",
+      "description": "Brian Greene surveys attempts to reconcile quantum mechanics and general relativity, focusing on string theory and higher-dimensional models. The book explains complex theoretical ideas through analogy and clear narrative, making advanced concepts intelligible to non-specialists interested in fundamental physics."
     },
     {
       "id": "f6a7b8c9-d0e1-2345-6789-0f123456789a",
@@ -261,8 +284,9 @@
       "isbn": ["9780345539434", "9780394502946"],
       "coverImage": "https://m.media-amazon.com/images/I/61BfVvjwbiL._SY385_.jpg",
       "tags": ["astronomy", "universe", "cosmology"],
-      "copiesAvailable": 3,
-      "description": "Carl Sagan’s groundbreaking exploration of the universe, life on Earth, and the human desire to understand our place in the cosmos."
+      "copiesAvailable": 2,
+      "summary": "A broad, eloquent exploration of the universe, science, and humanity’s place within it.",
+      "description": "Carl Sagan blends astronomy, history, and philosophy to present a panoramic view of the cosmos and the scientific endeavor. The book emphasizes public understanding of science, the development of knowledge, and the cultural significance of exploration. It inspires curiosity about the universe and scientific methods."
     },
     {
       "id": "g7b8c9d0-e1f2-3456-7890-1f23456789ab",
@@ -272,8 +296,9 @@
       "isbn": ["9781400052189", "9780307888440"],
       "coverImage": "https://m.media-amazon.com/images/I/81coyP8S-ZL._SY522_.jpg",
       "tags": ["biology", "ethics", "medicine"],
-      "copiesAvailable": 4,
-      "description": "The true story of Henrietta Lacks and the immortal cells taken from her without consent that changed modern medicine forever."
+      "copiesAvailable": 2,
+      "summary": "The factual account of Henrietta Lacks and the immortal HeLa cells that transformed medical research.",
+      "description": "Rebecca Skloot narrates the story of Henrietta Lacks, whose cells were taken without consent and led to major biomedical advances. The book interweaves scientific, ethical, and personal perspectives, examining consent, race, and the human consequences of scientific progress. It is both investigative and empathetic in tone."
     },
     {
       "id": "h8c9d0e1-f2a3-4567-8901-2f3456789abc",
@@ -283,8 +308,9 @@
       "isbn": ["9780393609394", "9780393609400"],
       "coverImage": "https://m.media-amazon.com/images/I/71IAaf-DuUL._SY522_.jpg",
       "tags": ["physics", "astronomy", "space"],
-      "copiesAvailable": 5,
-      "description": "Neil deGrasse Tyson’s concise and engaging guide to the essential principles of the universe for readers on the go."
+      "copiesAvailable": 2,
+      "summary": "A concise primer introducing essential concepts of astrophysics for busy readers.",
+      "description": "Neil deGrasse Tyson distills complex astrophysical ideas into brief, accessible chapters designed for general audiences. The book covers cosmology, stellar evolution, and the large-scale structure of the universe with clear explanations. It provides a compact orientation to modern astronomical knowledge."
     },
     {
       "id": "i9d0e1f2-a3b4-5678-9012-3f456789abcd",
@@ -294,8 +320,9 @@
       "isbn": ["9781476733500", "9780099584575"],
       "coverImage": "https://m.media-amazon.com/images/I/41lRFAEjeML._SY445_SX342_ControlCacheEqualizer_.jpg",
       "tags": ["genetics", "biology", "history"],
-      "copiesAvailable": 3,
-      "description": "A sweeping history of the gene as both a scientific concept and a powerful force in shaping humanity."
+      "copiesAvailable": 2,
+      "summary": "A historical and scientific account tracing the discovery and impact of the gene.",
+      "description": "Siddhartha Mukherjee weaves history, science, and biography to tell the story of genetics from early ideas to modern molecular biology. The book explains discoveries, ethical dilemmas, and clinical implications, offering context for how genetic knowledge shapes medicine and society. It balances narrative with scientific clarity."
     },
     {
       "id": "j0e1f2a3-b4c5-6789-0123-4f56789abcde",
@@ -306,7 +333,8 @@
       "coverImage": "https://m.media-amazon.com/images/I/416+G0i+gKL._SY445_SX342_ControlCacheEqualizer_.jpg",
       "tags": ["physics", "cosmology", "philosophy"],
       "copiesAvailable": 2,
-      "description": "Stephen Hawking’s final work addressing the most profound questions about the universe, time, and human existence."
+      "summary": "Stephen Hawking’s concise reflections on major scientific and societal questions.",
+      "description": "This posthumous collection presents Hawking’s perspectives on topics such as God, space travel, black holes, and the future of humanity. The essays aim to communicate complex scientific ideas to a broad readership while addressing ethical and existential implications. The tone is authoritative and accessible."
     },
     {
       "id": "k1f2a3b4-c5d6-7890-1234-5f6789abcdef",
@@ -316,8 +344,9 @@
       "isbn": ["9780226458083", "9780226458120"],
       "coverImage": "https://m.media-amazon.com/images/I/51tgYAVloIL._SY445_SX342_ControlCacheEqualizer_.jpg",
       "tags": ["science", "philosophy", "history"],
-      "copiesAvailable": 4,
-      "description": "Kuhn’s classic analysis of how scientific paradigms shift and how progress in science truly occurs."
+      "copiesAvailable": 2,
+      "summary": "An influential account of how scientific paradigms change and progress occurs in science.",
+      "description": "Thomas Kuhn analyzes the historical development of science through paradigm shifts, contrasting cumulative models with revolutionary changes. The book introduced key concepts such as 'normal science' and 'paradigm shift,' profoundly affecting philosophy and history of science. It is foundational for understanding scientific change."
     },
     {
       "id": "l2a3b4c5-d6e7-8901-2345-6f789abcdef0",
@@ -327,30 +356,9 @@
       "isbn": ["9780393316049", "9780393316049"],
       "coverImage": "https://m.media-amazon.com/images/I/611QdJTWMmL._SY466_.jpg",
       "tags": ["physics", "autobiography", "science"],
-      "copiesAvailable": 3,
-      "description": "A delightful collection of stories from Nobel-winning physicist Richard Feynman about his adventures, curiosity, and humor in science."
-    },
-    {
-      "id": "f6a7b8c9-d0e1-2345-6789-0f123456789a",
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "category": "Romance",
-      "isbn": ["9780141439518", "9780486284736"],
-      "coverImage": "https://m.media-amazon.com/images/I/61YqLEtmtPL._AC_SY300_SX300_QL70_FMwebp_.jpg",
-      "tags": ["romance", "classic", "society"],
       "copiesAvailable": 2,
-      "description": "A timeless romantic novel exploring love, pride, and social class through the witty and bold Elizabeth Bennet."
-    },
-    {
-      "id": "g7b8c9d0-e1f2-3456-7890-1f23456789ab",
-      "title": "The Fault in Our Stars",
-      "author": "John Green",
-      "category": "Romance",
-      "isbn": ["9780525478812", "9780142424179"],
-      "coverImage": "https://covers.openlibrary.org/b/id/7285167-M.jpg",
-      "tags": ["romance", "teen", "love story"],
-      "copiesAvailable": 2,
-      "description": "A heartwarming and tragic love story between two teens battling cancer, exploring love, pain, and mortality."
+      "summary": "A collection of anecdotal stories from Richard Feynman showcasing his curiosity and wit.",
+      "description": "This memoir-style collection presents Feynman’s personal anecdotes about science, teaching, and life. The book reveals his playful curiosity, unconventional problem-solving, and accessible explanations of complex ideas. It is both entertaining and illuminating about the mindset of a Nobel-winning physicist."
     },
     {
       "id": "h8c9d0e1-f2a3-4567-8901-2f3456789abc",
@@ -361,7 +369,8 @@
       "coverImage": "https://live.jeyaagency.com/uploads/47634.jpg",
       "tags": ["romance", "drama", "life choices"],
       "copiesAvailable": 2,
-      "description": "A touching romantic drama about an unlikely bond between a young woman and a paralyzed man."
+      "summary": "A romantic drama exploring an unexpected relationship and difficult life decisions.",
+      "description": "Jojo Moyes tells the story of an unlikely relationship that forces characters to confront autonomy, compassion, and ethical complexity. The novel addresses themes of caregiving, personal agency, and the consequences of life-changing choices. It balances emotional storytelling with moral reflection."
     },
     {
       "id": "i9d0e1f2-a3b4-5678-9012-3f456789abcd",
@@ -372,7 +381,8 @@
       "coverImage": "https://images2.penguinrandomhouse.com/cover/9780812968255",
       "tags": ["stoicism", "philosophy", "ancient wisdom"],
       "copiesAvailable": 2,
-      "description": "Personal writings of the Stoic Roman emperor, filled with timeless wisdom on self-discipline and virtue."
+      "summary": "Personal reflections of the Stoic Roman emperor on virtue, duty, and self-discipline.",
+      "description": "Marcus Aurelius’ Meditations offers practical Stoic guidance on ethical living, inner resilience, and mindfulness. Composed as private notes, the work emphasizes reason, humility, and moral integrity in the face of adversity. It continues to be a key text for readers interested in philosophy and personal conduct."
     },
     {
       "id": "j0e1f2a3-b4c5-6789-0123-4f56789abcde",
@@ -383,7 +393,8 @@
       "coverImage": "https://hackettpublishing.com/media/catalog/product/cache/44464e523a29e1a1358cb0cc6dd8a3b6/p/l/plato_reeve_republic_165x260_1.png",
       "tags": ["philosophy", "ethics", "justice"],
       "copiesAvailable": 2,
-      "description": "One of the most influential works of Western philosophy, exploring justice, politics, and the ideal society."
+      "summary": "Plato’s foundational dialogue on justice, politics, and the characteristics of an ideal society.",
+      "description": "The Republic presents Socratic dialogues addressing justice, governance, education, and the philosopher-king concept. Plato examines the nature of virtue, the structure of political institutions, and the roles of citizens. The work remains central to political philosophy and ethical theory."
     },
     {
       "id": "k1f2a3b4-c5d6-7890-1234-5f6789abcdef",
@@ -394,7 +405,8 @@
       "coverImage": "https://covers.openlibrary.org/b/id/8231551-L.jpg",
       "tags": ["existentialism", "morality", "philosophy"],
       "copiesAvailable": 2,
-      "description": "A deep exploration of morality, truth, and individualism by one of history's most provocative thinkers."
+      "summary": "A critique of traditional morality and an exploration of philosophical individualism.",
+      "description": "Friedrich Nietzsche challenges conventional moral frameworks and explores the origins of values, power, and individual autonomy. The book presents aphoristic arguments on truth, morality, and the philosopher’s role. It is influential in modern philosophy for its provocative critique of ethical orthodoxies."
     },
     {
       "id": "l2a3b4c5-d6e7-8901-2345-6f789abcdef0",
@@ -405,7 +417,8 @@
       "coverImage": "https://covers.openlibrary.org/b/id/15121528-M.jpg",
       "tags": ["fiction", "spirituality", "adventure"],
       "copiesAvailable": 2,
-      "description": "A philosophical novel about following one’s dreams, told through the journey of a young shepherd named Santiago."
+      "summary": "A fable-like novel about following one’s personal legend and pursuing spiritual growth.",
+      "description": "Paulo Coelho’s allegorical tale follows a young shepherd’s journey in search of meaning, emphasizing intuition and self-discovery. The narrative blends mystical elements with practical lessons about courage, perseverance, and interpreting life’s omens. It is widely read for its inspirational tone."
     },
     {
       "id": "m3b4c5d6-e7f8-9012-3456-7f89abcdef01",
@@ -416,7 +429,104 @@
       "coverImage": "https://covers.openlibrary.org/b/id/15115831-M.jpg",
       "tags": ["fiction", "dystopia", "politics"],
       "copiesAvailable": 2,
-      "description": "A chilling dystopian novel about surveillance, truth, and totalitarianism in a world ruled by Big Brother."
+      "summary": "A dystopian novel depicting pervasive surveillance, totalitarian control, and manipulation of truth.",
+      "description": "George Orwell’s 1984 presents a chilling vision of a society dominated by authoritarian power, pervasive propaganda, and historical revisionism. Through its protagonist, the novel explores themes of freedom, language, and resistance. It remains a canonical warning about political oppression and the fragility of truth."
+    },
+    {
+      "id": "n4c5d6e7-f8a9-0123-4567-8abcdef90123",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "category": "Fiction",
+      "isbn": ["9780060935467", "9780446310789"],
+      "coverImage": "https://m.media-amazon.com/images/I/51Z9p5AecCL._SY445_SX342_FMwebp_.jpg",
+      "tags": ["fiction", "classic", "justice"],
+      "copiesAvailable": 2,
+      "summary": "A profound exploration of racial injustice and moral growth in the American South.",
+      "description": "Harper Lee’s classic novel follows young Scout Finch as she witnesses her father defend a Black man falsely accused of a crime. Set in the racially divided South, the story explores themes of innocence, empathy, and integrity. It remains a cornerstone of American literature for its moral insight."
+    },
+    {
+      "id": "o5d6e7f8-a9b0-1234-5678-9abcdef01234",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "category": "Fiction",
+      "isbn": ["9780743273565", "9780684801520"],
+      "coverImage": "https://m.media-amazon.com/images/I/41WCpCFdhcL._SY445_SX342_FMwebp_.jpg",
+      "tags": ["fiction", "classic", "romance"],
+      "copiesAvailable": 2,
+      "summary": "A portrait of ambition, illusion, and decadence in the Jazz Age.",
+      "description": "F. Scott Fitzgerald’s masterpiece follows Jay Gatsby’s pursuit of wealth and love in 1920s America. The novel exposes the moral emptiness behind the glittering façade of the Roaring Twenties. Its enduring relevance lies in its critique of the American Dream and social inequality."
+    },
+    {
+      "id": "p6e7f8a9-b0c1-2345-6789-0abcdef12345",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "category": "Fiction",
+      "isbn": ["9780141439518", "9780486284736"],
+      "coverImage": "https://m.media-amazon.com/images/I/51j1kEl26TL._SY445_SX342_FMwebp_.jpg",
+      "tags": ["fiction", "romance", "classic"],
+      "copiesAvailable": 2,
+      "summary": "A witty examination of love, class, and social expectations in 19th-century England.",
+      "description": "Jane Austen’s beloved novel centers on Elizabeth Bennet and her evolving relationship with Mr. Darcy. It offers sharp social commentary on marriage, status, and gender roles. The work is celebrated for its humor, realism, and enduring insight into human relationships."
+    },
+    {
+      "id": "q7f8a9b0-c1d2-3456-7890-1abcdef23456",
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "category": "Fiction",
+      "isbn": ["9780060850524", "9780099518471"],
+      "coverImage": "http://m.media-amazon.com/images/I/41cDU2B8IyL._SY445_SX342_FMwebp_.jpg",
+      "tags": ["fiction", "dystopia", "philosophy"],
+      "copiesAvailable": 2,
+      "summary": "A futuristic vision exploring conformity, technology, and the loss of individuality.",
+      "description": "Aldous Huxley imagines a scientifically controlled society where comfort and stability suppress freedom. The novel critiques the dangers of overreliance on technology and state control. Its prescient themes continue to influence discussions on ethics, progress, and identity."
+    },
+    {
+      "id": "r8a9b0c1-d2e3-4567-8901-2abcdef34567",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "category": "Fiction",
+      "isbn": ["9780316769488", "9780140237498"],
+      "coverImage": "https://m.media-amazon.com/images/I/51TI+w56qFL._SY445_SX342_FMwebp_.jpg",
+      "tags": ["fiction", "coming-of-age", "classic"],
+      "copiesAvailable": 2,
+      "summary": "A candid exploration of teenage isolation and the search for authenticity.",
+      "description": "J.D. Salinger’s novel follows Holden Caulfield’s rebellious journey through New York after being expelled from school. Through his introspective narration, the story captures adolescent confusion and cynicism. It remains a defining voice of youthful alienation in modern literature."
+    },
+    {
+      "id": "s9b0c1d2-e3f4-5678-9012-3abcdef45678",
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "category": "Fiction",
+      "isbn": ["9781594631930", "9781594631947"],
+      "coverImage": "https://m.media-amazon.com/images/I/51bt7LtryoL._SY445_SX342_FMwebp_.jpg",
+      "tags": ["fiction", "drama", "friendship"],
+      "copiesAvailable": 2,
+      "summary": "A moving story of friendship, betrayal, and redemption set in Afghanistan.",
+      "description": "Khaled Hosseini’s debut novel traces the complex bond between Amir and Hassan across decades of turmoil. The narrative explores guilt, cultural identity, and the power of forgiveness. It combines emotional depth with a vivid portrayal of Afghan history and human resilience."
+    },
+    {
+      "id": "t0c1d2e3-f4g5-6789-0123-4abcdef56789",
+      "title": "Life of Pi",
+      "author": "Yann Martel",
+      "category": "Fiction",
+      "isbn": ["9780156027328", "9780151010233"],
+      "coverImage": "https://m.media-amazon.com/images/I/416pTqzRwfL._SY445_SX342_FMwebp_.jpg",
+      "tags": ["fiction", "adventure", "philosophy"],
+      "copiesAvailable": 2,
+      "summary": "A philosophical adventure of survival and faith on the open sea.",
+      "description": "Yann Martel’s acclaimed novel follows Pi Patel’s extraordinary voyage after a shipwreck leaves him stranded with a Bengal tiger. Blending spirituality with magical realism, the story examines belief, truth, and the human will to survive. It is celebrated for its imagination and allegorical depth."
+    },
+    {
+      "id": "u1d2e3f4-g5h6-7890-1234-5abcdef67890",
+      "title": "The Book Thief",
+      "author": "Markus Zusak",
+      "category": "Fiction",
+      "isbn": ["9780375842207", "9780375842214"],
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1522157426i/19063.jpg",
+      "tags": ["fiction", "war", "historical"],
+      "copiesAvailable": 2,
+      "summary": "A poignant tale of words, love, and survival during Nazi Germany.",
+      "description": "Narrated by Death, Markus Zusak’s novel follows Liesel Meminger, a young girl who discovers the power of books amidst the horrors of World War II. The story combines tragedy with hope, illustrating how language preserves humanity. It stands as a modern classic in historical fiction."
     },
     {
       "id": "n4c5d6e7-f8a9-0123-4567-8f9abcdef012",
@@ -427,7 +537,8 @@
       "coverImage": "https://i.pinimg.com/736x/8c/50/9a/8c509a91adca718140857ef57730f1d9.jpg",
       "tags": ["self-help", "habits", "productivity"],
       "copiesAvailable": 2,
-      "description": "A practical guide to breaking bad habits and building good ones through small, consistent changes."
+      "summary": "A practical methodology for building effective habits through small, incremental changes.",
+      "description": "James Clear outlines a framework for habit formation based on small, repeatable behaviors that compound over time. The book combines scientific research with actionable strategies for behavior change, habit stacking, and environment design. It is aimed at readers seeking sustainable personal improvement."
     },
     {
       "id": "o5d6e7f8-a9b0-1234-5678-9fabcdef0123",
@@ -438,7 +549,104 @@
       "coverImage": "https://m.media-amazon.com/images/I/41DfLmwVWyL._SY445_SX342_FMwebp_.jpg",
       "tags": ["self-help", "leadership", "personal growth"],
       "copiesAvailable": 2,
-      "description": "A timeless classic offering principles for personal and professional effectiveness."
+      "summary": "A structured approach to personal and professional effectiveness through seven core habits.",
+      "description": "Stephen R. Covey presents seven interrelated habits that build character, productivity, and leadership capacity. The book combines principles-based guidance with practical exercises for personal development and organizational effectiveness. It remains widely used in leadership and management training."
+    },
+    {
+      "id": "p6e7f8a9-b0c1-2345-6789-0abcdef12345",
+      "title": "The Power of Now",
+      "author": "Eckhart Tolle",
+      "category": "Self-Help",
+      "isbn": ["9781577314806", "9781577314813"],
+      "coverImage": "https://m.media-amazon.com/images/I/410hw6Q5a9L._SY445_SX342_FMwebp_.jpg",
+      "tags": ["mindfulness", "spirituality", "awareness"],
+      "copiesAvailable": 2,
+      "summary": "A guide to achieving spiritual awakening through present-moment awareness.",
+      "description": "Eckhart Tolle explores the concept of living fully in the present to achieve inner peace and freedom from the ego. The book integrates spiritual philosophy with practical guidance on detaching from past and future anxieties. It has influenced millions seeking clarity and self-realization."
+    },
+    {
+      "id": "q7f8a9b0-c1d2-3456-7890-1abcdef23456",
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "category": "Self-Help",
+      "isbn": ["9780449214923", "9781585424337"],
+      "coverImage": "https://m.media-amazon.com/images/I/51HqycCxMRL._SY445_SX342_FMwebp_.jpg",
+      "tags": ["success", "motivation", "personal finance"],
+      "copiesAvailable": 2,
+      "summary": "A foundational text on the mindset and principles of personal success and wealth creation.",
+      "description": "Napoleon Hill distills lessons from hundreds of successful individuals into timeless principles for achievement. The book emphasizes desire, faith, and persistence as key components of success. It remains one of the most influential works in self-improvement and business motivation."
+    },
+    {
+      "id": "r8a9b0c1-d2e3-4567-8901-2abcdef34567",
+      "title": "You Are a Badass",
+      "author": "Jen Sincero",
+      "category": "Self-Help",
+      "isbn": ["9780762447695", "9780762447701"],
+      "coverImage": "https://m.media-amazon.com/images/I/51xZX6COfaL._SY445_SX342_ControlCacheEqualizer_.jpg",
+      "tags": ["confidence", "motivation", "self-worth"],
+      "copiesAvailable": 2,
+      "summary": "An empowering guide encouraging readers to overcome self-doubt and embrace personal confidence.",
+      "description": "Jen Sincero blends humor and straightforward advice to inspire readers to change self-defeating behaviors. The book combines practical exercises with personal anecdotes, making self-transformation relatable. It encourages action toward building confidence and living intentionally."
+    },
+    {
+      "id": "s9b0c1d2-e3f4-5678-9012-3abcdef45678",
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "category": "Self-Help",
+      "isbn": ["9780062457714", "9780062457721"],
+      "coverImage": "https://m.media-amazon.com/images/I/511vJPN7p5L._SY445_SX342_FMwebp_.jpg",
+      "tags": ["realism", "philosophy", "motivation"],
+      "copiesAvailable": 2,
+      "summary": "A counterintuitive approach to living a better life by focusing on what truly matters.",
+      "description": "Mark Manson challenges conventional self-help advice by promoting acceptance of life's struggles. The book combines humor, philosophy, and honesty to teach emotional resilience. It urges readers to prioritize values and embrace imperfection as a means of finding fulfillment."
+    },
+    {
+      "id": "t0c1d2e3-f4g5-6789-0123-4abcdef56789",
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "category": "Self-Help",
+      "isbn": ["9781455586691", "9780349411903"],
+      "coverImage": "https://m.media-amazon.com/images/I/41YMXOiMdrL._SY445_SX342_FMwebp_.jpg",
+      "tags": ["focus", "productivity", "career growth"],
+      "copiesAvailable": 2,
+      "summary": "A detailed exploration of focused success in a world full of distractions.",
+      "description": "Cal Newport examines the benefits of cultivating deep, undistracted work habits in a digital age. He offers research-backed strategies for improving focus, minimizing interruptions, and achieving peak productivity. The book is widely used among professionals seeking meaningful output."
+    },
+    {
+      "id": "u1d2e3f4-g5h6-7890-1234-5abcdef67890",
+      "title": "The Four Agreements",
+      "author": "Don Miguel Ruiz",
+      "category": "Self-Help",
+      "isbn": ["9781878424310", "9781878424327"],
+      "coverImage": "https://m.media-amazon.com/images/I/913A1+rl-gL._SY425_.jpg",
+      "tags": ["spirituality", "personal freedom", "wisdom"],
+      "copiesAvailable": 2,
+      "summary": "Ancient Toltec wisdom offering four simple agreements for personal freedom and integrity.",
+      "description": "Don Miguel Ruiz distills spiritual teachings into four guiding principles for living with honesty and awareness. The book emphasizes self-respect, truth, and emotional clarity. It has become a modern spiritual classic for its simplicity and transformative impact."
+    },
+    {
+      "id": "v2e3f4g5-h6i7-8901-2345-6abcdef78901",
+      "title": "Can't Hurt Me",
+      "author": "David Goggins",
+      "category": "Self-Help",
+      "isbn": ["9781544512280", "9781544512297"],
+      "coverImage": "https://m.media-amazon.com/images/I/41xnIg4C46L._SY445_SX342_QL70_FMwebp_.jpg",
+      "tags": ["discipline", "resilience", "motivation"],
+      "copiesAvailable": 2,
+      "summary": "A personal account of mental toughness, discipline, and breaking through self-imposed limits.",
+      "description": "David Goggins shares his transformation from an overweight youth to a Navy SEAL and endurance athlete. The book details his mindset and methods for pushing beyond comfort zones. It emphasizes accountability, resilience, and the power of self-discipline."
+    },
+    {
+      "id": "w3f4g5h6-i7j8-9012-3456-7abcdef89012",
+      "title": "Daring Greatly",
+      "author": "Brené Brown",
+      "category": "Self-Help",
+      "isbn": ["9781592408412", "9781592408429"],
+      "coverImage": "https://m.media-amazon.com/images/I/819zSRTimoL._SY466_.jpg",
+      "tags": ["vulnerability", "leadership", "courage"],
+      "copiesAvailable": 2,
+      "summary": "A study on embracing vulnerability as the foundation for courage, connection, and leadership.",
+      "description": "Brené Brown draws on years of research to highlight how vulnerability leads to authenticity and meaningful relationships. The book challenges the fear of imperfection, reframing openness as strength. It offers valuable lessons for personal growth and professional leadership."
     }
   ],
   "members": [
@@ -452,7 +660,7 @@
       "fine": 0,
       "status": "Active",
       "borrowedBooks": [],
-      "profileImage": "https://images.unsplash.com/photo-1603415526960-f7e0328c63b1"
+      "profileImage": "https://randomuser.me/api/portraits/men/32.jpg"
     },
     {
       "id": "b2c3d4e5-f6a7-4821-8bcd-2345678901bc",
@@ -464,7 +672,7 @@
       "fine": 50,
       "status": "Active",
       "borrowedBooks": [],
-      "profileImage": "https://images.unsplash.com/photo-1607746882042-944635dfe10e"
+      "profileImage": "https://randomuser.me/api/portraits/women/45.jpg"
     },
     {
       "id": "c3d4e5f6-a7b8-4932-9cde-3456789012cd",
@@ -476,7 +684,7 @@
       "fine": 0,
       "status": "Suspended",
       "borrowedBooks": [],
-      "profileImage": "https://images.unsplash.com/photo-1599566150163-29194dcaad36"
+      "profileImage": "https://randomuser.me/api/portraits/men/63.jpg"
     },
     {
       "id": "d4e5f6a7-b8c9-5043-0def-4567890123de",
@@ -488,7 +696,7 @@
       "fine": 0,
       "status": "Active",
       "borrowedBooks": [],
-      "profileImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb"
+      "profileImage": "https://randomuser.me/api/portraits/women/28.jpg"
     },
     {
       "id": "e5f6a7b8-c9d0-6154-1ef0-5678901234ef",
@@ -500,7 +708,7 @@
       "fine": 0,
       "status": "Active",
       "borrowedBooks": [],
-      "profileImage": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39"
+      "profileImage": "https://randomuser.me/api/portraits/men/41.jpg"
     },
     {
       "id": "f6a7b8c9-d0e1-7265-2f01-6789012345f0",
@@ -512,7 +720,7 @@
       "fine": 20,
       "status": "Active",
       "borrowedBooks": [],
-      "profileImage": "https://images.unsplash.com/photo-1607746882042-944635dfe10e"
+      "profileImage": "https://randomuser.me/api/portraits/women/67.jpg"
     },
     {
       "id": "a7b8c9d0-e1f2-8376-3g12-7890123456a1",
@@ -524,7 +732,7 @@
       "fine": 0,
       "status": "Active",
       "borrowedBooks": [],
-      "profileImage": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e"
+      "profileImage": "https://randomuser.me/api/portraits/men/12.jpg"
     },
     {
       "id": "b8c9d0e1-f2a3-9487-4h23-8901234567b2",
@@ -536,7 +744,7 @@
       "fine": 0,
       "status": "Active",
       "borrowedBooks": [],
-      "profileImage": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+      "profileImage": "https://randomuser.me/api/portraits/women/24.jpg"
     },
     {
       "id": "c9d0e1f2-a3b4-0598-5i34-9012345678c3",
@@ -548,7 +756,7 @@
       "fine": 10,
       "status": "Suspended",
       "borrowedBooks": [],
-      "profileImage": "https://images.unsplash.com/photo-1614281322551-66c77e5a1d67"
+      "profileImage": "https://randomuser.me/api/portraits/men/78.jpg"
     },
     {
       "id": "d0e1f2a3-b4c5-16a9-6j45-0123456789d4",
@@ -560,7 +768,7 @@
       "fine": 0,
       "status": "Active",
       "borrowedBooks": [],
-      "profileImage": "https://images.unsplash.com/photo-1532074205216-d0e1f4b87368"
+      "profileImage": "https://randomuser.me/api/portraits/women/49.jpg"
     }
   ],
   "borrowedBooks": [],
